@@ -13,10 +13,6 @@
 ## Horizon Island Armed Forces  
 
 ![HIAF Faction](https://media.discordapp.net/attachments/415935886870446080/803765093543313408/Arma3_x64_2021-01-27_00-12-12-24.png)  
-The Horizon Islands, officially the Horizon Islands Republic, is a country located in the South Pacific, eventually granted its independence from France and was now officially renamed as the Horizon Islands Republic.  
-
 ## Cratenia Armed Forces 
 
 ![Cratenia](https://media.discordapp.net/attachments/753315128346411129/872175979672522772/cratenia.png)
-
-The Democratic Republic of Cratenia is a former english colony located in the north of Brazil, has disputed territory on the Brazilian border.
