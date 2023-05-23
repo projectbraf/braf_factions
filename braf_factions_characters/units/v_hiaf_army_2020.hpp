@@ -1180,12 +1180,12 @@ class braf_hiaf_dmr_regular : braf_army_dmr_regular_2000 {
         "braf_20Rnd_762x51_red"
     };
     respawnWeapons[] = {
-        "Braf_Fal_hiaf_Scope",
+        "braf_Fal_hiaf_Scope",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Fal_hiaf_Scope",
+        "braf_Fal_hiaf_Scope",
         "Throw",
         "Put"
     };
@@ -1655,10 +1655,10 @@ class braf_hiaf_ar_regular : braf_army_ar_regular_2000 {
     genericNames = "TanoanMen";
     editorPreview = "BRAF_Factions\braf_factions_characters\units\editorPreview\hiaf_army\braf_hiaf_ar_regular.jpg";
     magazines[] = {
-        "Braf_75Rnd_mag58_mag_Tracer_red",
-        "Braf_75Rnd_mag58_mag_Tracer_red",
+        "braf_75Rnd_mag58_mag_Tracer_red",
+        "braf_75Rnd_mag58_mag_Tracer_red",
         "16Rnd_9x21_Mag",
-        "Braf_75Rnd_mag58_mag_Tracer_red"
+        "braf_75Rnd_mag58_mag_Tracer_red"
     };
     respawnWeapons[] = {
         "BRAF_mag",
@@ -1673,10 +1673,10 @@ class braf_hiaf_ar_regular : braf_army_ar_regular_2000 {
         "Put"
     };
     respawnMagazines[] = {
-        "Braf_75Rnd_mag58_mag_Tracer_red",
-        "Braf_75Rnd_mag58_mag_Tracer_red",
+        "braf_75Rnd_mag58_mag_Tracer_red",
+        "braf_75Rnd_mag58_mag_Tracer_red",
         "16Rnd_9x21_Mag",
-        "Braf_75Rnd_mag58_mag_Tracer_red"
+        "braf_75Rnd_mag58_mag_Tracer_red"
     };
     Items[] = {
         "FirstAidKit",

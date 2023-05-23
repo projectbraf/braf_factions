@@ -1,7 +1,7 @@
 class braf_md1;
 class braf_factions_md1_hiaf: braf_md1
 {
-	_generalMacro="Braf_md1_hiaf";
+	_generalMacro="braf_factions_md1_hiaf";
 	author="BRAF Team";
 	scope=2;
 	displayName="IMBEL M964 MD1 7.62mm (Green)";
@@ -25,7 +25,7 @@ class braf_factions_md1_hiaf: braf_md1
 };
 class braf_factions_md1_hiaf_scope : braf_factions_md1_hiaf
 {
-	_generalMacro="Braf_md1_hiaf_Scope";
+	_generalMacro="braf_factions_md1_hiaf_scope";
 	author="BRAF Team";
 	class LinkedItems
 	{

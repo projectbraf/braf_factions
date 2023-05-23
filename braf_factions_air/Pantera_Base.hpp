@@ -174,31 +174,31 @@ class BRAF_Pantera_K2_HIAF_Navy : BRAF_Pantera_K2_HIAF1 {
                 priority=1;
                 onlyForPlayer=0;
                 condition="this animationphase 'Hoist_Hide' > 0.9 AND (player in crew this) AND this animationphase 'Door_R_1' > 0.9 AND this animationphase 'Civilian_hide' < 0.1";
-                statement="this execVM ""Braf_SAR\Braf_Scripts\DRS.sqf""; this animate ['Hoist_Hide',-0.5]";
+                statement="this execVM ""braf_SAR\braf_Scripts\DRS.sqf""; this animate ['Hoist_Hide',-0.5]";
             };
             class Hoist_Down: Deploy_Rescue_Seat
             {
                 displayname="<t color='#ffaa00'> Extend Cable Hook </t>";
                 condition="this animationphase 'Hoist_Hide' < -0.4 AND this animationphase 'Hoist_Hide' > -0.6 AND (player in crew this) AND this animationphase 'Door_R_1' > 0.9";
-                statement="this execVM ""Braf_SAR\Braf_Scripts\hoist_down.sqf""; this animate ['Hoist_Hide',-1]; this say3d ""Winch""";
+                statement="this execVM ""braf_SAR\braf_Scripts\hoist_down.sqf""; this animate ['Hoist_Hide',-1]; this say3d ""Winch""";
             };
             class Hoist_Up: Deploy_Rescue_Seat
             {
                 displayname="<t color='#ffaa00'> Recover Cable Hook </t>";
                 condition="this animationphase 'Hoist_Hide' < -0.9  AND (player in crew this) AND this animationphase 'Door_R_1' > 0.9";
-                statement="this execVM ""Braf_SAR\Braf_Scripts\hoist_up.sqf""; this animate ['Hoist_Hide',-0.5]; this say3d ""Winch""";
+                statement="this execVM ""braf_SAR\braf_Scripts\hoist_up.sqf""; this animate ['Hoist_Hide',-0.5]; this say3d ""Winch""";
             };
             class Recover_Rescue_Seat: Deploy_Rescue_Seat
             {
                 displayname="<t color='#ffaa00'> Retrieve Rescue Seat </t>";
                 condition="(player in crew this) AND this animationphase 'Door_R_1' > 0.9 AND this animationphase 'Hoist_Hide' < -0.4  AND this animationphase 'Hoist_Hide' > -0.6";
-                statement="this execVM ""Braf_SAR\Braf_Scripts\recover_seat.sqf""; this animate ['Hoist_Hide',1]";
+                statement="this execVM ""braf_SAR\braf_Scripts\recover_seat.sqf""; this animate ['Hoist_Hide',1]";
             };
             class Hoist_Cut: Deploy_Rescue_Seat
             {
                 displayname="<t color='#b31d00'> Cut Hoist Hook Cable </t>";
                 condition="(player in crew this) AND this animationphase 'Door_R_1' > 0.9 AND this animationphase 'Hoist_Hide' < 0";
-                statement="this execVM ""Braf_SAR\Braf_Scripts\hoist_cut.sqf""; this animate ['Hoist_Hide',1]";
+                statement="this execVM ""braf_SAR\braf_Scripts\hoist_cut.sqf""; this animate ['Hoist_Hide',1]";
             };
             class Open_Door_Left
             {

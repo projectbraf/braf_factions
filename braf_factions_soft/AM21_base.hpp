@@ -1,4 +1,4 @@
-class braf_am21_hiaf : Braf_AM21_Covered {
+class braf_am21_hiaf : braf_AM21_Covered {
     _generalMacro = "braf_am21_hiaf";
     faction = "BRAF_HIAF";
     editorPreview = "BRAF_Factions\braf_factions_soft\data\am21\ui\braf_am21_hiaf.jpg";
@@ -36,7 +36,7 @@ class braf_am21_hiafm : braf_am21_hiaf {
         "BRAF_Factions\braf_factions_soft\data\am21\HIAF_M2_co.paa"
     };
 };
-class braf_am21_opened_hiaf : Braf_AM21_Opened {
+class braf_am21_opened_hiaf : braf_AM21_Opened {
     _generalMacro = "braf_am21_opened_hiaf";
     faction = "BRAF_HIAF";
     editorPreview = "BRAF_Factions\braf_factions_soft\data\am21\ui\braf_am21_opened_hiaf.jpg";
@@ -75,7 +75,7 @@ class braf_am21_opened_hiafm : braf_am21_opened_hiaf {
         "BRAF_Factions\braf_factions_soft\data\am21\HIAF_M2_co.paa"
     };
 };
-class braf_am21_cargo_hiaf : Braf_AM21_Cargo {
+class braf_am21_cargo_hiaf : braf_AM21_Cargo {
     _generalMacro = "braf_am21_cargo_hiaf";
     faction = "BRAF_HIAF";
     editorPreview = "BRAF_Factions\braf_factions_soft\data\am21\ui\braf_am21_opened_hiaf.jpg";

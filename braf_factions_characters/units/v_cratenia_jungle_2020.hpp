@@ -825,12 +825,12 @@ class braf_cra_ar_jungle : braf_cra_ar_regular {
         "30Rnd_556x45_Stanag"
     };
     respawnWeapons[] = {
-        "Braf_lmga4_green",
+        "braf_lmga4_green",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_lmga4_green",
+        "braf_lmga4_green",
         "Throw",
         "Put"
     };
@@ -997,12 +997,12 @@ class braf_cra_militia_jungle : braf_cra_militia_regular {
         "Chemlight_green"
     };
     respawnWeapons[] = {
-        "Braf_Mosquefal",
+        "braf_Mosquefal",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Mosquefal",
+        "braf_Mosquefal",
         "Throw",
         "Put"
     };

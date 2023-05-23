@@ -1,6 +1,6 @@
-class Braf_lmga4;
-class Braf_factions_colt_lmga4_aaf : Braf_lmga4 {
-    _generalMacro = "Braf_lmga4_aaf";
+class braf_lmga4;
+class braf_factions_colt_lmga4_aaf : braf_lmga4 {
+    _generalMacro = "braf_lmga4_aaf";
 	author="BRAF Team";
     displayName = "Colt LMGA4 5.56mm (AAF)";
     hiddenSelections[] = { "camo1", "camo2", "camo3" };
@@ -10,8 +10,8 @@ class Braf_factions_colt_lmga4_aaf : Braf_lmga4 {
         "braf_factions\braf_factions_weapons\556_Colt\data\aaf\AR15_LMG_CO.paa"
     };
 };
-class Braf_factions_colt_lmga4_green : Braf_lmga4 {
-    _generalMacro = "Braf_lmga4_green";
+class braf_factions_colt_lmga4_green : braf_lmga4 {
+    _generalMacro = "braf_lmga4_green";
 	author="BRAF Team";
     displayName = "Colt LMGA4 5.56mm (Green)";
     hiddenSelections[] = { "camo1", "camo2", "camo3" };

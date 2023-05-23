@@ -800,12 +800,12 @@ class braf_hiaf_dmr_marine : braf_hiaf_dmr_regular {
         "braf_20Rnd_762x51_red"
     };
     respawnWeapons[] = {
-        "Braf_Fal_hiaf_Scope",
+        "braf_Fal_hiaf_Scope",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Fal_hiaf_Scope",
+        "braf_Fal_hiaf_Scope",
         "Throw",
         "Put"
     };
@@ -1105,13 +1105,13 @@ class braf_hiaf_ar_marine : braf_hiaf_ar_regular {
         "16Rnd_9x21_Mag"
     };
     respawnWeapons[] = {
-        "Braf_FAP",
+        "braf_FAP",
         "BRAF_PT92",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_FAP",
+        "braf_FAP",
         "BRAF_PT92",
         "Throw",
         "Put"

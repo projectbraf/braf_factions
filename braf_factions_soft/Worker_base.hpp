@@ -1,5 +1,5 @@
-class braf_worker_covered_hiaf : Braf_Worker_Covered {
-    _generalMacro = "Braf_Worker_Covered_HIAF";
+class braf_worker_covered_hiaf : braf_Worker_Covered {
+    _generalMacro = "braf_Worker_Covered_HIAF";
     editorPreview = "\BRAF_Factions\braf_factions_soft\data\worker\ui\braf_worker_covered_hiaf.jpg";
     faction = "BRAF_HIAF";
     side = 1;
@@ -10,8 +10,8 @@ class braf_worker_covered_hiaf : Braf_Worker_Covered {
         "BRAF_Factions\braf_factions_soft\data\worker\HIAF3_co.paa"
     };
 };
-class braf_worker_health_hiaf : Braf_Worker_Health {
-    _generalMacro = "Braf_Worker_Health_HIAF";
+class braf_worker_health_hiaf : braf_Worker_Health {
+    _generalMacro = "braf_Worker_Health_HIAF";
     editorPreview = "\BRAF_Factions\braf_factions_soft\data\worker\ui\braf_worker_health_hiaf.jpg";
     faction = "BRAF_HIAF";
     side = 1;
@@ -22,8 +22,8 @@ class braf_worker_health_hiaf : Braf_Worker_Health {
         "BRAF_Factions\braf_factions_soft\data\worker\HIAF3_Health_co.paa"
     };
 };
-class braf_worker_fuel_hiaf : Braf_Worker_Fuel {
-    _generalMacro = "Braf_Worker_Fuel_HIAF";
+class braf_worker_fuel_hiaf : braf_Worker_Fuel {
+    _generalMacro = "braf_Worker_Fuel_HIAF";
     editorPreview = "\BRAF_Factions\braf_factions_soft\data\worker\ui\braf_worker_fuel_hiaf.jpg";
     faction = "BRAF_HIAF";
     side = 1;
@@ -34,8 +34,8 @@ class braf_worker_fuel_hiaf : Braf_Worker_Fuel {
         "BRAF_Factions\braf_factions_soft\data\worker\HIAF3_Fuel_co.paa"
     };
 };
-class braf_worker_ammo_hiaf : Braf_Worker_Ammo {
-    _generalMacro = "Braf_Worker_Ammo_HIAF";
+class braf_worker_ammo_hiaf : braf_Worker_Ammo {
+    _generalMacro = "braf_Worker_Ammo_HIAF";
     editorPreview = "\BRAF_Factions\braf_factions_soft\data\worker\ui\braf_worker_ammo_hiaf.jpg";
     faction = "BRAF_HIAF";
     side = 1;
@@ -46,8 +46,8 @@ class braf_worker_ammo_hiaf : Braf_Worker_Ammo {
         "BRAF_Factions\braf_factions_soft\data\worker\HIAF3_Ammo_co.paa"
     };
 };
-class braf_worker_repair_hiaf : Braf_Worker_Repair {
-    _generalMacro = "Braf_Worker_Repair_HIAF";
+class braf_worker_repair_hiaf : braf_Worker_Repair {
+    _generalMacro = "braf_Worker_Repair_HIAF";
     editorPreview = "\BRAF_Factions\braf_factions_soft\data\worker\ui\braf_worker_repair_hiaf.jpg";
     faction = "BRAF_HIAF";
     side = 1;
@@ -58,8 +58,8 @@ class braf_worker_repair_hiaf : Braf_Worker_Repair {
         "BRAF_Factions\braf_factions_soft\data\worker\HIAF3_co.paa"
     };
 };
-class braf_worker_cargo_hiaf : Braf_Worker_Cargo {
-    _generalMacro = "Braf_Worker_Cargo_HIAF";
+class braf_worker_cargo_hiaf : braf_Worker_Cargo {
+    _generalMacro = "braf_Worker_Cargo_HIAF";
     editorPreview = "\BRAF_Factions\braf_factions_soft\data\worker\ui\braf_worker_cargo_hiaf.jpg";
     faction = "BRAF_HIAF";
     side = 1;

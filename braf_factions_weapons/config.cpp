@@ -8,17 +8,24 @@ class CfgPatches
             "braf_factions_aglc_aaf",
             "braf_factions_aglc_verde_scope",
             "braf_factions_aglc_aaf_scope",
-            "Braf_factions_msr_308_spray",
-            "Braf_factions_msr_308_ts",
-            "Braf_factions_msr_338_spray",
-            "Braf_factions_msr_338_ts",
-            "Braf_factions_colt_lmga4_aaf",
-            "Braf_factions_colt_lmga4_green",
+            "braf_factions_msr_308_spray",
+            "braf_factions_msr_308_ts",
+            "braf_factions_msr_338_spray",
+            "braf_factions_msr_338_ts",
+            "braf_factions_colt_lmga4_aaf",
+            "braf_factions_colt_lmga4_green",
+            "braf_factions_lapa_tan",
+            "braf_factions_lapa_green",
             "braf_factions_fal_hiaf",
-            "braf_factions_fal_hiaf_scope"};
+            "braf_factions_fal_hiaf_scope",
+        };
 
         requiredVersion = 0.1;
-        requiredAddons[] = {"braf_weap"};
+        requiredAddons[] = {
+            "braf_weapons_assault_rifles",
+            "braf_weapons_sniper_rifles",
+            "braf_weapons_sound",
+        };
     };
 };
 

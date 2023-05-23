@@ -31,14 +31,14 @@ class braf_cra_of_regular : braf_army_of_regular_2000 {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "BRAF_PT92",
         "Binocular",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "BRAF_PT92",
         "Binocular",
         "Throw",
@@ -118,14 +118,14 @@ class braf_cra_sl_regular : braf_army_sl_regular_2000 {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "BRAF_PT92",
         "Binocular",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "BRAF_PT92",
         "Binocular",
         "Throw",
@@ -212,14 +212,14 @@ class braf_cra_tl_regular : braf_army_tl_regular_2000 {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "BRAF_PT92",
         "Binocular",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "BRAF_PT92",
         "Binocular",
         "Throw",
@@ -306,12 +306,12 @@ class braf_cra_medic_regular : braf_army_medic_regular_2000 {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
@@ -392,12 +392,12 @@ class braf_cra_eng_regular : braf_army_eng_regular_2000 {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
@@ -480,12 +480,12 @@ class braf_cra_rifleman_regular : braf_army_rifleman_regular_2000 {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
@@ -562,12 +562,12 @@ class braf_cra_riflelight_regular : braf_army_rifleman_regular_2000 {
         "Chemlight_green"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
@@ -638,12 +638,12 @@ class braf_cra_ammo_regular : braf_army_rifleman_regular_2000 {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
@@ -723,12 +723,12 @@ class braf_cra_dmr_regular : braf_army_dmr_regular_2000 {
         "braf_20Rnd_762x51_red"
     };
     respawnWeapons[] = {
-        "Braf_fal",
+        "braf_fal",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_fal",
+        "braf_fal",
         "Throw",
         "Put"
     };
@@ -801,12 +801,12 @@ class braf_cra_ar_regular : braf_army_ar_regular_2000 {
         "30Rnd_556x45_Stanag"
     };
     respawnWeapons[] = {
-        "Braf_lmga4",
+        "braf_lmga4",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_lmga4",
+        "braf_lmga4",
         "Throw",
         "Put"
     };
@@ -880,13 +880,13 @@ class braf_cra_lat_regular : braf_army_lat_regular_2000 {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "BRAF_launch_alac",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "BRAF_launch_alac",
         "Throw",
         "Put"
@@ -963,12 +963,12 @@ class braf_cra_militia_regular : braf_army_rifleman_regular_2000 {
         "Chemlight_green"
     };
     respawnWeapons[] = {
-        "Braf_Mosquefal",
+        "braf_Mosquefal",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Mosquefal",
+        "braf_Mosquefal",
         "Throw",
         "Put"
     };
@@ -1063,13 +1063,13 @@ class braf_cra_at_regular : braf_army_at_regular_2000 {
         "Chemlight_green",
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "braf_Gustav",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "braf_Gustav",
         "Throw",
         "Put"
@@ -1141,13 +1141,13 @@ class braf_cra_aa_regular : braf_army_aa_regular_2000 {
         "BRAF_Igla_missile"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "BRAF_Igla",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "BRAF_Igla",
         "Throw",
         "Put"
@@ -1219,12 +1219,12 @@ class braf_cra_mortar_regular : braf_army_mortar_regular_2000 {
         "Chemlight_green"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
@@ -1296,12 +1296,12 @@ class braf_cra_mortar_a_regular : braf_army_mortar_a_regular_2000 {
         "Chemlight_green"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
@@ -1374,12 +1374,12 @@ class braf_cra_hmg_regular : braf_army_rifleman_regular_2000 {
         "Chemlight_green"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
@@ -1452,12 +1452,12 @@ class braf_cra_hmg_a_regular : braf_army_rifleman_regular_2000 {
         "Chemlight_green"
     };
     respawnWeapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "Braf_Lapa",
+        "braf_Lapa",
         "Throw",
         "Put"
     };

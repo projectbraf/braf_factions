@@ -15,14 +15,14 @@ class CfgPatches {
             "BRAF_Worker_Repair_HIAF",
             "BRAF_Worker_Cargo_HIAF",
             // AM11
-            "Braf_AM11_Unarmed_HIAF",
-            "Braf_AM11_Unarmed_MAR",
+            "braf_AM11_Unarmed_HIAF",
+            "braf_AM11_Unarmed_MAR",
             "BRAF_AM11_Armed_HIAF",
             "BRAF_AM11_Armed_MAR",
             // AM21
-            "Braf_AM21_Covered",
-            "Braf_AM21_Opened",
-            "Braf_AM21_Cargo"
+            "braf_AM21_Covered",
+            "braf_AM21_Opened",
+            "braf_AM21_Cargo"
         };
         weapons[] = {};
     };
@@ -37,13 +37,13 @@ class CfgVehicles {
     class BRAF_Worker_Cargo;
     #include "Worker_base.hpp"
 
-    class Braf_AM21_Covered;
-    class Braf_AM21_Opened;
-    class Braf_AM21_Cargo;
+    class braf_AM21_Covered;
+    class braf_AM21_Opened;
+    class braf_AM21_Cargo;
     #include "AM21_base.hpp"
 
-    class Braf_AM11_Unarmed;
-    class Braf_AM11_Armed;
+    class braf_AM11_Unarmed;
+    class braf_AM11_Armed;
     #include "AM11_base.hpp"
 
     #include "v_cratenia.hpp"

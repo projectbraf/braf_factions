@@ -281,8 +281,8 @@ class braf_hiaf_alice_medium_ammo_mg_762 : braf_hiaf_alice_medium_medic {
         ""
     };
     class TransportMagazines {
-        class _xx_Braf_75Rnd_mag58_mag_Tracer_red {
-            magazine = "Braf_75Rnd_mag58_mag_Tracer_red";
+        class _xx_braf_75Rnd_mag58_mag_Tracer_red {
+            magazine = "braf_75Rnd_mag58_mag_Tracer_red";
             count = 6;
         };
     };
