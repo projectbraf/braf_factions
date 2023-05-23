@@ -20,14 +20,14 @@ class braf_cra_of_jungle : braf_cra_of_regular {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "BRAF_PT92",
         "Binocular",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "BRAF_PT92",
         "Binocular",
         "Throw",
@@ -113,14 +113,14 @@ class braf_cra_sl_jungle : braf_cra_sl_regular {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "BRAF_PT92",
         "Binocular",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "BRAF_PT92",
         "Binocular",
         "Throw",
@@ -212,14 +212,14 @@ class braf_cra_tl_jungle : braf_cra_tl_regular {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "BRAF_PT92",
         "Binocular",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "BRAF_PT92",
         "Binocular",
         "Throw",
@@ -312,12 +312,12 @@ class braf_cra_medic_jungle : braf_cra_medic_regular {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
@@ -389,12 +389,12 @@ class braf_cra_eng_jungle : braf_cra_eng_regular {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
@@ -482,12 +482,12 @@ class braf_cra_rifleman_jungle : braf_cra_rifleman_regular {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
@@ -569,12 +569,12 @@ class braf_cra_riflelight_jungle : braf_cra_rifleman_regular {
         "Chemlight_green"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
@@ -650,12 +650,12 @@ class braf_cra_ammo_jungle : braf_cra_ammo_regular {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
@@ -909,13 +909,13 @@ class braf_cra_lat_jungle : braf_cra_lat_regular {
         "braf_Lapa30Rnd_556x45_red"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "BRAF_launch_alac",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "BRAF_launch_alac",
         "Throw",
         "Put"
@@ -1110,13 +1110,13 @@ class braf_cra_at_jungle : braf_cra_at_regular {
         "Chemlight_green",
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "braf_Gustav",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "braf_Gustav",
         "Throw",
         "Put"
@@ -1193,13 +1193,13 @@ class braf_cra_aa_jungle : braf_cra_aa_regular {
         "BRAF_Igla_missile"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "BRAF_Igla",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "BRAF_Igla",
         "Throw",
         "Put"
@@ -1277,12 +1277,12 @@ class braf_cra_mortar_jungle : braf_cra_mortar_regular {
         "Chemlight_green"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
@@ -1360,12 +1360,12 @@ class braf_cra_mortar_a_jungle : braf_cra_mortar_a_regular {
         "Chemlight_green"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
@@ -1442,12 +1442,12 @@ class braf_cra_hmg_jungle : braf_cra_hmg_regular {
         "Chemlight_green"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
@@ -1524,12 +1524,12 @@ class braf_cra_hmg_a_jungle : braf_cra_hmg_a_regular {
         "Chemlight_green"
     };
     respawnWeapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lapa_green",
+        "braf_factions_lapa_green",
         "Throw",
         "Put"
     };
