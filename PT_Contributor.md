@@ -51,7 +51,7 @@ E está feito o clone em seu computador:
 Agora você pode editar o que quiser no BRAF_Factions, lembrando que este tutorial pode valer para qualquer coisa no GitHub, sejam mods como [TFAR](https://github.com/michail-nikolaev/task-force-arma-3-radio), [ACRE2](https://github.com/IDI-Systems/acre2), [ACE](https://github.com/acemod/ACE3), [Immersion Cigs](https://github.com/rebelvg/immersion_cigs), ou até mesmo o Kernel do [LINUX](https://github.com/torvalds/linux).  
 
 ## Modificar o repositório
-Irei usar o VS Code para realizar modificações no repositório, e recomendo fortemente que você faça o mesmo conforme instruído anteriormente.  
+As modificações que serão realizadas são adição desta página dessas instruções para contribuições e as imagens mostradas, irei usar o VS Code para realizar modificações no repositório, e recomendo fortemente que você faça o mesmo conforme instruído anteriormente.  
 ![](.wiki/change.png)
 1. O ícone no VSCode da aba de Source Control (versionamento) que é nativa do VSCode para lidar com Git.
 2. A Caixa de seleção para adicionar a mensagem do commit(já irei explicar).
@@ -66,14 +66,26 @@ Note que adicionei todos as imagens mas mantive o arquivo PT_Contributor.md fora
 Note que estamos trabalhando na branch "main", que é a padrão de repositórios originados no GitHub, o que não nos impede de criar quantas branches quisermos para qualquer finalidade que gostariamos, as branches nada mais são do que formas de "isolar" versões desejadas do repositório, como quando você está trabalhando em uma funcionalidade específica do projeto e não quer correr o risco de comprometer o projeto inteiro com ela.
 Já que temos o nosso primeiro commit adicionado ao nosso repositório local, caso queiramos transferir essas modificações para o nosso fork feito no github (ou seja, passar o nosso commit para o github), podemos também utilizar o VS Code ou linha de comando para realizar um push, por padrão o repositório ao qual o clone é feito é denominado origin, no VS Code é possível fazer isso no canto inferior esquerdo da tela:  
 ![](.wiki/branch.png)  
-note que o VSCode aponta qual a branch que estamos trabalhando, que no caso é a main e coloca um asterisco nela, indicando que há arquivos que foram alterados que não foram commitados, o VSCode também aponta que o repositório local está 1 commit além do repositório origem, e ao clicar na indicação ele irá automaticamente realizar o push do commit, atualizando em nosso repositório no github as mudificações recém feitas.  
+note que o VSCode aponta qual a branch que estamos trabalhando, que no caso é a main e coloca um asterisco nela, indicando que há arquivos que foram alterados que não foram commitados, o VSCode também aponta que o repositório local está 1 commit além do repositório origem, e ao clicar na indicação ele irá automaticamente realizar o push do commit, atualizando em nosso repositório no github as mudificações recém feitas, o comando para fazer a mesma ação é:
+> git push origin main  
+Sendo origin o repositório origem que foi clonado e main a branch dele.
 ![](.wiki/recentupdate.png)  
 Caso você queira adicionar sua contribuição ao repositório original do BRAF Factions, é hora de abrir um Pull Request, para isso irei criar um novo commit e preparar para adicioná-lo ao repositório original.
 
 ## Pull Request
 ![](.wiki/pullrequest.png)
-Note que o GitHub já detectou que o repositório pessoal está um commit acima do repositório do projectbraf, o que adiciona a opção contribute que iremos usar para criar o Pull Request
-![](.wiki/pullrequested.png)
+Note que o GitHub já detectou que o repositório pessoal está um commit acima do repositório do projectbraf, o que adiciona a opção contribute que iremos usar para criar o Pull Request.
+![](.wiki/pullrequested.png)  
 Agora temos a tela de Pull Request, onde opcionalmente podemos adicionar mais informações a respeito do que gostariamos de adicionar, para facilitar o trabalho de quem for verificar o Pull Request e aprová-lo.
-![](.wiki/pullrequested.png)
-Os Pull Requests do BRAF Factions necessitam da aprovação de pelo um desenvolvedor para serem incorporados ao repositório original, a fim de evitar pull requests mal intencionados ao repositório.
+![](.wiki/pullrequested.png)  
+Os Pull Requests do BRAF Factions necessitam da aprovação de pelo um desenvolvedor para serem incorporados ao repositório original, a fim de evitar pull requests mal intencionados ao repositório.  
+![](.wiki/openedpr.png)  
+Após a aprovação do PR, as modificações irão ser merged para o repositório  
+![](.wiki/merged.png)  
+E irão estar a partir daí disponíveis para público, contribuindo com o desenvolvimento do projeto.
+![](.wiki/publicopr.png)
+
+## Considerações Gerais
+- Este fluxo de abrir um PR antes de contribuir com algo não é algo necessariamente obrigatório, principalmente quando é o administrador do repositório que está adicionado contribuições, tudo depende das regras de segurança definidas em cada repositório na aba Security do GitHub, alguns repositórios são públicos e não necessitam de um Pull Request e verificações para que sofram alterações, o que implica que qualquer um pode excluir itens ao seu bem entender.
+- Recomendo a instalação da extensão Git Graph do VS Code, que permite verificar graficamente o histórico de Commits de um repositório e como foram lidados.  
+![](.wiki/gigraph.png)
