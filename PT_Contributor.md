@@ -10,7 +10,7 @@ Ok, instalei tudo o que eu acho que preciso, mas o que exatamente é Git? bem, p
 ![](.wiki/base.png)
 Bem, o mais comum é que o grupo se divida e atribua uma parte para cada integrante, juntando o cada parte para formar trabalho após concluído cada pedaço, não é mesmo?
 ![](.wiki/comum.png)
-Ok, mas e quando precisamos fazer correções, ou pequenos ajustes? ou simplesmente a tarefa é contínua e a estrela da conclusão é divida em várias partes, como organizamos as versões do projeto?
+Ok, mas e quando precisamos fazer correções, ou pequenos ajustes? ou simplesmente a tarefa é contínua e a estrela da conclusão é divida em várias partes, como organizamos as versões do projeto?  
 ![](.wiki/final.png)  
 Complicado de entender né? É para isso que serve o Git, para organizar o seu projeto e administrar cada atualização feita por cada contribuinte
 ![](.wiki/giteado.png)  
