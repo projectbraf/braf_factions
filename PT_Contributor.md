@@ -68,6 +68,12 @@ Já que temos o nosso primeiro commit adicionado ao nosso repositório local, ca
 ![](.wiki/branch.png)  
 note que o VSCode aponta qual a branch que estamos trabalhando, que no caso é a main e coloca um asterisco nela, indicando que há arquivos que foram alterados que não foram commitados, o VSCode também aponta que o repositório local está 1 commit além do repositório origem, e ao clicar na indicação ele irá automaticamente realizar o push do commit, atualizando em nosso repositório no github as mudificações recém feitas.  
 ![](.wiki/recentupdate.png)  
-Caso você queira adicionar sua contribuição ao repositório original do BRAF Factions, é hora de abrir um Pull Request  
+Caso você queira adicionar sua contribuição ao repositório original do BRAF Factions, é hora de abrir um Pull Request, para isso irei criar um novo commit e preparar para adicioná-lo ao repositório original.
 
 ## Pull Request
+![](.wiki/pullrequest.png)
+Note que o GitHub já detectou que o repositório pessoal está um commit acima do repositório do projectbraf, o que adiciona a opção contribute que iremos usar para criar o Pull Request
+![](.wiki/pullrequested.png)
+Agora temos a tela de Pull Request, onde opcionalmente podemos adicionar mais informações a respeito do que gostariamos de adicionar, para facilitar o trabalho de quem for verificar o Pull Request e aprová-lo.
+![](.wiki/pullrequested.png)
+Os Pull Requests do BRAF Factions necessitam da aprovação de pelo um desenvolvedor para serem incorporados ao repositório original, a fim de evitar pull requests mal intencionados ao repositório.
