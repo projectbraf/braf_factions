@@ -1,4 +1,4 @@
-![HIAF Factions Logo](https://i.imgur.com/9Ghf21m.png)
+![BRAF Factions Logo](https://i.imgur.com/9Ghf21m.png)
 # BRAF FACTIONS
 ## BRAF Factions is a Arma 3 modification Open-source mod that includes aditional factions to the original BRAF Mod, can also be used for coworking mod development and as template for mods using the BRAF mod as dependency. The original BRAF Mod is a mod for Arma 3 that includes the brazilian armed forces to Arma 3.
   
