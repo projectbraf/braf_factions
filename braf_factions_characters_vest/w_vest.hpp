@@ -246,3 +246,264 @@ class braf_lbv_cratenia : braf_lbv_woodland {
         };
     };
 };
+
+
+// ---------------------- INTERCEPTOR VEST --------------------
+class braf_marine_vest_woodland;
+class braf_marine_vest_woodland_rifleman_2;
+class braf_marine_vest_1_itemInfo;
+class braf_marine_vest_2_itemInfo;
+// UCP
+class braf_factions_vest_marine_ucp : braf_marine_vest_woodland {
+    displayName = "Interceptor Vest (UCP)";
+    hiddenSelectionsTextures[] = {
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_co.paa",
+        "",
+        "",
+        "",
+        ""
+    };
+    class ItemInfo : braf_marine_vest_1_itemInfo {
+        hiddenSelectionsTextures[] = {
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_co.paa",
+            "",
+            "",
+            "",
+            ""
+        };
+    };
+};
+class braf_factions_vest_marine_ucp_collar_groin : braf_marine_vest_woodland {
+    displayName = "Interceptor Vest w/ Collar (UCP)";
+    hiddenSelectionsTextures[] = {
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_co.paa",
+        "",
+        ""
+    };
+    class ItemInfo : braf_marine_vest_1_itemInfo {
+        hiddenSelectionsTextures[] = {
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_co.paa",
+            "",
+            ""
+        };
+    };
+};
+class braf_factions_vest_marine_ucp_rifleman_1 : braf_marine_vest_woodland {
+    displayName = "Interceptor Vest (Rifleman, UCP)";
+    hiddenSelectionsTextures[] = {
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_co.paa",
+        "",
+        "",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa"
+    };
+    class ItemInfo : braf_marine_vest_1_itemInfo {
+        hiddenSelectionsTextures[] = {
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_co.paa",
+            "",
+            "",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa"
+        };
+    };
+};
+class braf_factions_vest_marine_ucp_collar_groin_rifleman_1 : braf_marine_vest_woodland {
+    displayName = "Interceptor Vest w/ Collar (Rifleman, UCP)";
+    hiddenSelectionsTextures[] = {
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa"
+    };
+    class ItemInfo : braf_marine_vest_1_itemInfo {
+        hiddenSelectionsTextures[] = {
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa"
+        };
+    };
+};
+class braf_factions_vest_marine_ucp_rifleman_2 : braf_marine_vest_woodland_rifleman_2 {
+    displayName = "Interceptor Vest, Alt (Rifleman, UCP)";
+    hiddenSelectionsTextures[] = {
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_co.paa",
+        "",
+        "",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa"
+    };
+    class ItemInfo : braf_marine_vest_2_itemInfo {
+        hiddenSelectionsTextures[] = {
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_co.paa",
+            "",
+            "",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa"
+        };
+    };
+};
+class braf_factions_vest_marine_ucp_collar_groin_rifleman_2 : braf_marine_vest_woodland_rifleman_2 {
+    displayName = "Interceptor Vest w/ Collar, Alt (Rifleman, UCP)";
+    hiddenSelectionsTextures[] = {
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa"
+    };
+    class ItemInfo : braf_marine_vest_2_itemInfo {
+        hiddenSelectionsTextures[] = {
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_co.paa"
+        };
+    };
+};
+// Coyote
+class braf_factions_vest_marine_coyote : braf_marine_vest_woodland {
+    displayName = "Interceptor Vest (Coyote)";
+    hiddenSelectionsTextures[] = {
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_coyote_co.paa",
+        "",
+        "",
+        "",
+        ""
+    };
+    class ItemInfo : braf_marine_vest_1_itemInfo {
+        hiddenSelectionsTextures[] = {
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_coyote_co.paa",
+            "",
+            "",
+            "",
+            ""
+        };
+    };
+};
+class braf_factions_vest_marine_coyote_collar_groin : braf_marine_vest_woodland {
+    displayName = "Interceptor Vest w/ Collar (Coyote)";
+    hiddenSelectionsTextures[] = {
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+        "",
+        ""
+    };
+    class ItemInfo : braf_marine_vest_1_itemInfo {
+        hiddenSelectionsTextures[] = {
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+            "",
+            ""
+        };
+    };
+};
+class braf_factions_vest_marine_coyote_rifleman_1 : braf_marine_vest_woodland {
+    displayName = "Interceptor Vest (Rifleman, Coyote)";
+    hiddenSelectionsTextures[] = {
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_coyote_co.paa",
+        "",
+        "",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_coyote_co.paa"
+    };
+    class ItemInfo : braf_marine_vest_2_itemInfo {
+        hiddenSelectionsTextures[] = {
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_coyote_co.paa",
+            "",
+            "",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_coyote_co.paa"
+        };
+    };
+};
+class braf_factions_vest_marine_coyote_rifleman_2 : braf_marine_vest_woodland_rifleman_2 {
+    displayName = "Interceptor Vest, Alt (Rifleman, Coyote)";
+    hiddenSelectionsTextures[] = {
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_coyote_co.paa",
+        "",
+        "",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_coyote_co.paa"
+    };
+    class ItemInfo : braf_marine_vest_2_itemInfo {
+        hiddenSelectionsTextures[] = {
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_coyote_co.paa",
+            "",
+            "",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_rifleman_coyote_co.paa"
+        };
+    };
+};
+class braf_factions_vest_marine_coyote_collar_groin_rifleman_1 : braf_marine_vest_woodland {
+    displayName = "Interceptor Vest w/ Collar (Rifleman, Coyote)";
+    hiddenSelectionsTextures[] = {
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa"
+    };
+    class ItemInfo : braf_marine_vest_1_itemInfo {
+        hiddenSelectionsTextures[] = {
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa"
+        };
+    };
+};
+class braf_factions_vest_marine_coyote_collar_groin_rifleman_2 : braf_marine_vest_woodland_rifleman_2 {
+    displayName = "Interceptor Vest w/ Collar (Rifleman, Coyote)";
+    hiddenSelectionsTextures[] = {
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+        "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa"
+    };
+    class ItemInfo : braf_marine_vest_2_itemInfo {
+        hiddenSelectionsTextures[] = {
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_iba_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_mole_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa",
+            "\braf_factions\braf_factions_characters_vest\Data\Interceptor\interceptor_vest_collargroin_coyote_co.paa"
+        };
+    };
+};
