@@ -22,6 +22,7 @@ class CfgPatches
 
         requiredVersion = 0.1;
         requiredAddons[] = {
+            "braf_weapons_core",
             "braf_weapons_assault_rifles",
             "braf_weapons_sniper_rifles",
             "braf_weapons_sound",
