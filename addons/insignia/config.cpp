@@ -4,7 +4,7 @@ class CfgPatches
     {
         author = "BRAF Team";
         requiredAddons[] = {
-            "braf_characters_headgear",
+            "braf_structures",
         };
         requiredVersion = 0.1;
         units[] = {};
