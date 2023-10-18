@@ -5,22 +5,22 @@ class braf_factions_md1_hiaf: braf_md1
 	author="BRAF Team";
 	scope=2;
 	displayName="IMBEL M964 MD1 7.62mm (Green)";
-	picture="\braf_factions\braf_factions_weapons\762_FAL\ui\MD1_ui.paa";
+	picture="\braf\braf_factions\addons\weapons\762_FAL\ui\MD1_ui.paa";
 	hiddenSelectionsTextures[]=
 	{
-		"\braf_factions\braf_factions_weapons\762_FAL\Data\parafal_muzle.paa",
-		"\braf_factions\braf_factions_weapons\762_FAL\Data\HIAF\handguard_CO.paa",
-		"\braf_factions\braf_factions_weapons\762_FAL\Data\parafal_corpo.paa",
-		"\braf_factions\braf_factions_weapons\762_FAL\Data\trilho_superior.paa",
-		"\braf_factions\braf_factions_weapons\762_FAL\Data\HIAF\stock_CO.paa"
+		"\braf\braf_factions\addons\weapons\762_FAL\Data\parafal_muzle.paa",
+		"\braf\braf_factions\addons\weapons\762_FAL\Data\HIAF\handguard_CO.paa",
+		"\braf\braf_factions\addons\weapons\762_FAL\Data\parafal_corpo.paa",
+		"\braf\braf_factions\addons\weapons\762_FAL\Data\trilho_superior.paa",
+		"\braf\braf_factions\addons\weapons\762_FAL\Data\HIAF\stock_CO.paa"
 	};
 	hiddenSelectionsMaterials[]=
 	{
-		"\braf_factions\braf_factions_weapons\762_FAL\Data\FAL_muzzle.rvmat",
-		"\braf_factions\braf_factions_weapons\762_FAL\Data\HIAF\FAL_Guardamao.rvmat",
-		"\braf_factions\braf_factions_weapons\762_FAL\Data\FAL_corpo.rvmat",
-		"\braf_factions\braf_factions_weapons\762_FAL\Data\Trilho_superior.rvmat",
-		"\braf_factions\braf_factions_weapons\762_FAL\Data\HIAF\FAL_coronha.rvmat"
+		"\braf\braf_factions\addons\weapons\762_FAL\Data\FAL_muzzle.rvmat",
+		"\braf\braf_factions\addons\weapons\762_FAL\Data\HIAF\FAL_Guardamao.rvmat",
+		"\braf\braf_factions\addons\weapons\762_FAL\Data\FAL_corpo.rvmat",
+		"\braf\braf_factions\addons\weapons\762_FAL\Data\Trilho_superior.rvmat",
+		"\braf\braf_factions\addons\weapons\762_FAL\Data\HIAF\FAL_coronha.rvmat"
 	};
 };
 class braf_factions_md1_hiaf_scope : braf_factions_md1_hiaf
