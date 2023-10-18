@@ -18,7 +18,7 @@ class braf_hiaf_alice_medium : braf_alice_medium_olive {
         "Termico"
     };
     hiddenSelectionsTextures[] = {
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
         "",
         "",
         "",
@@ -40,13 +40,13 @@ class braf_hiaf_alice_medium_field : braf_hiaf_alice_medium {
         "Termico"
     };
     hiddenSelectionsTextures[] = {
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
         "",
         "",
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\eb\alice_medium_accessory_CO.paa",
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\eb\alice_medium_accessory_CO.paa",
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\eb\alice_medium_accessory_CO.paa"
+        "\braf\braf_factions\addons\backpack\alice_medium\data\eb\alice_medium_accessory_CO.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\eb\alice_medium_accessory_CO.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\eb\alice_medium_accessory_CO.paa"
     };
 };
 //AI backpacks
@@ -65,7 +65,7 @@ class braf_hiaf_alice_medium_medic : braf_alice_medium_olive {
         "Termico"
     };
     hiddenSelectionsTextures[] = {
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
         "",
         "",
         "",
@@ -97,7 +97,7 @@ class braf_hiaf_alice_medium_engineer : braf_hiaf_alice_medium_medic {
         "Termico"
     };
     hiddenSelectionsTextures[] = {
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
         "",
         "",
         "",
@@ -138,7 +138,7 @@ class braf_hiaf_alice_medium_eod : braf_hiaf_alice_medium_medic {
         "Termico"
     };
     hiddenSelectionsTextures[] = {
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
         "",
         "",
         "",
@@ -187,7 +187,7 @@ class braf_hiaf_alice_medium_ammo_762 : braf_hiaf_alice_medium_medic {
         "Termico"
     };
     hiddenSelectionsTextures[] = {
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
         "",
         "",
         "",
@@ -214,7 +214,7 @@ class braf_hiaf_alice_medium_ammo_556 : braf_hiaf_alice_medium_medic {
         "Termico"
     };
     hiddenSelectionsTextures[] = {
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
         "",
         "",
         "",
@@ -245,7 +245,7 @@ class braf_hiaf_alice_medium_ammo_ar_556 : braf_hiaf_alice_medium_medic {
         "Termico"
     };
     hiddenSelectionsTextures[] = {
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
         "",
         "",
         "",
@@ -272,7 +272,7 @@ class braf_hiaf_alice_medium_ammo_mg_762 : braf_hiaf_alice_medium_medic {
         "Termico"
     };
     hiddenSelectionsTextures[] = {
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
         "",
         "",
         "",
@@ -299,7 +299,7 @@ class braf_hiaf_alice_medium_ammo_at_84 : braf_hiaf_alice_medium_medic {
         "Termico"
     };
     hiddenSelectionsTextures[] = {
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
         "",
         "",
         "",
@@ -326,7 +326,7 @@ class braf_hiaf_alice_medium_ammo_aa_72 : braf_hiaf_alice_medium_medic {
         "Termico"
     };
     hiddenSelectionsTextures[] = {
-        "\braf_factions\braf_factions_characters_backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
+        "\braf\braf_factions\addons\backpack\alice_medium\data\hiaf\alice_medium_hiaf_co.paa",
         "",
         "",
         "",
@@ -475,18 +475,18 @@ class braf_radio_backpack_olive;
 class braf_radio_backpack_crapat : braf_radio_backpack_olive {
     _generalMacro = "braf_radio_backpack_crapat";
     displayName = "[CRA] AN/PRC 160 (CRAPAT)";
-    picture = "\BRAF_Factions\braf_factions_characters_backpack\radio_backpack\ui_falcon3_crapat.paa";
+    picture = "\braf\braf_factions\addons\backpack\radio_backpack\ui_falcon3_crapat.paa";
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters_backpack\radio_backpack\falcon3mochila_CO_crapat.paa",
+        "\braf\braf_factions\addons\backpack\radio_backpack\falcon3mochila_CO_crapat.paa",
         ""
     };
 };
 class braf_radio_backpack_crapat_alt : braf_radio_backpack_olive {
     _generalMacro = "braf_radio_backpack_crapat";
     displayName = "[CRA] AN/PRC 160 (Alt CRAPAT)";
-    picture = "\BRAF_Factions\braf_factions_characters_backpack\radio_backpack\ui_falcon3_crapat2.paa";
+    picture = "\braf\braf_factions\addons\backpack\radio_backpack\ui_falcon3_crapat2.paa";
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters_backpack\radio_backpack\falcon3mochila_CO_crapat2.paa",
+        "\braf\braf_factions\addons\backpack\radio_backpack\falcon3mochila_CO_crapat2.paa",
         ""
     };
 };
