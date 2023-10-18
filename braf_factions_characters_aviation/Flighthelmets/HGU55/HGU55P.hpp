@@ -13,8 +13,8 @@ class BRAF_HGU55P_White: BRAF_HGU55P
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_White_co.paa",
-		"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_White_co.paa"
+		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_White_co.paa",
+		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_White_co.paa"
 	};
 	class ItemInfo : BRAF_HGU55P_itemInfo
 	{
@@ -25,8 +25,8 @@ class BRAF_HGU55P_White: BRAF_HGU55P
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_White_co.paa",
-			"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_White_co.paa"
+			"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_White_co.paa",
+			"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_White_co.paa"
 		};
 	};
 };
@@ -42,8 +42,8 @@ class BRAF_HGU55P_Yellow: BRAF_HGU55P
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_Yellow_co.paa",
-		"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_Yellow_co.paa"
+		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_Yellow_co.paa",
+		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_Yellow_co.paa"
 	};
 	class ItemInfo : BRAF_HGU55P_itemInfo
 	{
@@ -54,8 +54,8 @@ class BRAF_HGU55P_Yellow: BRAF_HGU55P
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_Yellow_co.paa",
-			"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_Yellow_co.paa"
+			"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_Yellow_co.paa",
+			"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_Yellow_co.paa"
 		};
 	};
 };
@@ -66,33 +66,33 @@ class BRAF_HGU55P_SENNA: BRAF_HGU55P
 	picture="";
 	hiddenSelectionsTextures[]=
 	{
-		"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_co.paa",
-		"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_co.paa",
-		"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_co.paa",
-		"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_Visor_ca.paa"		
+		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_co.paa",
+		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_co.paa",
+		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_co.paa",
+		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_Visor_ca.paa"		
 	};
 	hiddenSelectionsMaterials[]=
 	{
-		"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_camo.rvmat",
-		"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_casco.rvmat",
-		"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_Chrome.rvmat",
-		"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_Visor.rvmat"
+		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_camo.rvmat",
+		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_casco.rvmat",
+		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_Chrome.rvmat",
+		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_Visor.rvmat"
 	};
 	class ItemInfo : BRAF_HGU55P_itemInfo
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_co.paa",
-			"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_co.paa",
-			"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_co.paa",
-			"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_Visor_ca.paa"		
+			"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_co.paa",
+			"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_co.paa",
+			"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_co.paa",
+			"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_Visor_ca.paa"		
 		};
 		hiddenSelectionsMaterials[]=
 		{
-			"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_camo.rvmat",
-			"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_casco.rvmat",
-			"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_Chrome.rvmat",
-			"braf_factions\braf_factions_characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_Visor.rvmat"
+			"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_camo.rvmat",
+			"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_casco.rvmat",
+			"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_Chrome.rvmat",
+			"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU55\data\HGU55P_SENNA_Visor.rvmat"
 		};
 	};
 };

@@ -63,7 +63,7 @@ class braf_hiaf_boubee_story : braf_hiaf_of_regular {
         "ItemRadio"
     };
     class EventHandlers {
-        init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;};[(_this select 0),"boubee"] call braf_fnc_nameonuniform;";
+        init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;};[(_this select 0),'boubee'] call braf_fnc_nameonuniform;";
     };
     hiddenSelections[] = {
         "Camo1", //Top

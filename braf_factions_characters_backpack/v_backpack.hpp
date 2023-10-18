@@ -347,48 +347,48 @@ class braf_modular_assault_aaf : braf_modular_assault_olive {
     _generalMacro = "braf_modular_assault_aaf";
     displayName = "$STR_braf_backpack_modular_aaf";
     hiddenSelectionsTextures[] = {
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\mil\main_aaf_CO.paa",
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\mil\main_aaf_CO.paa"
+        "braf\braf_factions\addons\characters_backpack\modular_assault\mil\main_aaf_CO.paa",
+        "braf\braf_factions\addons\characters_backpack\modular_assault\mil\main_aaf_CO.paa"
     };
 };
 class braf_modular_assault_coyote : braf_modular_assault_olive {
     _generalMacro = "braf_modular_assault_coyote";
     displayName = "$STR_braf_backpack_modular_coyote";
     hiddenSelectionsTextures[] = {
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\mil\main_coyote_CO.paa",
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\mil\main_coyote_CO.paa"
+        "braf\braf_factions\addons\characters_backpack\modular_assault\mil\main_coyote_CO.paa",
+        "braf\braf_factions\addons\characters_backpack\modular_assault\mil\main_coyote_CO.paa"
     };
 };
 class braf_modular_assault_rg : braf_modular_assault_olive {
     _generalMacro = "braf_modular_assault_rg";
     displayName = "$STR_braf_backpack_modular_rg";
     hiddenSelectionsTextures[] = {
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\mil\main_rg_CO.paa",
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\mil\main_rg_CO.paa"
+        "braf\braf_factions\addons\characters_backpack\modular_assault\mil\main_rg_CO.paa",
+        "braf\braf_factions\addons\characters_backpack\modular_assault\mil\main_rg_CO.paa"
     };
 };
 class braf_modular_assault_tan : braf_modular_assault_olive {
     _generalMacro = "braf_modular_assault_tan";
     displayName = "$STR_braf_backpack_modular_tan";
     hiddenSelectionsTextures[] = {
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\mil\main_tan_CO.paa",
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\mil\main_tan_CO.paa"
+        "braf\braf_factions\addons\characters_backpack\modular_assault\mil\main_tan_CO.paa",
+        "braf\braf_factions\addons\characters_backpack\modular_assault\mil\main_tan_CO.paa"
     };
 };
 class braf_modular_assault_ucp : braf_modular_assault_olive {
     _generalMacro = "braf_modular_assault_ucp";
     displayName = "$STR_braf_backpack_modular_ucp";
     hiddenSelectionsTextures[] = {
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\mil\main_ucp_CO.paa",
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\mil\main_ucp_CO.paa"
+        "braf\braf_factions\addons\characters_backpack\modular_assault\mil\main_ucp_CO.paa",
+        "braf\braf_factions\addons\characters_backpack\modular_assault\mil\main_ucp_CO.paa"
     };
 };
 class braf_modular_assault_woodland : braf_modular_assault_olive {
     _generalMacro = "braf_modular_assault_wd";
     displayName = "$STR_braf_backpack_modular_woodland";
     hiddenSelectionsTextures[] = {
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\mil\main_wd_CO.paa",
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\mil\main_wd_CO.paa"
+        "braf\braf_factions\addons\characters_backpack\modular_assault\mil\main_wd_CO.paa",
+        "braf\braf_factions\addons\characters_backpack\modular_assault\mil\main_wd_CO.paa"
     };
 };
 class braf_hiaf_modular_assault_medic : braf_modular_assault_woodland {
@@ -438,11 +438,11 @@ class braf_civilian_backpack_red : braf_modular_assault_olive {
     _generalMacro = "braf_civilian_backpack_red";
     displayName = "$STR_braf_backpack_civilian_backpack_red";
     hiddenSelectionsTextures[] = {
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\civ\main_red_CO.paa",
+        "braf\braf_factions\addons\characters_backpack\modular_assault\civ\main_red_CO.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\main_civ.rvmat",
+        "braf\braf_factions\addons\characters_backpack\modular_assault\main_civ.rvmat",
         ""
     };
 };
@@ -450,7 +450,7 @@ class braf_civilian_backpack_blue : braf_civilian_backpack_red {
     _generalMacro = "braf_civilian_backpack_blue";
     displayName = "$STR_braf_backpack_civilian_backpack_blue";
     hiddenSelectionsTextures[] = {
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\civ\main_blue_CO.paa",
+        "braf\braf_factions\addons\characters_backpack\modular_assault\civ\main_blue_CO.paa",
         ""
     };
 };
@@ -458,7 +458,7 @@ class braf_civilian_backpack_black : braf_civilian_backpack_red {
     _generalMacro = "braf_civilian_backpack_black";
     displayName = "$STR_braf_backpack_civilian_backpack_black";
     hiddenSelectionsTextures[] = {
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\civ\main_civil_black_CO.paa",
+        "braf\braf_factions\addons\characters_backpack\modular_assault\civ\main_civil_black_CO.paa",
         ""
     };
 };
@@ -466,7 +466,7 @@ class braf_civilian_backpack_obama : braf_civilian_backpack_red {
     _generalMacro = "braf_civilian_backpack_obama";
     displayName = "$STR_braf_backpack_civilian_backpack_obama";
     hiddenSelectionsTextures[] = {
-        "BRAF_Factions\braf_factions_characters_backpack\modular_assault\civ\main_sonic_CO.paa",
+        "braf\braf_factions\addons\characters_backpack\modular_assault\civ\main_sonic_CO.paa",
         ""
     };
 };

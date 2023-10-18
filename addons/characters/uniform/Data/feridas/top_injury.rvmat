@@ -8,7 +8,7 @@ PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
 {
- texture = "BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\top_nohq.paa";
+ texture = "braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\top_nohq.paa";
  uvSource = "tex";
  class uvTransform
  {
@@ -32,7 +32,7 @@ class Stage2
 };
 class Stage3
 {
- texture = "BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_w.paa";
+ texture = "braf\braf_factions\addons\characters\Uniform\Data\feridas\top_w.paa";
  uvSource = "tex";
  class uvTransform
  {
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
- texture = "BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\top_smdi.paa";
+ texture = "braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\top_smdi.paa";
  uvSource = "tex";
  class uvTransform
  {

@@ -2,7 +2,7 @@ class BRAF_1BAvEx_Pilot_Coverall;
 class braf_hiaf_pilot_regular_Coverall : BRAF_1BAvEx_Pilot_Coverall
 {
 	displayName="[HIAF] Pilot Flightsuit";
-	picture="BRAF_Factions\braf_factions_characters_aviation\Flightsuits\data\hiaf\braf_hiaf_flightsuit_ui.paa";
+	picture="braf\braf_factions\addons\characters_aviation\Flightsuits\data\hiaf\braf_hiaf_flightsuit_ui.paa";
 	class ItemInfo: UniformItem
 	{
 		uniformModel="-";

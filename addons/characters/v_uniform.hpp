@@ -147,9 +147,9 @@ class braf_horizon_regular : braf_army_rifleman_regular_2000 {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\top.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\top.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot.rvmat",
         ""
     };
 };
@@ -280,10 +280,10 @@ class braf_horizon_regular_gloves : braf_army_rifleman_regular_2000 {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\top_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\gloves.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\top_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\gloves.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -304,10 +304,10 @@ class braf_horizon_regular_gloves : braf_army_rifleman_regular_2000 {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\top.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\gloves.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\top.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\gloves.rvmat",
         ""
     };
 };
@@ -437,9 +437,9 @@ class braf_horizon_regular_rolledup : braf_army_tl_regular_2000 {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\rolled\top_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\rolled\top_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -460,9 +460,9 @@ class braf_horizon_regular_rolledup : braf_army_tl_regular_2000 {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\rolled\top.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\rolled\top.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot.rvmat",
         ""
     };
 };
@@ -534,9 +534,9 @@ class braf_horizon_marine : braf_horizon_regular {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\top.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\pants.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\Marine\top.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\Marine\pants.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot.rvmat",
         ""
     };
 };
@@ -589,7 +589,7 @@ class braf_horizon_marine_gloves : braf_horizon_regular_gloves {
         "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\top_co.paa",
         "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\pants_co.paa",
         "\BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\gloves.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\gloves.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -610,10 +610,10 @@ class braf_horizon_marine_gloves : braf_horizon_regular_gloves {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\top.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\pants.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\gloves.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\Marine\top.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\Marine\pants.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\gloves.rvmat",
         ""
     };
 };
@@ -685,9 +685,9 @@ class braf_horizon_marine_rolledup : braf_horizon_regular_rolledup {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\rolled\top.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\pants.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\Marine\rolled\top.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\Marine\pants.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot.rvmat",
         ""
     };
 };
@@ -736,9 +736,9 @@ class braf_cratenia_regular : braf_horizon_regular {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\top_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\pants_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_cratenia_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\top_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\pants_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot_cratenia_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -759,9 +759,9 @@ class braf_cratenia_regular : braf_horizon_regular {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\top.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\pants.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\top.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\pants.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot.rvmat",
         ""
     };
 };
@@ -811,10 +811,10 @@ class braf_cratenia_regular_gloves : braf_horizon_regular_gloves {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\top_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\pants_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_cratenia_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Luva\gloves_tan_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\top_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\pants_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot_cratenia_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\Luva\gloves_tan_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -835,10 +835,10 @@ class braf_cratenia_regular_gloves : braf_horizon_regular_gloves {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\top.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\pants.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Luva\gloves.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\top.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\pants.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\Luva\gloves.rvmat",
         ""
     };
 };
@@ -888,9 +888,9 @@ class braf_cratenia_regular_rolledup : braf_army_tl_regular_2000 {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\rolled\top_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\pants_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_cratenia_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\rolled\top_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\pants_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot_cratenia_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -911,9 +911,9 @@ class braf_cratenia_regular_rolledup : braf_army_tl_regular_2000 {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\top.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\pants.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\top.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\pants.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot.rvmat",
         ""
     };
 };
@@ -960,9 +960,9 @@ class braf_cratenia_jungle : braf_cratenia_regular {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\selva\top_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_cratenia_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\selva\top_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot_cratenia_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -983,9 +983,9 @@ class braf_cratenia_jungle : braf_cratenia_regular {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\top.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\pants.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\top.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\pants.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot.rvmat",
         ""
     };
 };
@@ -1033,10 +1033,10 @@ class braf_cratenia_jungle_gloves : braf_cratenia_jungle {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\selva\top_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_cratenia_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\gloves.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\selva\top_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot_cratenia_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\gloves.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -1057,10 +1057,10 @@ class braf_cratenia_jungle_gloves : braf_cratenia_jungle {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\top.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\pants.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\gloves.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\top.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\pants.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\gloves.rvmat",
         ""
     };
 };
@@ -1084,9 +1084,9 @@ class braf_cratenia_jungle_rolledup : braf_cratenia_regular_rolledup {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_cratenia_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot_cratenia_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -1107,9 +1107,9 @@ class braf_cratenia_jungle_rolledup : braf_cratenia_regular_rolledup {
         "",
         "",
         "",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\top.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\BDU\Cratenia\pants.rvmat",
-        "BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\top.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\BDU\Cratenia\pants.rvmat",
+        "braf\braf_factions\addons\characters\uniform\Data\Boot\boot.rvmat",
         ""
     };
 };
