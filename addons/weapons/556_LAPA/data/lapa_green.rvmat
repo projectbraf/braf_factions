@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="braf_factions\braf_factions_weapons\556_LAPA\data\lapa_fa03_base_nohq.tga";
+	texture="braf\braf_factions\addons\weapons\556_LAPA\data\lapa_fa03_base_nohq.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="braf_factions\braf_factions_weapons\556_LAPA\data\lapa_fa03_paint_as.tga";
+	texture="braf\braf_factions\addons\weapons\556_LAPA\data\lapa_fa03_paint_as.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="braf_factions\braf_factions_weapons\556_LAPA\data\lapa_fa03_paint_smdi.tga";
+	texture="braf\braf_factions\addons\weapons\556_LAPA\data\lapa_fa03_paint_smdi.tga";
 	uvSource="tex";
 	class uvTransform
 	{

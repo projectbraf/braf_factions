@@ -7,7 +7,7 @@ class braf_factions_msr_338_spray: braf_msr_338
 	picture="\braf\braf_factions\addons\weapons\308_MSR\ui\msr_308_ui_spray.paa";
 	hiddenSelectionsTextures[]=
 	{
-		"braf_factions\braf_factions_weapons\308_MSR\data\MSRSPRAY_CO.paa"
+		"braf\braf_factions\addons\weapons\308_MSR\data\MSRSPRAY_CO.paa"
 	};
 };
 class braf_factions_msr_338_ts: braf_msr_338
@@ -18,6 +18,6 @@ class braf_factions_msr_338_ts: braf_msr_338
 	picture="\braf\braf_factions\addons\weapons\308_MSR\ui\msr_308_ui_ts.paa";
 	hiddenSelectionsTextures[]=
 	{
-		"braf_factions\braf_factions_weapons\308_MSR\data\MSRTS_CO.paa"
+		"braf\braf_factions\addons\weapons\308_MSR\data\MSRTS_CO.paa"
 	};
 };

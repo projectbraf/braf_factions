@@ -8,7 +8,7 @@ class braf_factions_aglc_verde : braf_aglc_base
 		picture="\braf\braf_factions\addons\weapons\308_AGLC\ui\aglc_verde.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"braf_factions\braf_factions_weapons\308_AGLC\data\AGLC_VERDE_co.paa"
+			"braf\braf_factions\addons\weapons\308_AGLC\data\AGLC_VERDE_co.paa"
 		};
 	};
 class braf_factions_aglc_aaf : braf_aglc_base
@@ -20,7 +20,7 @@ class braf_factions_aglc_aaf : braf_aglc_base
 		picture="\braf\braf_factions\addons\weapons\308_AGLC\ui\aglc_verde.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"braf_factions\braf_factions_weapons\308_AGLC\data\AGLC_AAF_co.paa"
+			"braf\braf_factions\addons\weapons\308_AGLC\data\AGLC_AAF_co.paa"
 		};
 	};
 class braf_factions_aglc_verde_scope : braf_factions_aglc_verde {
