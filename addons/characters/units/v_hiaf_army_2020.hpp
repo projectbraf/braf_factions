@@ -137,9 +137,9 @@ class braf_hiaf_of_regular : braf_army_of_regular_2000 {
         "",
         "",
         "",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\top_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -302,9 +302,9 @@ class braf_hiaf_sl_regular : braf_army_sl_regular_2000 {
         "",
         "",
         "",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\top_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -700,10 +700,10 @@ class braf_hiaf_eng_regular : braf_army_eng_regular_2000 {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.paa",
         ""
     };
 };
@@ -1280,9 +1280,9 @@ class braf_hiaf_dmr_regular : braf_army_dmr_regular_2000 {
         "",
         "",
         "",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\top_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -1454,9 +1454,9 @@ class braf_hiaf_gl_regular : braf_army_gl_regular_2000 {
         "",
         "",
         "",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\top_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -2152,9 +2152,9 @@ class braf_hiaf_aa_regular : braf_army_aa_regular_2000 {
         "",
         "",
         "",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\top_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -2589,9 +2589,9 @@ class braf_hiaf_mortar_regular : braf_army_mortar_regular_2000 {
         "",
         "",
         "",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\top_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -3024,9 +3024,9 @@ class braf_hiaf_hmg_a_regular : braf_army_m2_a_regular_2000 {
         "",
         "",
         "",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\top_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -3162,9 +3162,9 @@ class braf_hiaf_crewman_regular : braf_army_crewman_regular_2000 {
         "",
         "",
         "",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\top_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {

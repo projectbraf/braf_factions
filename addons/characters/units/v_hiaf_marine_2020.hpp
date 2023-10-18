@@ -95,9 +95,9 @@ class braf_hiaf_of_marine : braf_hiaf_of_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
@@ -196,9 +196,9 @@ class braf_hiaf_sl_marine : braf_hiaf_sl_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
@@ -317,9 +317,9 @@ class braf_hiaf_tl_marine : braf_hiaf_tl_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
@@ -412,10 +412,10 @@ class braf_hiaf_medic_marine : braf_hiaf_medic_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.paa",
         ""
     };
 };
@@ -505,9 +505,9 @@ class braf_hiaf_eng_marine : braf_hiaf_eng_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
@@ -587,9 +587,9 @@ class braf_hiaf_crewman_marine : braf_hiaf_crewman_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
@@ -682,9 +682,9 @@ class braf_hiaf_rifleman_marine : braf_hiaf_rifleman_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
@@ -775,9 +775,9 @@ class braf_hiaf_ammo_marine : braf_hiaf_ammo_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
@@ -868,9 +868,9 @@ class braf_hiaf_dmr_marine : braf_hiaf_dmr_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
@@ -983,9 +983,9 @@ class braf_hiaf_gl_marine : braf_hiaf_gl_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
@@ -1083,9 +1083,9 @@ class braf_hiaf_pointman_marine : braf_hiaf_mp_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
@@ -1171,9 +1171,9 @@ class braf_hiaf_ar_marine : braf_hiaf_ar_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
@@ -1266,9 +1266,9 @@ class braf_hiaf_lat_marine : braf_hiaf_lat_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
@@ -1296,10 +1296,10 @@ class braf_hiaf_unarmed_marine : braf_hiaf_rifleman_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.paa",
         ""
     };
 };
@@ -1381,9 +1381,9 @@ class braf_hiaf_aa_marine : braf_hiaf_aa_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };

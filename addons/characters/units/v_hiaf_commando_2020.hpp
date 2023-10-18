@@ -4,7 +4,7 @@ class braf_hiaf_tl_commando : braf_factions_specops_base {
     _generalMacro = "braf_hiaf_tl_commando";
     faction = "BRAF_HIAF";
     editorsubcategory = "BRAF_COMMANDO";
-    model = "\BRAF_Factions\braf_factions_characters\Uniform\BRAF_BDU.p3d";
+    model = "\braf\braf_factions\addons\characters\Uniform\BRAF_BDU.p3d";
     side = 1;
     scope = 2;
     scopeCurator = 2;
@@ -91,27 +91,27 @@ class braf_hiaf_tl_commando : braf_factions_specops_base {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
     class Wounds {
         tex[] = {};
         mat[] = {
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\top.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\pants.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\top.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\pants.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
             "",
             ""
         };
@@ -121,7 +121,7 @@ class braf_hiaf_rifleman_commando : braf_factions_specops_base {
     _generalMacro = "braf_hiaf_rifleman_commando";
     faction = "BRAF_HIAF";
     editorsubcategory = "BRAF_COMMANDO";
-    model = "\BRAF_Factions\braf_factions_characters\Uniform\BRAF_BDU.p3d";
+    model = "\braf\braf_factions\addons\characters\Uniform\BRAF_BDU.p3d";
     side = 1;
     scope = 2;
     scopeCurator = 2;
@@ -200,27 +200,27 @@ class braf_hiaf_rifleman_commando : braf_factions_specops_base {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
     class Wounds {
         tex[] = {};
         mat[] = {
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\top.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\pants.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\top.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\pants.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
             "",
             ""
         };
@@ -230,7 +230,7 @@ class braf_hiaf_ar_commando : braf_factions_specops_base {
     _generalMacro = "braf_hiaf_dmr_commando";
     faction = "BRAF_HIAF";
     editorsubcategory = "BRAF_COMMANDO";
-    model = "\BRAF_Factions\braf_factions_characters\Uniform\BRAF_BDU.p3d";
+    model = "\braf\braf_factions\addons\characters\Uniform\BRAF_BDU.p3d";
     displayName = "$STR_A3_CfgVehicles_B_Patrol_Soldier_MG_F0";
     side = 1;
     scope = 2;
@@ -307,27 +307,27 @@ class braf_hiaf_ar_commando : braf_factions_specops_base {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
     class Wounds {
         tex[] = {};
         mat[] = {
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\top.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\pants.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\top.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\pants.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
             "",
             ""
         };
@@ -337,7 +337,7 @@ class braf_hiaf_dmr_commando : braf_factions_specops_base {
     _generalMacro = "braf_hiaf_dmr_commando";
     faction = "BRAF_HIAF";
     editorsubcategory = "BRAF_COMMANDO";
-    model = "\BRAF_Factions\braf_factions_characters\Uniform\BRAF_BDU.p3d";
+    model = "\braf\braf_factions\addons\characters\Uniform\BRAF_BDU.p3d";
     side = 1;
     scope = 2;
     scopeCurator = 2;
@@ -416,27 +416,27 @@ class braf_hiaf_dmr_commando : braf_factions_specops_base {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
     class Wounds {
         tex[] = {};
         mat[] = {
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\top.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\pants.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\top.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\pants.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
             "",
             ""
         };
@@ -446,7 +446,7 @@ class braf_hiaf_pointman_commando : braf_factions_specops_base {
     _generalMacro = "braf_hiaf_pointman_commando";
     faction = "BRAF_HIAF";
     editorsubcategory = "BRAF_COMMANDO";
-    model = "\BRAF_Factions\braf_factions_characters\Uniform\BRAF_BDU.p3d";
+    model = "\braf\braf_factions\addons\characters\Uniform\BRAF_BDU.p3d";
     side = 1;
     scope = 2;
     scopeCurator = 2;
@@ -531,27 +531,27 @@ class braf_hiaf_pointman_commando : braf_factions_specops_base {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
     class Wounds {
         tex[] = {};
         mat[] = {
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\top.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\pants.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\top.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\pants.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
             "",
             ""
         };
@@ -561,7 +561,7 @@ class braf_hiaf_medic_commando : braf_factions_specops_base {
     _generalMacro = "braf_hiaf_medic_commando";
     faction = "BRAF_HIAF";
     editorsubcategory = "BRAF_COMMANDO";
-    model = "\BRAF_Factions\braf_factions_characters\Uniform\BRAF_BDU.p3d";
+    model = "\braf\braf_factions\addons\characters\Uniform\BRAF_BDU.p3d";
     side = 1;
     backpack = "braf_hiaf_modular_assault_medic";
     scope = 2;
@@ -643,27 +643,27 @@ class braf_hiaf_medic_commando : braf_factions_specops_base {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
     class Wounds {
         tex[] = {};
         mat[] = {
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\top.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\pants.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\top.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\pants.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
             "",
             ""
         };
@@ -673,7 +673,7 @@ class braf_hiaf_eng_commando : braf_factions_specops_base {
     _generalMacro = "braf_hiaf_eng_commando";
     faction = "BRAF_HIAF";
     editorsubcategory = "BRAF_COMMANDO";
-    model = "\BRAF_Factions\braf_factions_characters\Uniform\BRAF_BDU.p3d";
+    model = "\braf\braf_factions\addons\characters\Uniform\BRAF_BDU.p3d";
     side = 1;
     backpack = "braf_hiaf_modular_assault_engineer";
     scope = 2;
@@ -753,27 +753,27 @@ class braf_hiaf_eng_commando : braf_factions_specops_base {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };
     class Wounds {
         tex[] = {};
         mat[] = {
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\top.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\pants.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\top.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\pants.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
             "",
             ""
         };
@@ -839,18 +839,18 @@ class braf_hiaf_diver_commando : braf_factions_diver_base {
     class Wounds {
         tex[] = {};
         mat[] = {
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\top.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\top_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\pants.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\feridas\pants_injury.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
-            "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\top.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\top_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\pants.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\feridas\pants_injury.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
+            "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves.rvmat",
             "",
             ""
         };

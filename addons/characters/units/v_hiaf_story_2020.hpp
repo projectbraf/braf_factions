@@ -74,9 +74,9 @@ class braf_hiaf_boubee_story : braf_hiaf_of_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_jungle_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_jungle_co.paa",
         "",
         ""
     };

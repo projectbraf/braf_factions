@@ -124,9 +124,9 @@ class braf_horizon_regular : braf_army_rifleman_regular_2000 {
         "",
         "",
         "",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\top_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\pants_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -511,9 +511,9 @@ class braf_horizon_marine : braf_horizon_regular {
         "",
         "",
         "",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {
@@ -586,9 +586,9 @@ class braf_horizon_marine_gloves : braf_horizon_regular_gloves {
         "",
         "",
         "",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\Marine\top_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
         "braf\braf_factions\addons\characters\uniform\Data\BDU\gloves.paa",
         ""
     };
@@ -662,9 +662,9 @@ class braf_horizon_marine_rolledup : braf_horizon_regular_rolledup {
         "",
         "",
         "",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\BDU\HIAF\Marine\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\uniform\Data\Boot\boot_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\Marine\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\BDU\HIAF\Marine\pants_co.paa",
+        "\braf\braf_factions\addons\characters\uniform\Data\Boot\boot_co.paa",
         ""
     };
     hiddenSelectionsMaterials[] = {

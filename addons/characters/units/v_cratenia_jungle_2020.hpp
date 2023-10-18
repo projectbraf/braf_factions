@@ -86,9 +86,9 @@ class braf_cra_of_jungle : braf_cra_of_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -185,9 +185,9 @@ class braf_cra_sl_jungle : braf_cra_sl_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -284,9 +284,9 @@ class braf_cra_tl_jungle : braf_cra_tl_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -455,10 +455,10 @@ class braf_cra_eng_jungle : braf_cra_eng_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves_tan_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves_tan_co.paa",
         ""
     };
 };
@@ -548,9 +548,9 @@ class braf_cra_rifleman_jungle : braf_cra_rifleman_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -624,9 +624,9 @@ class braf_cra_riflelight_jungle : braf_cra_rifleman_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -716,9 +716,9 @@ class braf_cra_ammo_jungle : braf_cra_ammo_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -807,9 +807,9 @@ class braf_cra_dmr_jungle : braf_cra_dmr_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -884,9 +884,9 @@ class braf_cra_ar_jungle : braf_cra_ar_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -977,9 +977,9 @@ class braf_cra_lat_jungle : braf_cra_lat_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -1058,9 +1058,9 @@ class braf_cra_militia_jungle : braf_cra_militia_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -1088,10 +1088,10 @@ class braf_cra_unarmed_jungle : braf_cra_unarmed_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Luva\gloves_tan_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Luva\gloves_tan_co.paa",
         ""
     };
 };
@@ -1173,9 +1173,9 @@ class braf_cra_at_jungle : braf_cra_at_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -1255,9 +1255,9 @@ class braf_cra_aa_jungle : braf_cra_aa_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -1338,9 +1338,9 @@ class braf_cra_mortar_jungle : braf_cra_mortar_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -1421,9 +1421,9 @@ class braf_cra_mortar_a_jungle : braf_cra_mortar_a_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -1503,9 +1503,9 @@ class braf_cra_hmg_jungle : braf_cra_hmg_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\rolled\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
@@ -1585,9 +1585,9 @@ class braf_cra_hmg_a_jungle : braf_cra_hmg_a_regular {
         "insignia"
     };
     hiddenSelectionsTextures[] = {
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
-        "\BRAF_Factions\braf_factions_characters\Uniform\Data\Boot\boot_cratenia_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\top_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\BDU\Cratenia\selva\pants_co.paa",
+        "\braf\braf_factions\addons\characters\Uniform\Data\Boot\boot_cratenia_co.paa",
         "",
         ""
     };
