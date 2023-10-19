@@ -7,12 +7,12 @@ class BRAF_HGU56P_Black: BRAF_HGU56P_1BAvEx
 	displayName="HGU-56P Black";
 	hiddenSelectionsTextures[]=
 	{
-		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU56\data\HGU_black_co.paa"
+		"braf\braf_factions\addons\aviation\Flighthelmets\HGU56\data\HGU_black_co.paa"
 	};
 	class ItemInfo : HeadGearItem
 	{
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU56\data\HGU_black_co.paa"};
+		hiddenSelectionsTextures[] = {"braf\braf_factions\addons\aviation\Flighthelmets\HGU56\data\HGU_black_co.paa"};
 		uniformModel="A3\Characters_F\Common\headgear_helmet_heli";
 		mass=30;
 		modelSides[]={1,2,3};
@@ -33,12 +33,12 @@ class BRAF_HGU56P_Crew_Predator: BRAF_HGU56P_Crew_1BAvEx
 	displayName="HGU-56P Mask Predator";
 	hiddenSelectionsTextures[]=
 	{
-		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU56\data\HGU_Predator_co.paa"
+		"braf\braf_factions\addons\aviation\Flighthelmets\HGU56\data\HGU_Predator_co.paa"
 	};
 	class ItemInfo : HeadGearItem
 	{
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU56\data\HGU_Predator_co.paa"};	
+		hiddenSelectionsTextures[] = {"braf\braf_factions\addons\aviation\Flighthelmets\HGU56\data\HGU_Predator_co.paa"};	
 		uniformModel="A3\Characters_F\Common\headgear_helmet_heli_shield";
 		mass=50;
 		modelSides[]={1,2,3};
@@ -65,12 +65,12 @@ class BRAF_HGU56P_Crew_Black: BRAF_HGU56P_Crew_1BAvEx
 	displayName="HGU-56P Black Mask";
 	hiddenSelectionsTextures[]=
 	{
-		"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU56\data\HGU_black_co.paa"
+		"braf\braf_factions\addons\aviation\Flighthelmets\HGU56\data\HGU_black_co.paa"
 	};
 	class ItemInfo : HeadGearItem
 	{
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"braf\braf_factions\addons\characters_aviation\Flighthelmets\HGU56\data\HGU_black_co.paa"};	
+		hiddenSelectionsTextures[] = {"braf\braf_factions\addons\aviation\Flighthelmets\HGU56\data\HGU_black_co.paa"};	
 		uniformModel="A3\Characters_F\Common\headgear_helmet_heli_shield";
 		mass=50;
 		modelSides[]={1,2,3};

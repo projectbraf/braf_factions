@@ -71,9 +71,9 @@ class braf_hiaf_pilot_regular : BRAF_1BAvEx_Pilot
 	};
 	hiddenSelectionsTextures[]=
 	{
-		"braf\braf_factions\addons\characters_aviation\Flightsuits\data\hiaf\Coverall_co.paa",
-		"braf\braf_factions\addons\characters_aviation\Flightsuits\data\luva_co.paa",
-		"braf\braf_factions\addons\characters_aviation\Flightsuits\data\Boot\boot_co.paa",
+		"braf\braf_factions\addons\aviation\Flightsuits\data\hiaf\Coverall_co.paa",
+		"braf\braf_factions\addons\aviation\Flightsuits\data\luva_co.paa",
+		"braf\braf_factions\addons\aviation\Flightsuits\data\Boot\boot_co.paa",
 		"",
 		""
 	};
