@@ -22,6 +22,15 @@ exclude = [
   "*.fbx",
   "*.obj",
 ]
+include = [
+  "BRAF_License_English.pdf",
+  "BRAF_License_Portuguese.pdf",
+  "logo.paa",
+  "logo_factions_ca.paa",
+  "logo_factions_over.paa",
+  "logo_factions_small.paa",
+  "picture.paa",
+]
 
 [properties]
 author = "BRAF Team"
@@ -33,5 +42,5 @@ preset = "Hemtt"
 [hemtt.launch]
 workshop = [
   "450814997", # CBA_A3
-  "2223739438", # BRAF Mod (Public Version)
+  "2078457684", # BRAF Mod (Dev)
 ]
