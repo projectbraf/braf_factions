@@ -38,16 +38,16 @@ class CfgVehicles
     class braf_worker_ammo;
     class braf_worker_repair;
     class braf_worker_cargo;
-#include "worker_base.hpp"
+#include "Worker_base.hpp"
 
     class braf_am21_covered;
     class braf_am21_opened;
     class braf_am21_cargo;
-#include "am21_base.hpp"
+#include "AM21_base.hpp"
 
     class braf_am11_unarmed;
     class braf_am11_armed;
-#include "am11_base.hpp"
+#include "AM11_base.hpp"
 
 #include "v_cratenia.hpp"
 };
