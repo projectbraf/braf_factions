@@ -5,7 +5,7 @@ class BRAF_EE9_Cascavel_COL: BRAF_EE9_Cascavel_Base
 	side=2;
 	faction="BRAF_FACTIONS";
 	displayname="Colombian Army Engesa EE-9 Cascavel Mk3.";
-	editorPreview="braf_factions\braf_factions_armored\data\cascavel\ui\EE-9_COL_picture_ca.paa";
+	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_COL_picture_ca.paa";
 	textureList[]=
 	{
 		"COL",
@@ -20,12 +20,12 @@ class BRAF_EE9_Cascavel_COL: BRAF_EE9_Cascavel_Base
 		"",
 		"",
 		"",
-		"braf_factions\braf_factions_armored\data\cascavel\COL1_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\COL2_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Camo3_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\COL4_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\camonet_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Glass_ca.paa"
+		"braf\braf_factions\addons\armored\data\cascavel\COL1_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\COL2_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Camo3_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\COL4_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\camonet_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Glass_ca.paa"
 	};	
 	crew="braf_army_crewman_regular_2020";
 	typicalcargo[]=
@@ -41,7 +41,7 @@ class BRAF_EE9_Cascavel_NIA: BRAF_EE9_Cascavel_Base
 	side=2;
 	faction="BRAF_FACTIONS";
 	displayname="New Iraq Army Engesa EE-9 Cascavel Mk3.";
-	editorPreview="braf_factions\braf_factions_armored\data\cascavel\ui\EE-9_NIA_picture_ca.paa";
+	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_NIA_picture_ca.paa";
 	textureList[]=
 	{
 		"NIA",
@@ -62,12 +62,12 @@ class BRAF_EE9_Cascavel_NIA: BRAF_EE9_Cascavel_Base
 		"",
 		"",
 		"",
-		"braf_factions\braf_factions_armored\data\cascavel\New_Iraq1_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\New_Iraq2_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Camo3_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\New_Iraq4_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Tan_camonet_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Glass_ca.paa"
+		"braf\braf_factions\addons\armored\data\cascavel\New_Iraq1_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\New_Iraq2_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Camo3_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\New_Iraq4_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Tan_camonet_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Glass_ca.paa"
 	};	
 	crew="braf_army_crewman_regular_2020";
 	typicalcargo[]=
@@ -83,7 +83,7 @@ class BRAF_EE9_Cascavel_IRAN: BRAF_EE9_Cascavel_Base
 	side=2;
 	faction="BRAF_FACTIONS";
 	displayname="Iran Army Engesa EE-9 Cascavel Mk3.";
-	editorPreview="braf_factions\braf_factions_armored\data\cascavel\ui\EE-9_IRAN_picture_ca.paa";
+	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_IRAN_picture_ca.paa";
 	textureList[]=
 	{
 		"IRAN",
@@ -104,12 +104,12 @@ class BRAF_EE9_Cascavel_IRAN: BRAF_EE9_Cascavel_Base
 		"",
 		"",
 		"",
-		"braf_factions\braf_factions_armored\data\cascavel\IRAN1_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\IRAN2_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Camo3_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\IRAN4_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Tan_camonet_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Glass_ca.paa"
+		"braf\braf_factions\addons\armored\data\cascavel\IRAN1_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\IRAN2_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Camo3_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\IRAN4_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Tan_camonet_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Glass_ca.paa"
 	};	
 	crew="braf_army_crewman_regular_2020";
 	typicalcargo[]=
@@ -121,7 +121,7 @@ class BRAF_EE9_Cascavel_IRAN: BRAF_EE9_Cascavel_Base
 class BRAF_EE9_Cascavel_OIA: BRAF_EE9_Cascavel_NIA
 {
 	displayname="Old Iraq Army Engesa EE-9 Cascavel Mk3.";
-	editorPreview="braf_factions\braf_factions_armored\data\cascavel\ui\EE-9_OIA_picture_ca.paa";
+	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_OIA_picture_ca.paa";
 	textureList[]=
 	{
 		"OIA",
@@ -136,12 +136,12 @@ class BRAF_EE9_Cascavel_OIA: BRAF_EE9_Cascavel_NIA
 		"",
 		"",
 		"",
-		"braf_factions\braf_factions_armored\data\cascavel\Old_Iraq1_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Old_Iraq2_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Camo3_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Old_Iraq4_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Tan_camonet_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Glass_ca.paa"
+		"braf\braf_factions\addons\armored\data\cascavel\Old_Iraq1_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Old_Iraq2_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Camo3_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Old_Iraq4_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Tan_camonet_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Glass_ca.paa"
 	};	
 	crew="braf_army_crewman_regular_2020";
 	typicalcargo[]=
@@ -157,7 +157,7 @@ class BRAF_EE9_Cascavel_HIAF: BRAF_EE9_Cascavel_Base
 	side=1;
 	faction = "BRAF_HIAF";
 	displayname="Engesa EE-9 Cascavel Mk3.";
-	editorPreview="braf_factions\braf_factions_armored\data\cascavel\ui\EE-9_HIAF_picture_ca.paa";
+	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_HIAF_picture_ca.paa";
 	textureList[]=
 	{
 		"HIAF_ARMY",
@@ -172,12 +172,12 @@ class BRAF_EE9_Cascavel_HIAF: BRAF_EE9_Cascavel_Base
 		"",
 		"",
 		"",
-		"braf_factions\braf_factions_armored\data\cascavel\HIAF1_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\HIAF2_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Camo3_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\HIAF4_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\camonet_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Glass_ca.paa"
+		"braf\braf_factions\addons\armored\data\cascavel\HIAF1_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\HIAF2_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Camo3_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\HIAF4_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\camonet_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Glass_ca.paa"
 	};	
 	crew="braf_horizon_regular";
 	typicalcargo[]=
@@ -189,7 +189,7 @@ class BRAF_EE9_Cascavel_HIAF: BRAF_EE9_Cascavel_Base
 class BRAF_EE9_Cascavel_PUTAIN: BRAF_EE9_Cascavel_HIAF
 {
 	displayname="Engesa EE-9 Cascavel Mk3.";
-	editorPreview="braf_factions\braf_factions_armored\data\cascavel\ui\EE-9_PUTAIN_picture_ca.paa";
+	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_PUTAIN_picture_ca.paa";
 	textureList[]=
 	{
 		"HIAF_PUTAIN",
@@ -204,11 +204,11 @@ class BRAF_EE9_Cascavel_PUTAIN: BRAF_EE9_Cascavel_HIAF
 		"",
 		"",
 		"",
-		"braf_factions\braf_factions_armored\data\cascavel\PUTAIN1_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\PUTAIN2_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Camo3_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\HIAF4_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\camonet_co.paa",
-		"braf_factions\braf_factions_armored\data\cascavel\Glass_ca.paa"
+		"braf\braf_factions\addons\armored\data\cascavel\PUTAIN1_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\PUTAIN2_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Camo3_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\HIAF4_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\camonet_co.paa",
+		"braf\braf_factions\addons\armored\data\cascavel\Glass_ca.paa"
 	};
 };

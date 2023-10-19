@@ -14,8 +14,8 @@ class BRAF_LMV_Gendarmerie : BRAF_LMV_base {
     };
     unitInfoType = "RscUnitInfoNoWeapon";
     hiddenSelectionsTextures[] = {
-        "braf_factions\braf_factions_armored\data\LMV\Gendarmerie\Camo1_co.paa",
-        "braf_factions\braf_factions_armored\data\LMV\Gendarmerie\Camo2_co.paa",
+        "braf\braf_factions\addons\armored\data\LMV\Gendarmerie\Camo1_co.paa",
+        "braf\braf_factions\addons\armored\data\LMV\Gendarmerie\Camo2_co.paa",
         "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
         "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
     };
@@ -31,8 +31,8 @@ class BRAF_LMV_Gendarmerie : BRAF_LMV_base {
                 "",
                 "",
                 "",
-                "braf_factions\braf_factions_armored\data\LMV\Gendarmerie\Camo1_co.paa",
-                "braf_factions\braf_factions_armored\data\LMV\Gendarmerie\Camo2_co.paa",
+                "braf\braf_factions\addons\armored\data\LMV\Gendarmerie\Camo1_co.paa",
+                "braf\braf_factions\addons\armored\data\LMV\Gendarmerie\Camo2_co.paa",
                 "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
                 "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
             };
@@ -70,8 +70,8 @@ class BRAF_LMV_AAF : BRAF_LMV_base {
 		"",
 		"",
 		"",
-		"braf_factions\braf_factions_armored\data\LMV\AAF\Camo1_co.paa",
-        "braf_factions\braf_factions_armored\data\LMV\AAF\Camo2_co.paa",
+		"braf\braf_factions\addons\armored\data\LMV\AAF\Camo1_co.paa",
+        "braf\braf_factions\addons\armored\data\LMV\AAF\Camo2_co.paa",
         "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
         "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
     };
@@ -87,8 +87,8 @@ class BRAF_LMV_AAF : BRAF_LMV_base {
                 "",
                 "",
                 "",
-                "braf_factions\braf_factions_armored\data\LMV\AAF\Camo1_co.paa",
-                "braf_factions\braf_factions_armored\data\LMV\AAF\Camo2_co.paa",
+                "braf\braf_factions\addons\armored\data\LMV\AAF\Camo1_co.paa",
+                "braf\braf_factions\addons\armored\data\LMV\AAF\Camo2_co.paa",
                 "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
                 "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
             };
@@ -125,8 +125,8 @@ class BRAF_LMV_AAF_RCWS : BRAF_LMV_Armed_base {
 		"",
 		"",
 		"",
-		"braf_factions\braf_factions_armored\data\LMV\AAF\Camo1_co.paa",
-        "braf_factions\braf_factions_armored\data\LMV\AAF\Camo2_co.paa",
+		"braf\braf_factions\addons\armored\data\LMV\AAF\Camo1_co.paa",
+        "braf\braf_factions\addons\armored\data\LMV\AAF\Camo2_co.paa",
         "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
         "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
     };
@@ -142,8 +142,8 @@ class BRAF_LMV_AAF_RCWS : BRAF_LMV_Armed_base {
                 "",
                 "",
                 "",
-                "braf_factions\braf_factions_armored\data\LMV\AAF\Camo1_co.paa",
-                "braf_factions\braf_factions_armored\data\LMV\AAF\Camo2_co.paa",
+                "braf\braf_factions\addons\armored\data\LMV\AAF\Camo1_co.paa",
+                "braf\braf_factions\addons\armored\data\LMV\AAF\Camo2_co.paa",
                 "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
                 "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
             };
@@ -162,10 +162,10 @@ class BRAF_LMV_AAF_RCWS : BRAF_LMV_Armed_base {
                 "",
                 "",
                 "",
-                "braf_factions\braf_factions_armored\data\LMV\CSAT\Camo1_co.paa",
-                "braf_factions\braf_factions_armored\data\LMV\CSAT\Camo2_co.paa",
+                "braf\braf_factions\addons\armored\data\LMV\CSAT\Camo1_co.paa",
+                "braf\braf_factions\addons\armored\data\LMV\CSAT\Camo2_co.paa",
                 "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
-                "braf_factions\braf_factions_armored\data\LMV\CSAT\remax_co.paa",
+                "braf\braf_factions\addons\armored\data\LMV\CSAT\remax_co.paa",
                 "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
             };
             factions[] = {};
