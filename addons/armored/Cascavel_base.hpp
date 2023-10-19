@@ -1,4 +1,4 @@
-class BRAF_EE9_Cascavel_COL: BRAF_EE9_Cascavel_Base
+class braf_ee9_cascavel_col: braf_ee9_cascavel_base
 {
 	scope=2;
 	scopeCurator=2;
@@ -34,7 +34,7 @@ class BRAF_EE9_Cascavel_COL: BRAF_EE9_Cascavel_Base
 		"braf_army_crewman_regular_2020"
 	};	
 };
-class BRAF_EE9_Cascavel_NIA: BRAF_EE9_Cascavel_Base
+class braf_ee9_cascavel_nia: braf_ee9_cascavel_base
 {
 	scope=2;
 	scopeCurator=2;
@@ -76,7 +76,7 @@ class BRAF_EE9_Cascavel_NIA: BRAF_EE9_Cascavel_Base
 		"braf_army_crewman_regular_2020"
 	};	
 };
-class BRAF_EE9_Cascavel_IRAN: BRAF_EE9_Cascavel_Base
+class braf_ee9_cascavel_iran: braf_ee9_cascavel_base
 {
 	scope=2;
 	scopeCurator=2;
@@ -118,7 +118,7 @@ class BRAF_EE9_Cascavel_IRAN: BRAF_EE9_Cascavel_Base
 		"braf_army_crewman_regular_2020"
 	};	
 };
-class BRAF_EE9_Cascavel_OIA: BRAF_EE9_Cascavel_NIA
+class braf_ee9_cascavel_oia: braf_ee9_cascavel_nia
 {
 	displayname="Old Iraq Army Engesa EE-9 Cascavel Mk3.";
 	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_OIA_picture_ca.paa";
@@ -150,7 +150,7 @@ class BRAF_EE9_Cascavel_OIA: BRAF_EE9_Cascavel_NIA
 		"braf_army_crewman_regular_2020"
 	};
 };
-class BRAF_EE9_Cascavel_HIAF: BRAF_EE9_Cascavel_Base
+class braf_ee9_cascavel_hiaf: braf_ee9_cascavel_base
 {
 	scope=2;
 	scopeCurator=2;
@@ -186,7 +186,7 @@ class BRAF_EE9_Cascavel_HIAF: BRAF_EE9_Cascavel_Base
 		"braf_horizon_regular"
 	};
 };
-class BRAF_EE9_Cascavel_PUTAIN: BRAF_EE9_Cascavel_HIAF
+class braf_ee9_cascavel_putain: braf_ee9_cascavel_hiaf
 {
 	displayname="Engesa EE-9 Cascavel Mk3.";
 	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_PUTAIN_picture_ca.paa";

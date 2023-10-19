@@ -1,6 +1,5 @@
-class BRAF_LMV_Gendarmerie : BRAF_LMV_base {
-    editorPreview = "BRAF_Armored\BRAF_LMV\data\ui\LMV_EB_picture_ca.paa";
-    _generalMacro = "BRAF_LMV_Gendarmerie";
+class braf_lmv_gendarmerie : braf_lmv_base {
+    _generalMacro = "braf_lmv_gendarmerie";
     displayName = "VBMT-LSR Iveco LMV";
     scope = 2;
     scopeCurator = 2;
@@ -16,8 +15,8 @@ class BRAF_LMV_Gendarmerie : BRAF_LMV_base {
     hiddenSelectionsTextures[] = {
         "braf\braf_factions\addons\armored\data\LMV\Gendarmerie\Camo1_co.paa",
         "braf\braf_factions\addons\armored\data\LMV\Gendarmerie\Camo2_co.paa",
-        "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
-        "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
+        "braf\braf_factions\addons\armored\data\lmv\Camo3_co.paa",
+        "braf\braf_factions\addons\armored\data\lmv\Glass_ca.paa"
     };
     class TextureSources {
         class GNM_01 {
@@ -33,8 +32,8 @@ class BRAF_LMV_Gendarmerie : BRAF_LMV_base {
                 "",
                 "braf\braf_factions\addons\armored\data\LMV\Gendarmerie\Camo1_co.paa",
                 "braf\braf_factions\addons\armored\data\LMV\Gendarmerie\Camo2_co.paa",
-                "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
-                "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
+                "braf\braf_factions\addons\armored\data\lmv\Camo3_co.paa",
+                "braf\braf_factions\addons\armored\data\lmv\Glass_ca.paa"
             };
             factions[] = {
                 "BLU_GEN_F"
@@ -47,9 +46,9 @@ class BRAF_LMV_Gendarmerie : BRAF_LMV_base {
     };
     class Attributes {};
 };
-class BRAF_LMV_AAF : BRAF_LMV_base {
-    editorPreview = "BRAF_Armored\BRAF_LMV\data\ui\LMV_EB_picture_ca.paa";
-    _generalMacro = "BRAF_LMV_AAF";
+class braf_lmv_aaf : braf_lmv_base {
+    editorPreview = "braf\braf_factions\addons\armored\data\lmv\ui\LMV_EB_picture_ca.paa";
+    _generalMacro = "braf_lmv_aaf";
     displayName = "VBMT-LSR Iveco LMV";
     scope = 2;
     scopeCurator = 2;
@@ -72,8 +71,8 @@ class BRAF_LMV_AAF : BRAF_LMV_base {
 		"",
 		"braf\braf_factions\addons\armored\data\LMV\AAF\Camo1_co.paa",
         "braf\braf_factions\addons\armored\data\LMV\AAF\Camo2_co.paa",
-        "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
-        "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
+        "braf\braf_factions\addons\armored\data\lmv\Camo3_co.paa",
+        "braf\braf_factions\addons\armored\data\lmv\Glass_ca.paa"
     };
     class TextureSources {
         class AAF_01 {
@@ -89,8 +88,8 @@ class BRAF_LMV_AAF : BRAF_LMV_base {
                 "",
                 "braf\braf_factions\addons\armored\data\LMV\AAF\Camo1_co.paa",
                 "braf\braf_factions\addons\armored\data\LMV\AAF\Camo2_co.paa",
-                "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
-                "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
+                "braf\braf_factions\addons\armored\data\lmv\Camo3_co.paa",
+                "braf\braf_factions\addons\armored\data\lmv\Glass_ca.paa"
             };
             factions[] = {
                 "IND_F"
@@ -103,9 +102,9 @@ class BRAF_LMV_AAF : BRAF_LMV_base {
     };
     class Attributes {};
 };
-class BRAF_LMV_AAF_RCWS : BRAF_LMV_Armed_base {
-    editorPreview = "BRAF_Armored\BRAF_LMV\data\ui\LMV_RCWS_EB_picture_ca.paa";
-    _generalMacro = "BRAF_LMV_AAF_RCWS";
+class braf_lmv_aaf_rcws : braf_lmv_armed_base {
+    editorPreview = "braf\braf_factions\addons\armored\data\lmv\ui\LMV_RCWS_EB_picture_ca.paa";
+    _generalMacro = "braf_lmv_AAF_RCWS";
     displayName = "VBMT-LSR Iveco LMV REMAX";
     scope = 2;
     scopeCurator = 2;
@@ -127,8 +126,8 @@ class BRAF_LMV_AAF_RCWS : BRAF_LMV_Armed_base {
 		"",
 		"braf\braf_factions\addons\armored\data\LMV\AAF\Camo1_co.paa",
         "braf\braf_factions\addons\armored\data\LMV\AAF\Camo2_co.paa",
-        "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
-        "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
+        "braf\braf_factions\addons\armored\data\lmv\Camo3_co.paa",
+        "braf\braf_factions\addons\armored\data\lmv\Glass_ca.paa"
     };
     class TextureSources {
         class AAF_01 {
@@ -144,8 +143,8 @@ class BRAF_LMV_AAF_RCWS : BRAF_LMV_Armed_base {
                 "",
                 "braf\braf_factions\addons\armored\data\LMV\AAF\Camo1_co.paa",
                 "braf\braf_factions\addons\armored\data\LMV\AAF\Camo2_co.paa",
-                "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
-                "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
+                "braf\braf_factions\addons\armored\data\lmv\Camo3_co.paa",
+                "braf\braf_factions\addons\armored\data\lmv\Glass_ca.paa"
             };
             factions[] = {
                 "IND_F"
@@ -164,9 +163,9 @@ class BRAF_LMV_AAF_RCWS : BRAF_LMV_Armed_base {
                 "",
                 "braf\braf_factions\addons\armored\data\LMV\CSAT\Camo1_co.paa",
                 "braf\braf_factions\addons\armored\data\LMV\CSAT\Camo2_co.paa",
-                "BRAF_Armored\BRAF_LMV\Data\Camo3_co.paa",
+                "braf\braf_factions\addons\armored\data\lmv\Camo3_co.paa",
                 "braf\braf_factions\addons\armored\data\LMV\CSAT\remax_co.paa",
-                "BRAF_Armored\BRAF_LMV\Data\Glass_ca.paa"
+                "braf\braf_factions\addons\armored\data\lmv\Glass_ca.paa"
             };
             factions[] = {};
         };
