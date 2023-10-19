@@ -6,7 +6,7 @@ class BRAF_Pantera_K2_HIAF1 : BRAF_Pantera_Base {
     scopeArsenal = 0;
     side = 1;
     displayName = "AS-565 Panther K2";
-    editorPreview = "BRAF_Factions\braf_factions_air\data\Pantera\ui\BRAF_Pantera_K2_HIAF1.jpg";
+    editorPreview = "braf\braf_factions\addons\air\data\Pantera\ui\BRAF_Pantera_K2_HIAF1.jpg";
     availableForSupportTypes[] = {
         "Drop",
         "Transport"
@@ -14,41 +14,41 @@ class BRAF_Pantera_K2_HIAF1 : BRAF_Pantera_Base {
     typicalcargo[] = { "braf_hiaf_pilot_regular" };
     crew = "braf_hiaf_pilot_regular";
     hiddenSelectionsTextures[] = {
-        "braf_factions\braf_factions_air\data\Pantera\camo1\HIAF1_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo2\Camo2_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo3\Camo3_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo4\Camo4_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\Glass\Glass_ca.paa"
+        "braf\braf_factions\addons\air\data\Pantera\camo1\HIAF1_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo2\Camo2_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo3\Camo3_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo4\Camo4_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\Glass\Glass_ca.paa"
     };
     class textureSources {
         class hiaf_01 {
             displayName = "Armée D'Horizon Green";
             textures[] = {
-                "braf_factions\braf_factions_air\data\Pantera\camo1\HIAF1_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo2\Camo2_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo3\Camo3_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo4\Camo4_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\Glass\Glass_ca.paa"
+                "braf\braf_factions\addons\air\data\Pantera\camo1\HIAF1_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo2\Camo2_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo3\Camo3_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo4\Camo4_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\Glass\Glass_ca.paa"
             };
         };
         class hiaf_02 {
             displayName = "Armée D'Horizon Camo";
             textures[] = {
-                "braf_factions\braf_factions_air\data\Pantera\camo1\HIAF2_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo2\Camo2_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo3\Camo3_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo4\Camo4_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\Glass\Glass_ca.paa"
+                "braf\braf_factions\addons\air\data\Pantera\camo1\HIAF2_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo2\Camo2_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo3\Camo3_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo4\Camo4_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\Glass\Glass_ca.paa"
             };
         };
         class hiaf_03 {
             displayName = "HIAF Marines";
             textures[] = {
-                "braf_factions\braf_factions_air\data\Pantera\camo1\HIAF_Navy_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo2\Camo2_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo3\Camo3_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo4\Camo4_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\Glass\Glass_ca.paa"
+                "braf\braf_factions\addons\air\data\Pantera\camo1\HIAF_Navy_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo2\Camo2_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo3\Camo3_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo4\Camo4_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\Glass\Glass_ca.paa"
             };
         };
     };
@@ -92,11 +92,11 @@ class BRAF_Pantera_K2_HIAF2 : BRAF_Pantera_K2_HIAF1 {
     scope = 2;
     scopeCurator = 2;
     hiddenSelectionsTextures[] = {
-        "braf_factions\braf_factions_air\data\Pantera\camo1\HIAF2_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo2\Camo2_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo3\Camo3_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo4\Camo4_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\Glass\Glass_ca.paa"
+        "braf\braf_factions\addons\air\data\Pantera\camo1\HIAF2_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo2\Camo2_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo3\Camo3_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo4\Camo4_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\Glass\Glass_ca.paa"
     };
 };
 class BRAF_Pantera_K2_HIAF_Navy : BRAF_Pantera_K2_HIAF1 {
@@ -107,7 +107,7 @@ class BRAF_Pantera_K2_HIAF_Navy : BRAF_Pantera_K2_HIAF1 {
     scopeArsenal = 0;
     side = 1;
     displayName = "AS-565 Panther K2 Marines";
-    editorPreview = "BRAF_Factions\braf_factions_air\data\Pantera\ui\BRAF_Pantera_K2_HIAF_Navy.jpg";
+    editorPreview = "braf\braf_factions\addons\air\data\Pantera\ui\BRAF_Pantera_K2_HIAF_Navy.jpg";
     availableForSupportTypes[] = {
         "Drop",
         "Transport"
@@ -117,11 +117,11 @@ class BRAF_Pantera_K2_HIAF_Navy : BRAF_Pantera_K2_HIAF1 {
     canFloat = 1;
     WaterLeakiness = 50;
     hiddenSelectionsTextures[] = {
-        "braf_factions\braf_factions_air\data\Pantera\camo1\HIAF_Navy_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo2\Camo2_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo3\Camo3_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo4\Camo4_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\Glass\Glass_ca.paa"
+        "braf\braf_factions\addons\air\data\Pantera\camo1\HIAF_Navy_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo2\Camo2_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo3\Camo3_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo4\Camo4_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\Glass\Glass_ca.paa"
     };
     class AnimationSources {
         class collisionlightred {
@@ -236,7 +236,7 @@ class BRAF_Pantera_K2_HIAF_Navy : BRAF_Pantera_K2_HIAF1 {
                 statement="this animate ['EFS_Hide',1], this say3d ""EFS""";
             };
         };
-        class EventHandlers : DefaultEventhandlers {
+        class EventHandlers : DefaultEventHandlers {
             //init = "_this execVM """"";
         };
     };
@@ -248,7 +248,7 @@ class BRAF_Pantera_K2_PLA1 : BRAF_Pantera_Base {
     scopeCurator = 2;
     scopeArsenal = 0;
     displayName = "Z-9 Harbin White";
-    editorPreview = "BRAF_Factions\braf_factions_air\data\Pantera\ui\BRAF_Pantera_K2_PLA1.jpg";
+    editorPreview = "braf\braf_factions\addons\air\data\Pantera\ui\BRAF_Pantera_K2_PLA1.jpg";
     availableForSupportTypes[] = {
         "Drop",
         "Transport"
@@ -258,21 +258,21 @@ class BRAF_Pantera_K2_PLA1 : BRAF_Pantera_Base {
     };
     crew = "O_T_Helipilot_F";
     hiddenSelectionsTextures[] = {
-        "braf_factions\braf_factions_air\data\Pantera\camo1\PLA1_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo2\Camo2_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo3\Camo3_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo4\Camo4_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\Glass\Glass_ca.paa"
+        "braf\braf_factions\addons\air\data\Pantera\camo1\PLA1_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo2\Camo2_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo3\Camo3_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo4\Camo4_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\Glass\Glass_ca.paa"
     };
     class textureSources {
         class csat_01 {
             displayName = "Armée D'Horizon Green";
             textures[] = {
-                "braf_factions\braf_factions_air\data\Pantera\camo1\PLA1_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo2\Camo2_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo3\Camo3_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo4\Camo4_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\Glass\Glass_ca.paa"
+                "braf\braf_factions\addons\air\data\Pantera\camo1\PLA1_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo2\Camo2_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo3\Camo3_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo4\Camo4_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\Glass\Glass_ca.paa"
             };
         };
     };
@@ -328,7 +328,7 @@ class BRAF_Pantera_K2_FFV_PLA1 : BRAF_Pantera_FFV_Base {
     scopeCurator = 2;
     scopeArsenal = 0;
     displayName = "Z-9 Harbin White FFV";
-    editorPreview = "BRAF_Factions\braf_factions_air\data\Pantera\ui\BRAF_Pantera_K2_FFV_PLA1.jpg";
+    editorPreview = "braf\braf_factions\addons\air\data\Pantera\ui\BRAF_Pantera_K2_FFV_PLA1.jpg";
     availableForSupportTypes[] = {
         "Drop",
         "Transport"
@@ -338,21 +338,21 @@ class BRAF_Pantera_K2_FFV_PLA1 : BRAF_Pantera_FFV_Base {
     };
     crew = "O_T_Helipilot_F";
     hiddenSelectionsTextures[] = {
-        "braf_factions\braf_factions_air\data\Pantera\camo1\PLA1_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo2\Camo2_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo3\Camo3_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\camo4\Camo4_co.paa",
-        "braf_factions\braf_factions_air\data\Pantera\Glass\Glass_ca.paa"
+        "braf\braf_factions\addons\air\data\Pantera\camo1\PLA1_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo2\Camo2_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo3\Camo3_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\camo4\Camo4_co.paa",
+        "braf\braf_factions\addons\air\data\Pantera\Glass\Glass_ca.paa"
     };
     class textureSources {
         class csat_01 {
             displayName = "Armée D'Horizon Green";
             textures[] = {
-                "braf_factions\braf_factions_air\data\Pantera\camo1\PLA1_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo2\Camo2_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo3\Camo3_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\camo4\Camo4_co.paa",
-                "braf_factions\braf_factions_air\data\Pantera\Glass\Glass_ca.paa"
+                "braf\braf_factions\addons\air\data\Pantera\camo1\PLA1_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo2\Camo2_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo3\Camo3_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\camo4\Camo4_co.paa",
+                "braf\braf_factions\addons\air\data\Pantera\Glass\Glass_ca.paa"
             };
         };
     };

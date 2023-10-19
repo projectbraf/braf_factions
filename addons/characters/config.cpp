@@ -1,12 +1,13 @@
-class CfgPatches {
-    class braf_factions_characters {
+class CfgPatches
+{
+    class braf_factions_characters
+    {
         author = "BRAF Team";
         requiredAddons[] = {
-            "BRAF_characters_army"
-        };
+            "BRAF_characters_army"};
         requiredVersion = 0.1;
         units[] = {
-            //HIAF
+            // HIAF
             "braf_hiaf_of_regular",
             "braf_hiaf_sl_regular",
             "braf_hiaf_tl_regular",
@@ -28,7 +29,7 @@ class CfgPatches {
             "braf_hiaf_eng_regular",
             "braf_hiaf_hmg_regular",
             "braf_hiaf_hmg_a_regular",
-            //HIAF Marine
+            // HIAF Marine
             "braf_hiaf_of_marine",
             "braf_hiaf_sl_marine",
             "braf_hiaf_tl_marine",
@@ -43,7 +44,7 @@ class CfgPatches {
             "braf_hiaf_medic_marine",
             "braf_hiaf_eng_marine",
             "braf_hiaf_pointman_marine",
-            //HIAF Commandos
+            // HIAF Commandos
             "braf_hiaf_tl_commando",
             "braf_hiaf_rifleman_commando",
             "braf_hiaf_diver_commando",
@@ -51,10 +52,10 @@ class CfgPatches {
             "braf_hiaf_pointman_commando",
             "braf_hiaf_medic_commando",
             "braf_hiaf_eng_commando",
-            //HIAF Story
+            // HIAF Story
             "braf_hiaf_paco_story",
             "braf_hiaf_boubee_story",
-            //Cratenia
+            // Cratenia
             "braf_cra_of_regular",
             "braf_cra_sl_regular",
             "braf_cra_tl_regular",
@@ -74,7 +75,7 @@ class CfgPatches {
             "braf_cra_eng_regular",
             "braf_cra_hmg_regular",
             "braf_cra_hmg_a_regular",
-            //Cratenia Jungle
+            // Cratenia Jungle
             "braf_cra_of_jungle",
             "braf_cra_sl_jungle",
             "braf_cra_tl_jungle",
@@ -96,14 +97,14 @@ class CfgPatches {
             "braf_cra_hmg_a_jungle",
         };
         weapons[] = {
-            //BDU
+            // BDU
             "braf_horizon_regular_uniform",
             "braf_horizon_marine_uniform",
             "braf_cratenia_regular_uniform",
             "braf_cratenia_regular_uniform_bottons",
             "BRAF_Cratenia_Jungle_uniform",
 
-            //BDU Rolled Up
+            // BDU Rolled Up
             "braf_horizon_regular_RolledUp_uniform",
             "braf_horizon_marine_RolledUp_uniform",
             "braf_cratenia_regular_RolledUp_uniform",
@@ -111,68 +112,83 @@ class CfgPatches {
         };
     };
 };
-class cfgFactionClasses {
-    class BRAF_HIAF {
+class cfgFactionClasses
+{
+    class BRAF_HIAF
+    {
         displayName = "$STR_BRAF_HIAF";
         priority = 2;
         side = 1;
     };
-    class BRAF_CRATENIA {
+    class BRAF_CRATENIA
+    {
         displayName = "$STR_BRAF_CRATENIA";
         priority = 2;
         side = 2;
     };
-    class BRAF_FACTIONS {
+    class BRAF_FACTIONS
+    {
         displayName = "$STR_BRAF_FAC";
         priority = 2;
         side = 2;
         icon = "";
     };
-    class BRAF_ELPB {
+    class BRAF_ELPB
+    {
         displayName = "$STR_BRAF_ELPB";
         priority = 2;
         side = 2;
         icon = "";
     };
-    class BRAF_Narcos {
+    class BRAF_Narcos
+    {
         displayName = "Narcos";
         priority = 2;
         side = 2;
     };
 };
-class CfgEditorSubcategories {
-    class BRAF_REGULAR {
+class CfgEditorSubcategories
+{
+    class BRAF_REGULAR
+    {
         displayName = "$STR_BRAF_REGULAR_2020";
     };
-    class BRAF_JUNGLE {
+    class BRAF_JUNGLE
+    {
         displayName = "$STR_BRAF_JUNGLE_2020";
     };
-    class BRAF_MARINE {
+    class BRAF_MARINE
+    {
         displayName = "$STR_BRAF_MARINE_2020";
     };
-    class BRAF_STORY {
+    class BRAF_STORY
+    {
         displayName = "$STR_BRAF_STORY_2020";
     };
-    class BRAF_COMMANDO {
+    class BRAF_COMMANDO
+    {
         displayName = "$STR_BRAF_COMMANDO_2020";
     };
 };
 class DefaultEventHandlers;
-class CfgVehicles {
-    #include "units\v_factions_base.hpp"
-    #include "v_uniform.hpp"
-    #include "units/v_hiaf_army_2020.hpp"
-    //#include "units/v_hiaf_commando_2020.hpp"
-    #include "units/v_hiaf_marine_2020.hpp"
-    #include "units/v_hiaf_story_2020.hpp"
-    #include "units/v_cratenia_2020.hpp"
-    #include "units/v_cratenia_jungle_2020.hpp"
+class CfgVehicles
+{
+#include "units\v_factions_base.hpp"
+#include "v_uniform.hpp"
+#include "units/v_hiaf_army_2020.hpp"
+// #include "units/v_hiaf_commando_2020.hpp"
+#include "units/v_hiaf_marine_2020.hpp"
+#include "units/v_hiaf_story_2020.hpp"
+#include "units/v_cratenia_2020.hpp"
+#include "units/v_cratenia_jungle_2020.hpp"
 };
-class CfgWeapons {
+class CfgWeapons
+{
     class ItemCore;
     class HeadGearItem;
-    class Uniform_Base : ItemCore {
+    class Uniform_Base : ItemCore
+    {
     };
     class UniformItem;
-    #include "w_uniform.hpp"
+#include "w_uniform.hpp"
 };
