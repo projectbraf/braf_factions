@@ -28,7 +28,7 @@ class BRAF_EE9_Cascavel_COL: BRAF_EE9_Cascavel_Base
 		"braf_factions\braf_factions_armored\data\cascavel\Glass_ca.paa"
 	};	
 	crew="braf_army_crewman_regular_2020";
-	typicalCargo[]=
+	typicalcargo[]=
 	{
 		"braf_army_crewman_regular_2020",
 		"braf_army_crewman_regular_2020"
@@ -70,7 +70,7 @@ class BRAF_EE9_Cascavel_NIA: BRAF_EE9_Cascavel_Base
 		"braf_factions\braf_factions_armored\data\cascavel\Glass_ca.paa"
 	};	
 	crew="braf_army_crewman_regular_2020";
-	typicalCargo[]=
+	typicalcargo[]=
 	{
 		"braf_army_crewman_regular_2020",
 		"braf_army_crewman_regular_2020"
@@ -112,7 +112,7 @@ class BRAF_EE9_Cascavel_IRAN: BRAF_EE9_Cascavel_Base
 		"braf_factions\braf_factions_armored\data\cascavel\Glass_ca.paa"
 	};	
 	crew="braf_army_crewman_regular_2020";
-	typicalCargo[]=
+	typicalcargo[]=
 	{
 		"braf_army_crewman_regular_2020",
 		"braf_army_crewman_regular_2020"
@@ -144,7 +144,7 @@ class BRAF_EE9_Cascavel_OIA: BRAF_EE9_Cascavel_NIA
 		"braf_factions\braf_factions_armored\data\cascavel\Glass_ca.paa"
 	};	
 	crew="braf_army_crewman_regular_2020";
-	typicalCargo[]=
+	typicalcargo[]=
 	{
 		"braf_army_crewman_regular_2020",
 		"braf_army_crewman_regular_2020"
@@ -180,7 +180,7 @@ class BRAF_EE9_Cascavel_HIAF: BRAF_EE9_Cascavel_Base
 		"braf_factions\braf_factions_armored\data\cascavel\Glass_ca.paa"
 	};	
 	crew="braf_horizon_regular";
-	typicalCargo[]=
+	typicalcargo[]=
 	{
 		"braf_horizon_regular",
 		"braf_horizon_regular"

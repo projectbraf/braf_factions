@@ -95,7 +95,7 @@ class braf_factions_cratenia_soft_truck_cargo : B_T_Truck_01_cargo_F {
     side = 0;
     author = "BRAF Team";
     faction = "BRAF_CRATENIA";
-    displayName = "Truck (Cargo)";
+    displayName = "Truck (cargo)";
     crew = "braf_cra_rifleman_regular";
 };
 class B_T_Truck_01_flatbed_F;

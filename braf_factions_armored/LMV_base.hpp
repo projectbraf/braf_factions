@@ -7,7 +7,7 @@ class BRAF_LMV_Gendarmerie : BRAF_LMV_base {
     side = 1;
     faction = "BLU_GEN_F";
     crew = "B_GEN_Soldier_F";
-    typicalCargo[] = {
+    typicalcargo[] = {
         "B_GEN_Soldier_F",
         "B_GEN_Soldier_F",
         "B_GEN_Soldier_F"
@@ -56,7 +56,7 @@ class BRAF_LMV_AAF : BRAF_LMV_base {
     side = 2;
     faction = "IND_F";
     crew = "I_Soldier_F";
-    typicalCargo[] = {
+    typicalcargo[] = {
         "I_Soldier_F",
         "I_Soldier_F",
         "I_Soldier_F"
@@ -112,7 +112,7 @@ class BRAF_LMV_AAF_RCWS : BRAF_LMV_Armed_base {
     side = 2;
     faction = "IND_F";
     crew = "I_Soldier_F";
-    typicalCargo[] = {
+    typicalcargo[] = {
         "I_Soldier_F",
         "I_Soldier_F",
         "I_Soldier_F"

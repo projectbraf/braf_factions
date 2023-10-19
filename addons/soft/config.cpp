@@ -1,50 +1,53 @@
-class CfgPatches {
-    class braf_factions_soft {
+class CfgPatches
+{
+    class braf_factions_soft
+    {
         author = "BRAF Team";
         addonRootClass = "BRAF_Soft";
         requiredAddons[] = {
-            "braf_soft"
+            "braf_soft",
         };
         requiredVersion = 0.1;
         units[] = {
             // Worker
-            "BRAF_Worker_Covered_HIAF",
-            "BRAF_Worker_Health_HIAF",
-            "BRAF_Worker_Fuel_HIAF",
-            "BRAF_Worker_Ammo_HIAF",
-            "BRAF_Worker_Repair_HIAF",
-            "BRAF_Worker_Cargo_HIAF",
+            "braf_worker_covered_HIAF",
+            "braf_worker_health_HIAF",
+            "braf_worker_fuel_HIAF",
+            "braf_worker_ammo_HIAF",
+            "braf_worker_repair_HIAF",
+            "braf_worker_cargo_HIAF",
             // AM11
-            "braf_AM11_Unarmed_HIAF",
-            "braf_AM11_Unarmed_MAR",
-            "BRAF_AM11_Armed_HIAF",
-            "BRAF_AM11_Armed_MAR",
+            "braf_am11_unarmed_HIAF",
+            "braf_am11_unarmed_MAR",
+            "braf_am11_armed_HIAF",
+            "braf_am11_armed_MAR",
             // AM21
-            "braf_AM21_Covered",
-            "braf_AM21_Opened",
-            "braf_AM21_Cargo"
+            "braf_am21_Covered",
+            "braf_am21_opened",
+            "braf_am21_cargo",
         };
         weapons[] = {};
     };
 };
 
-class CfgVehicles {
-    class BRAF_Worker_Covered;
-    class BRAF_Worker_Health;
-    class BRAF_Worker_Fuel;
-    class BRAF_Worker_Ammo;
-    class BRAF_Worker_Repair;
-    class BRAF_Worker_Cargo;
-    #include "Worker_base.hpp"
+class CfgVehicles
+{
+    class braf_worker_covered;
+    class braf_worker_health;
+    class braf_worker_fuel;
+    class braf_worker_ammo;
+    class braf_worker_repair;
+    class braf_worker_cargo;
+#include "worker_base.hpp"
 
-    class braf_AM21_Covered;
-    class braf_AM21_Opened;
-    class braf_AM21_Cargo;
-    #include "AM21_base.hpp"
+    class braf_am21_covered;
+    class braf_am21_opened;
+    class braf_am21_cargo;
+#include "am21_base.hpp"
 
-    class braf_AM11_Unarmed;
-    class braf_AM11_Armed;
-    #include "AM11_base.hpp"
+    class braf_am11_unarmed;
+    class braf_am11_armed;
+#include "am11_base.hpp"
 
-    #include "v_cratenia.hpp"
+#include "v_cratenia.hpp"
 };

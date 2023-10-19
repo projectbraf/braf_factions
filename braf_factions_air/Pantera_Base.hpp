@@ -11,7 +11,7 @@ class BRAF_Pantera_K2_HIAF1 : BRAF_Pantera_Base {
         "Drop",
         "Transport"
     };
-    typicalCargo[] = { "braf_hiaf_pilot_regular" };
+    typicalcargo[] = { "braf_hiaf_pilot_regular" };
     crew = "braf_hiaf_pilot_regular";
     hiddenSelectionsTextures[] = {
         "braf_factions\braf_factions_air\data\Pantera\camo1\HIAF1_co.paa",
@@ -112,7 +112,7 @@ class BRAF_Pantera_K2_HIAF_Navy : BRAF_Pantera_K2_HIAF1 {
         "Drop",
         "Transport"
     };
-    typicalCargo[] = { "braf_hiaf_pilot_marine" };
+    typicalcargo[] = { "braf_hiaf_pilot_marine" };
     crew = "braf_hiaf_pilot_marine";
     canFloat = 1;
     WaterLeakiness = 50;
@@ -253,7 +253,7 @@ class BRAF_Pantera_K2_PLA1 : BRAF_Pantera_Base {
         "Drop",
         "Transport"
     };
-    typicalCargo[] = {
+    typicalcargo[] = {
         "O_T_Soldier_F"
     };
     crew = "O_T_Helipilot_F";
@@ -333,7 +333,7 @@ class BRAF_Pantera_K2_FFV_PLA1 : BRAF_Pantera_FFV_Base {
         "Drop",
         "Transport"
     };
-    typicalCargo[] = {
+    typicalcargo[] = {
         "O_T_Soldier_F"
     };
     crew = "O_T_Helipilot_F";

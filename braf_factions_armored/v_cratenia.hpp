@@ -8,7 +8,7 @@ class braf_factions_cratenia_armored_apc : O_APC_Wheeled_02_rcws_v2_F {
     faction = "BRAF_CRATENIA";
     displayName = "Antenor V3";
 	crew="braf_cra_rifleman_regular";
-	typicalCargo[]=
+	typicalcargo[]=
 	{
 		"braf_cra_rifleman_regular"
 	};

@@ -4,7 +4,7 @@ class BRAF_Fennec_HIAF1 : BRAF_Fennec_unarmed_base {
     scope = 2;
     faction = "BRAF_HIAF";
     crew = "braf_hiaf_pilot_regular";
-    typicalCargo[] = { "braf_hiaf_pilot_regular" };
+    typicalcargo[] = { "braf_hiaf_pilot_regular" };
     side = 1;
     scopeCurator = 2;
     scopeArsenal = 2;
@@ -59,7 +59,7 @@ class BRAF_Fennec_HIAF3 : BRAF_Fennec_HIAF1 {
     scope = 2;
     faction = "BLU_GEN_F";
     crew = "B_GEN_Soldier_F";
-    typicalCargo[] = { "B_GEN_Soldier_F" };
+    typicalcargo[] = { "B_GEN_Soldier_F" };
     hiddenSelectionsTextures[] = {
         "braf_factions\braf_factions_air\data\Fennec\Gendarmerie_1_co.paa",
         "braf_factions\braf_factions_air\data\Fennec\Camo2_co.paa",
@@ -75,7 +75,7 @@ class BRAF_Fennec_HIAF2 : BRAF_Fennec_dynamicLoadout_base {
     scope = 2;
     faction = "BRAF_HIAF";
     crew = "braf_hiaf_pilot_regular";
-    typicalCargo[] = { "braf_hiaf_pilot_regular" };
+    typicalcargo[] = { "braf_hiaf_pilot_regular" };
     side = 1;
     scopeCurator = 2;
     scopeArsenal = 2;
