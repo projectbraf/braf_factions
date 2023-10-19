@@ -7,7 +7,8 @@ class CfgPatches
         requiredAddons[] = {"braf_static"};
         requiredVersion = 0.1;
         units[] = {
-            "braf_I_m120_HIAF"};
+            "braf_I_m120_HIAF",
+        };
     };
 };
 
@@ -23,6 +24,7 @@ class CfgVehicles
         faction = "BRAF_HIAF";
         crew = "braf_hiaf_rifleman_regular";
         typicalCargo[] = {
-            "braf_hiaf_rifleman_regular"};
+            "braf_hiaf_rifleman_regular",
+        };
     };
 };
