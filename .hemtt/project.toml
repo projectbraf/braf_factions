@@ -1,0 +1,46 @@
+author = "BRAF Team"
+mainprefix = "braf"
+name = "Brazilian Armed Forces Mod - Factions"
+prefix = "braf_factions"
+
+[version]
+path = "addons/main/script_version.hpp" # Default
+
+build = 1 # Optional
+major = 2 # Overrides path when set
+minor = 0 
+patch = 0 
+
+git_hash = 0 # Default: 8
+
+[files]
+exclude = [
+  "source/*",
+  "*.png",
+  "*.tga",
+  "*.psd",
+  "*.fbx",
+  "*.obj",
+]
+include = [
+  "BRAF_License_English.pdf",
+  "BRAF_License_Portuguese.pdf",
+  "logo.paa",
+  "logo_factions_ca.paa",
+  "logo_factions_over.paa",
+  "logo_factions_small.paa",
+  "picture.paa",
+]
+
+[properties]
+author = "BRAF Team"
+url = "https://www.brafmod.com.br/"
+
+[hemtt.config]
+preset = "Hemtt"
+
+[hemtt.launch]
+workshop = [
+  "450814997", # CBA_A3
+  "2078457684", # BRAF Mod (Dev)
+]

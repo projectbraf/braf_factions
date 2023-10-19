@@ -1,0 +1,70 @@
+class braf_factions_cratenia_pilot : BRAF_1BAvEx_Pilot {
+    side=0;
+    faction = "BRAF_CRATENIA";
+    editorSubcategory = "BRAF_REGULAR";
+    _generalMacro="braf_factions_hiaf_pilot";
+    displayName="Pilot";
+    uniformClass="braf_cratenia_regular_uniform";
+    genericNames = "NATOMen";
+    identityTypes[] = {
+        "NoGlasses",
+        "LanguageGRE_F",
+        "Head_NATO"
+    };
+    linkedItems[]=
+    {
+        "BRAF_HGU56P_black",
+        "BRAF_flightvest_02",
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "ItemRadio",
+        "NVGoggles_OPFOR"
+    };
+    respawnLinkedItems[]=
+    {
+        "BRAF_HGU56P_black",
+        "BRAF_flightvest_02",
+        "ItemMap",
+        "ItemCompass",
+        "ItemWatch",
+        "ItemRadio",
+        "NVGoggles_OPFOR"
+    };
+    weapons[]=
+    {
+        "braf_PT92",
+        "Binocular",
+        "Throw",
+        "Put"
+    };
+    respawnWeapons[]=
+    {
+        "braf_PT92",
+        "Binocular",
+        "Throw",
+        "Put"
+    };
+    magazines[]=
+    {
+        "16Rnd_9x21_Mag",
+        "16Rnd_9x21_Mag",
+        "16Rnd_9x21_Mag",
+        "SmokeShellRed",
+        "SmokeShellOrange",
+        "SmokeShellYellow",
+        "Chemlight_red",
+        "Chemlight_red"
+    };
+    respawnMagazines[]=
+    {
+        "16Rnd_9x21_Mag",
+        "16Rnd_9x21_Mag",
+        "16Rnd_9x21_Mag",
+        "SmokeShellRed",
+        "SmokeShellOrange",
+        "SmokeShellYellow",
+        "Chemlight_red",
+        "Chemlight_red"
+    };
+};

@@ -57,7 +57,7 @@ class braf_m113_hiaf : braf_factions_m113 {
     scopeCurator = 2;
     scopeArsenal = 2;
     crew = "braf_hiaf_crewman_regular";
-    typicalCargo[] = { "braf_hiaf_crewman_regular", "braf_hiaf_crewman_regular" };
+    typicalcargo[] = { "braf_hiaf_crewman_regular", "braf_hiaf_crewman_regular" };
     hiddenSelectionsTextures[] = {
         "braf_factions\braf_factions_tracked\data\M113\HIAF\main_hiaf_co.paa",
         "braf_factions\braf_factions_tracked\data\M113\HIAF\unique_hiaf_co.paa",
@@ -73,7 +73,7 @@ class braf_m113_hiafm : braf_m113_hiaf {
     scopeCurator = 2;
     scopeArsenal = 2;
     crew = "braf_hiaf_crewman_marine";
-    typicalCargo[] = { "braf_hiaf_crewman_marine", "braf_hiaf_crewman_marine" };
+    typicalcargo[] = { "braf_hiaf_crewman_marine", "braf_hiaf_crewman_marine" };
     hiddenSelectionsTextures[] = {
         "braf_factions\braf_factions_tracked\data\M113\HIAF\main_marine_CO.paa",
         "braf_factions\braf_factions_tracked\data\M113\HIAF\unique_marine_CO.paa",

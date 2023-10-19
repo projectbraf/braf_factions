@@ -1,2 +1,10 @@
 .vscode
 .git
+
+*.pbo
+.hemttout
+hemtt
+hemtt.exe
+*.biprivatekey
+
+releases/
