@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture = "braf\braf_factions\addons\characters_headgear\data\m1\liner_NOHQ.paa";
+	texture = "braf\braf_factions\addons\headgear\data\m1\liner_NOHQ.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture = "braf\braf_factions\addons\characters_headgear\data\m1\liner_as.paa";
+	texture = "braf\braf_factions\addons\headgear\data\m1\liner_as.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture = "braf\braf_factions\addons\characters_headgear\data\m1\liner_smdi.paa";
+	texture = "braf\braf_factions\addons\headgear\data\m1\liner_smdi.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
