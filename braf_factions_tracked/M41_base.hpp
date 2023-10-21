@@ -7,17 +7,17 @@ class braf_factions_m41 : braf_army_m41a {
         class hiaf_01 {
             displayName = "HIAF Army";
             textures[] = {
-                "braf_factions\braf_factions_tracked\data\m41\hiaf\main_co.paa",
-                "braf_factions\braf_factions_tracked\data\m41\hiaf\large_co.paa",
-                "braf_factions\braf_factions_tracked\data\m41\hiaf\small_co.paa"
+                "braf\braf_factions\addons\braf_factions_tracked\data\m41\hiaf\main_co.paa",
+                "braf\braf_factions\addons\braf_factions_tracked\data\m41\hiaf\large_co.paa",
+                "braf\braf_factions\addons\braf_factions_tracked\data\m41\hiaf\small_co.paa"
             };
         };
         class us_01 {
             displayName = "US Army";
             textures[] = {
-                "braf_factions\braf_factions_tracked\data\m41\us\main_co.paa",
-                "braf_factions\braf_factions_tracked\data\m41\us\large_co.paa",
-                "braf_factions\braf_factions_tracked\data\m41\us\small_co.paa"
+                "braf\braf_factions\addons\braf_factions_tracked\data\m41\us\main_co.paa",
+                "braf\braf_factions\addons\braf_factions_tracked\data\m41\us\large_co.paa",
+                "braf\braf_factions\addons\braf_factions_tracked\data\m41\us\small_co.paa"
             };
         };
     };
@@ -29,9 +29,9 @@ class braf_m41a_hiaf : braf_factions_m41 {
     faction = "braf_hiaf";
     crew = "braf_hiaf_crewman_regular";
     hiddenSelectionsTextures[] = {
-        "\braf_factions\braf_factions_tracked\data\m41\hiaf\main_CO.paa",
-        "\braf_factions\braf_factions_tracked\data\m41\hiaf\large_CO.paa",
-        "\braf_factions\braf_factions_tracked\data\m41\hiaf\small_CO.paa",
+        "\braf\braf_factions\addons\braf_factions_tracked\data\m41\hiaf\main_CO.paa",
+        "\braf\braf_factions\addons\braf_factions_tracked\data\m41\hiaf\large_CO.paa",
+        "\braf\braf_factions\addons\braf_factions_tracked\data\m41\hiaf\small_CO.paa",
     };
     class TransportBackpacks {
     };
