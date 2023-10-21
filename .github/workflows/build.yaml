@@ -1,0 +1,34 @@
+name: Build
+
+on:
+    push:
+        branches:
+            - dev
+    pull_request:
+
+jobs:
+    lint:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout the source code
+              uses: actions/checkout@v3
+            - name: Lint (sqflint)
+              uses: arma-actions/sqflint@master
+              continue-on-error: true
+
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout the source code
+              uses: actions/checkout@v3
+            - name: Setup HEMTT
+              uses: arma-actions/hemtt@v1
+            - name: Run HEMTT build
+              run: hemtt release
+            - name: Extract Zipped Mod
+              run: unzip releases/braf_factions-latest.zip -d releases
+            - name: Upload Artifact
+              uses: actions/upload-artifact@v3
+              with:
+                  name: braf_factions-${{ github.sha }}
+                  path: releases/@braf_factions
