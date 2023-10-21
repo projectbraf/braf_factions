@@ -43,7 +43,7 @@ jobs:
                   avatar-url: https://scontent.fpoa33-1.fna.fbcdn.net/v/t1.6435-9/123089286_2720897204844263_4695033759855672932_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=810d5f&_nc_eui2=AeHYW_2fgJH67ADthIzboTmE_dndmKxNqvb92d2YrE2q9oc1UC5FYvsZ-cUbwpH19bbxxRLaBL159Gtrl1Ug8_dM&_nc_ohc=UeyYATHroS8AX9MnQDS&_nc_ht=scontent.fpoa33-1.fna&oh=00_AfD1hpwiRVRZXYafCTkpgEIX_ZyCHNKey4zoP6zsin_bMg&oe=655AAACE
                   embed-title: ${{ github.repository }} ATUALIZADO E PUBLICADO!
                   embed-url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-                  embed-description: Commit ${{ github.sha }} - ${{ github.event.head_commit.message }} autorizado e mod publicado no Steam Workshop!
+                  embed-description: Commit ${{ github.sha }} - ${{ github.event.head_commit.message }} autorizado e mod (dev) atualizado no Steam Workshop!
                   embed-author-name: ${{ github.actor }}
                   embed-author-url: https://github.com/${{ github.actor }}
                   embed-author-icon-url: https://avatars.githubusercontent.com/${{ github.actor }}
