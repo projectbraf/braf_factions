@@ -23,6 +23,7 @@ class CfgPatches
         weapons[] = {};
     };
 };
+
 class DefaultEventHandlers;
 class CfgVehicles
 {
