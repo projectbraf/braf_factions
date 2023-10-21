@@ -23,6 +23,7 @@ class CfgPatches
         weapons[] = {};
     };
 };
+
 class DefaultEventHandlers;
 class CfgVehicles
 {
@@ -31,11 +32,11 @@ class CfgVehicles
     class BRAF_Fennec_SAR_base;
     class BRAF_Fennec_unarmed_base;
     class BRAF_Fennec_cargo_base;
-#include "Fennec_base.hpp"
+#include "Fennec_Base.hpp"
 
     class BRAF_Pantera_Base;
     class BRAF_Pantera_FFV_Base;
-#include "Pantera_base.hpp"
+#include "Pantera_Base.hpp"
 
 #include "v_cratenia.hpp"
 };
