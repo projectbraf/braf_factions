@@ -1,7 +1,7 @@
 name = "BRAF Faction Dev";
 picture = "picture.paa";
 actionName = "website";
-action = "https://discord.gg/Um2dHXhh";
+action = "https://discord.gg/BNgj6YwZ";
 description = "Adiciona facções extra ao BRAF Mod";
 logo = "logo_factions_ca.paa";
 logoOver = "logo_factions_Over.paa";
