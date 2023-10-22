@@ -6,11 +6,6 @@ class braf_ee9_cascavel_col: braf_ee9_cascavel_base
 	faction="BRAF_FACTIONS";
 	displayname="Colombian Army Engesa EE-9 Cascavel Mk3.";
 	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_COL_picture_ca.paa";
-	textureList[]=
-	{
-		"COL",
-		1
-	};
 	hiddenSelectionsTextures[]=
 	{
 		"",
@@ -42,11 +37,6 @@ class braf_ee9_cascavel_nia: braf_ee9_cascavel_base
 	faction="BRAF_FACTIONS";
 	displayname="New Iraq Army Engesa EE-9 Cascavel Mk3.";
 	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_NIA_picture_ca.paa";
-	textureList[]=
-	{
-		"NIA",
-		1
-	};
 	animationList[]=
 	{
 		"showBackpacks",0,
@@ -84,11 +74,6 @@ class braf_ee9_cascavel_iran: braf_ee9_cascavel_base
 	faction="BRAF_FACTIONS";
 	displayname="Iran Army Engesa EE-9 Cascavel Mk3.";
 	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_IRAN_picture_ca.paa";
-	textureList[]=
-	{
-		"IRAN",
-		1
-	};
 	animationList[]=
 	{
 		"showBackpacks",0,
@@ -122,11 +107,6 @@ class braf_ee9_cascavel_oia: braf_ee9_cascavel_nia
 {
 	displayname="Old Iraq Army Engesa EE-9 Cascavel Mk3.";
 	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_OIA_picture_ca.paa";
-	textureList[]=
-	{
-		"OIA",
-		1
-	};
 	hiddenSelectionsTextures[]=
 	{
 		"",
@@ -158,11 +138,6 @@ class braf_ee9_cascavel_hiaf: braf_ee9_cascavel_base
 	faction = "BRAF_HIAF";
 	displayname="Engesa EE-9 Cascavel Mk3.";
 	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_HIAF_picture_ca.paa";
-	textureList[]=
-	{
-		"HIAF_ARMY",
-		1
-	};
 	hiddenSelectionsTextures[]=
 	{
 		"",
@@ -190,11 +165,6 @@ class braf_ee9_cascavel_putain: braf_ee9_cascavel_hiaf
 {
 	displayname="Engesa EE-9 Cascavel Mk3.";
 	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_PUTAIN_picture_ca.paa";
-	textureList[]=
-	{
-		"HIAF_PUTAIN",
-		1
-	};
 	hiddenSelectionsTextures[]=
 	{
 		"",
