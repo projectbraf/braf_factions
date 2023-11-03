@@ -741,12 +741,12 @@ class braf_cra_dmr_jungle : braf_cra_dmr_regular {
         "braf_20Rnd_762x51_red"
     };
     respawnWeapons[] = {
-        "braf_fal_hiaf",
+        "braf_factions_fal_hiaf",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_fal_hiaf",
+        "braf_factions_fal_hiaf",
         "Throw",
         "Put"
     };
