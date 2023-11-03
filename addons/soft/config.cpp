@@ -34,7 +34,7 @@ class CfgVehicles
 {
     class braf_worker_covered;
     class braf_worker_health;
-    class braf_worker_fuel;
+    //class braf_worker_fuel;
     class braf_worker_ammo;
     class braf_worker_repair;
     class braf_worker_cargo;
