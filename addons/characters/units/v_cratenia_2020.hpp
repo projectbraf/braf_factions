@@ -10,7 +10,7 @@ class braf_cra_of_regular : braf_army_of_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "braf_cratenia_regular_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_of_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_of_regular.jpg";
     identityTypes[] = {
         "NoGlasses",
         "LanguageGRE_F",
@@ -98,7 +98,7 @@ class braf_cra_sl_regular : braf_army_sl_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_cratenia_regular_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -192,7 +192,7 @@ class braf_cra_tl_regular : braf_army_tl_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "braf_cratenia_regular_RolledUp_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -288,7 +288,7 @@ class braf_cra_medic_regular : braf_army_medic_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_cratenia_regular_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -374,7 +374,7 @@ class braf_cra_eng_regular : braf_army_eng_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_cratenia_regular_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -462,7 +462,7 @@ class braf_cra_rifleman_regular : braf_army_rifleman_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "braf_cratenia_regular_RolledUp_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -549,7 +549,7 @@ class braf_cra_riflelight_regular : braf_army_rifleman_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "braf_cratenia_regular_RolledUp_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -620,7 +620,7 @@ class braf_cra_ammo_regular : braf_army_rifleman_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_cratenia_regular_RolledUp_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -705,7 +705,7 @@ class braf_cra_dmr_regular : braf_army_dmr_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_cratenia_regular_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_dmr_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_dmr_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -790,7 +790,7 @@ class braf_cra_ar_regular : braf_army_ar_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_cratenia_regular_RolledUp_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_ar_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_ar_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -862,7 +862,7 @@ class braf_cra_lat_regular : braf_army_lat_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_cratenia_regular_RolledUp_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_lat_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_lat_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -950,7 +950,7 @@ class braf_cra_militia_regular : braf_army_rifleman_regular_2000 {
     displayName = "$STR_braf_militia";
     uniformClass = "braf_cratenia_regular_RolledUp_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_militia_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_militia_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -1026,7 +1026,7 @@ class braf_cra_unarmed_regular : braf_army_rifleman_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_cratenia_regular_uniform_bottons";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -1050,7 +1050,7 @@ class braf_cra_at_regular : braf_army_at_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_cratenia_regular_RolledUp_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_at_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_at_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -1129,7 +1129,7 @@ class braf_cra_aa_regular : braf_army_aa_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_cratenia_regular_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_aa_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_aa_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -1206,7 +1206,7 @@ class braf_cra_mortar_regular : braf_army_mortar_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_cratenia_regular_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -1283,7 +1283,7 @@ class braf_cra_mortar_a_regular : braf_army_mortar_a_regular_2000 {
     displayName = "$STR_BRAF_Mortar_A";
     uniformClass = "braf_cratenia_regular_RolledUp_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -1361,7 +1361,7 @@ class braf_cra_hmg_regular : braf_army_rifleman_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "braf_cratenia_regular_RolledUp_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"
@@ -1439,7 +1439,7 @@ class braf_cra_hmg_a_regular : braf_army_rifleman_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "braf_cratenia_regular_uniform";
     genericNames = "NATOMen";
-    editorPreview = "editorPreview\cra_army\braf_cra_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_regular.jpg";
     identityTypes[] = {
         "LanguageGRE_F",
         "Head_NATO"

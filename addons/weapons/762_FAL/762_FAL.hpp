@@ -24,7 +24,7 @@ class braf_factions_fal_hiaf_scope: braf_factions_fal_hiaf
 {
 	scope = 1;
 	author="BRAF Team";
-	_generalMacro="braf_Fal_hiaf_Scope";
+	_generalMacro="braf_factions_fal_hiaf_scope";
 	class LinkedItems
 	{
 		class LinkedItemsOptic

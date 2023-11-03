@@ -4,7 +4,7 @@ class braf_cra_of_jungle : braf_cra_of_regular {
     _generalMacro = "braf_cra_of_jungle";
     editorsubcategory = "BRAF_JUNGLE";
     uniformClass = "BRAF_Cratenia_Jungle_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_of_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_of_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -97,7 +97,7 @@ class braf_cra_sl_jungle : braf_cra_sl_regular {
     _generalMacro = "braf_cra_sl_jungle";
     editorsubcategory = "BRAF_JUNGLE";
     uniformClass = "BRAF_Cratenia_Jungle_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_rifleman_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -196,7 +196,7 @@ class braf_cra_tl_jungle : braf_cra_tl_regular {
     _generalMacro = "braf_cra_tl_jungle";
     editorsubcategory = "BRAF_JUNGLE";
     uniformClass = "braf_cratenia_Jungle_RolledUp_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_rifleman_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -298,7 +298,7 @@ class braf_cra_medic_jungle : braf_cra_medic_regular {
     editorsubcategory = "BRAF_JUNGLE";
     backpack = "braf_alice_medium_olive_medic";
     uniformClass = "BRAF_Cratenia_Jungle_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_rifleman_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -375,7 +375,7 @@ class braf_cra_eng_jungle : braf_cra_eng_regular {
     editorsubcategory = "BRAF_JUNGLE";
     backpack = "braf_alice_medium_olive_engineer";
     uniformClass = "BRAF_Cratenia_Jungle_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_rifleman_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -468,7 +468,7 @@ class braf_cra_rifleman_jungle : braf_cra_rifleman_regular {
     _generalMacro = "braf_cra_rifleman_jungle";
     editorsubcategory = "BRAF_JUNGLE";
     uniformClass = "braf_cratenia_Jungle_RolledUp_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_rifleman_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -560,7 +560,7 @@ class braf_cra_riflelight_jungle : braf_cra_rifleman_regular {
     editorsubcategory = "BRAF_JUNGLE";
     displayName = "$STR_B_Soldier_lite_F0";
     uniformClass = "braf_cratenia_Jungle_RolledUp_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_rifleman_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -636,7 +636,7 @@ class braf_cra_ammo_jungle : braf_cra_ammo_regular {
     editorsubcategory = "BRAF_JUNGLE";
     backpack = "braf_alice_medium_olive_ammo_556";
     uniformClass = "braf_cratenia_Jungle_RolledUp_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_rifleman_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -727,7 +727,7 @@ class braf_cra_dmr_jungle : braf_cra_dmr_regular {
     _generalMacro = "braf_cra_dmr_jungle";
     editorsubcategory = "BRAF_JUNGLE";
     uniformClass = "BRAF_Cratenia_Jungle_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_dmr_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_dmr_jungle.jpg";
     magazines[] = {
         "braf_20Rnd_762x51",
         "braf_20Rnd_762x51",
@@ -741,12 +741,12 @@ class braf_cra_dmr_jungle : braf_cra_dmr_regular {
         "braf_20Rnd_762x51_red"
     };
     respawnWeapons[] = {
-        "braf_fal_hiaf",
+        "braf_factions_fal_hiaf",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_fal_hiaf",
+        "braf_factions_fal_hiaf",
         "Throw",
         "Put"
     };
@@ -818,7 +818,7 @@ class braf_cra_ar_jungle : braf_cra_ar_regular {
     _generalMacro = "braf_cra_ar_jungle";
     editorsubcategory = "BRAF_JUNGLE";
     uniformClass = "braf_cratenia_Jungle_RolledUp_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_ar_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_ar_jungle.jpg";
     magazines[] = {
         "30Rnd_556x45_Stanag",
         "30Rnd_556x45_Stanag",
@@ -895,7 +895,7 @@ class braf_cra_lat_jungle : braf_cra_lat_regular {
     _generalMacro = "braf_cra_lat_jungle";
     editorsubcategory = "BRAF_JUNGLE";
     uniformClass = "braf_cratenia_Jungle_RolledUp_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_lat_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_lat_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -988,7 +988,7 @@ class braf_cra_militia_jungle : braf_cra_militia_regular {
     _generalMacro = "braf_cra_militia_jungle";
     editorsubcategory = "BRAF_JUNGLE";
     uniformClass = "braf_cratenia_Jungle_RolledUp_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_militia_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_militia_jungle.jpg";
     magazines[] = {
         "braf_Clip_5Rnd_762x51",
         "braf_Clip_5Rnd_762x51",
@@ -1070,7 +1070,7 @@ class braf_cra_unarmed_jungle : braf_cra_unarmed_regular {
     editorsubcategory = "BRAF_JUNGLE";
     scope = 1;
     uniformClass = "braf_cra_unarmed_jungle";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_rifleman_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_jungle.jpg";
     magazines[] = {};
     respawnWeapons[] = {};
     weapons[] = {};
@@ -1101,7 +1101,7 @@ class braf_cra_at_jungle : braf_cra_at_regular {
     _generalMacro = "braf_cra_at_jungle";
     editorsubcategory = "BRAF_JUNGLE";
     uniformClass = "braf_cratenia_Jungle_RolledUp_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_at_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_at_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -1185,7 +1185,7 @@ class braf_cra_aa_jungle : braf_cra_aa_regular {
     editorsubcategory = "BRAF_JUNGLE";
     backpack = "braf_alice_medium_olive_ammo_aa_72";
     uniformClass = "BRAF_Cratenia_Jungle_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_aa_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_aa_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -1268,7 +1268,7 @@ class braf_cra_mortar_jungle : braf_cra_mortar_regular {
     editorsubcategory = "BRAF_JUNGLE";
     backpack = "BRAF_B_M252_Gun_Bag";
     uniformClass = "BRAF_Cratenia_Jungle_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_rifleman_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -1351,7 +1351,7 @@ class braf_cra_mortar_a_jungle : braf_cra_mortar_a_regular {
     displayName = "$STR_BRAF_Mortar_A";
     backpack = "BRAF_B_M252_Bipod_Bag";
     uniformClass = "braf_cratenia_Jungle_RolledUp_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_rifleman_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -1433,7 +1433,7 @@ class braf_cra_hmg_jungle : braf_cra_hmg_regular {
     editorsubcategory = "BRAF_JUNGLE";
     backpack = "BRAF_B_M2_Gun_Bag";
     uniformClass = "braf_cratenia_Jungle_RolledUp_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_rifleman_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",
@@ -1515,7 +1515,7 @@ class braf_cra_hmg_a_jungle : braf_cra_hmg_a_regular {
     editorsubcategory = "BRAF_JUNGLE";
     backpack = "BRAF_B_M2_Tripod_Bag";
     uniformClass = "BRAF_Cratenia_Jungle_uniform";
-    editorPreview = "editorPreview\cra_jungle\braf_cra_rifleman_jungle.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_cra_rifleman_jungle.jpg";
     magazines[] = {
         "braf_Lapa30Rnd_556x45",
         "braf_Lapa30Rnd_556x45",

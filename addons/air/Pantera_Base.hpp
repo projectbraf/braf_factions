@@ -113,7 +113,7 @@ class BRAF_Pantera_K2_HIAF_Navy : BRAF_Pantera_K2_HIAF1 {
         "Transport"
     };
     typicalcargo[] = { "braf_hiaf_pilot_marine" };
-    crew = "braf_hiaf_pilot_marine";
+    crew = "braf_hiaf_pilot_regular";
     canFloat = 1;
     WaterLeakiness = 50;
     hiddenSelectionsTextures[] = {

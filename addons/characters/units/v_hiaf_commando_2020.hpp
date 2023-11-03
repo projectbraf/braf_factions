@@ -357,12 +357,12 @@ class braf_hiaf_dmr_commando : braf_factions_specops_base {
         "braf_20Rnd_762x51_red"
     };
     respawnWeapons[] = {
-        "braf_Fal_hiaf_Scope",
+        "braf_factions_fal_hiaf_scope",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_Fal_hiaf_Scope",
+        "braf_factions_fal_hiaf_scope",
         "Throw",
         "Put"
     };

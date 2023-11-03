@@ -11,7 +11,7 @@ class braf_worker_covered_hiaf : braf_worker_covered {
     };
 };
 class braf_worker_health_hiaf : braf_worker_health {
-    _generalMacro = "braf_worker_Health_HIAF";
+    _generalMacro = "braf_worker_health_hiaf";
     editorPreview = "\braf\braf_factions\addons\soft\data\worker\ui\braf_worker_health_hiaf.jpg";
     faction = "BRAF_HIAF";
     side = 1;
@@ -19,21 +19,43 @@ class braf_worker_health_hiaf : braf_worker_health {
     hiddenSelectionsTextures[] = {
         "braf\braf_factions\addons\soft\data\worker\HIAF1_co.paa",
         "braf\braf_factions\addons\soft\data\worker\HIAF2_co.paa",
-        "braf\braf_factions\addons\soft\data\worker\HIAF3_Health_co.paa"
+        "braf\braf_factions\addons\soft\data\worker\HIAF3_Health_co.paa",
+		"braf\braf_factions\addons\soft\data\worker\Glass_ca.paa"
     };
-};
-class braf_worker_fuel_hiaf : braf_worker_fuel {
-    _generalMacro = "braf_worker_Fuel_HIAF";
-    editorPreview = "\braf\braf_factions\addons\soft\data\worker\ui\braf_worker_fuel_hiaf.jpg";
-    faction = "BRAF_HIAF";
-    side = 1;
-    crew = "braf_hiaf_rifleman_regular";
-    hiddenSelectionsTextures[] = {
-        "braf\braf_factions\addons\soft\data\worker\HIAF1_co.paa",
-        "braf\braf_factions\addons\soft\data\worker\HIAF2_co.paa",
-        "braf\braf_factions\addons\soft\data\worker\HIAF3_Fuel_co.paa"
+    class textureSources {
+        class HIAF_H
+		{
+			displayName="HIAF (Health)";
+			author="BRAF Team";
+			textures[]=
+			{
+                "braf\braf_factions\addons\soft\data\worker\HIAF1_co.paa",
+                "braf\braf_factions\addons\soft\data\worker\HIAF2_co.paa",
+                "braf\braf_factions\addons\soft\data\worker\HIAF3_Health_co.paa",
+                "braf\braf_factions\addons\soft\data\worker\Glass_ca.paa"
+			};
+			factions[]={"BRAF_HIAF"};
+		};
     };
+    textureList[]=
+	{
+		"HIAF_H",
+		1
+	};
 };
+// ============= COMENTADO ATÉ SAIR A REFUELER =============
+//class braf_worker_fuel_hiaf : braf_worker_fuel {
+//    _generalMacro = "braf_worker_Fuel_HIAF";
+//    editorPreview = "\braf\braf_factions\addons\soft\data\worker\ui\braf_worker_fuel_hiaf.jpg";
+//    faction = "BRAF_HIAF";
+//    side = 1;
+//    crew = "braf_hiaf_rifleman_regular";
+//    hiddenSelectionsTextures[] = {
+//        "braf\braf_factions\addons\soft\data\worker\HIAF1_co.paa",
+//        "braf\braf_factions\addons\soft\data\worker\HIAF2_co.paa",
+//        "braf\braf_factions\addons\soft\data\worker\HIAF3_Fuel_co.paa"
+//    };
+//};
 class braf_worker_ammo_hiaf : braf_worker_ammo {
     _generalMacro = "braf_worker_Ammo_HIAF";
     editorPreview = "\braf\braf_factions\addons\soft\data\worker\ui\braf_worker_ammo_hiaf.jpg";
