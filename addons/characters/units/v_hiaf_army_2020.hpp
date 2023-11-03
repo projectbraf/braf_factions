@@ -1180,12 +1180,12 @@ class braf_hiaf_dmr_regular : braf_army_dmr_regular_2000 {
         "braf_20Rnd_762x51_red"
     };
     respawnWeapons[] = {
-        "braf_Fal_hiaf_Scope",
+        "braf_factions_fal_hiaf_scope",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_Fal_hiaf_Scope",
+        "braf_factions_fal_hiaf_scope",
         "Throw",
         "Put"
     };
