@@ -10,7 +10,7 @@ class braf_hiaf_of_regular : braf_army_of_regular_2000 {
     scopeCurator = 2;
     uniformClass = "BRAF_Horizon_regular_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     identityTypes[] = {
         "NoGlasses",
         "LanguageFRE_F",
@@ -175,7 +175,7 @@ class braf_hiaf_sl_regular : braf_army_sl_regular_2000 {
     scopeCurator = 2;
     uniformClass = "BRAF_Horizon_regular_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     identityTypes[] = {
         "NoGlasses",
         "LanguageFRE_F",
@@ -340,7 +340,7 @@ class braf_hiaf_tl_regular : braf_army_tl_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_horizon_regular_RolledUp_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -524,7 +524,7 @@ class braf_hiaf_medic_regular : braf_army_medic_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "BRAF_Horizon_regular_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     identityTypes[] = {
         "NoGlasses",
         "LanguageFRE_F",
@@ -613,7 +613,7 @@ class braf_hiaf_eng_regular : braf_army_eng_regular_2000 {
     scopeCurator = 2;
     uniformClass = "BRAF_Horizon_regular_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     identityTypes[] = {
         "NoGlasses",
         "LanguageFRE_F",
@@ -717,7 +717,7 @@ class braf_hiaf_rifleman_regular : braf_army_rifleman_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_horizon_regular_RolledUp_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -870,7 +870,7 @@ class braf_hiaf_riflelight_regular : braf_army_rifleman_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_horizon_regular_RolledUp_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     magazines[] = {
         "braf_20Rnd_556x45",
         "braf_20Rnd_556x45",
@@ -1014,7 +1014,7 @@ class braf_hiaf_ammo_regular : braf_army_ammo_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_horizon_regular_RolledUp_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -1166,7 +1166,7 @@ class braf_hiaf_dmr_regular : braf_army_dmr_regular_2000 {
     scopeCurator = 2;
     uniformClass = "BRAF_Horizon_regular_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_dmr_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_dmr_regular.jpg";
     magazines[] = {
         "braf_20Rnd_762x51",
         "braf_20Rnd_762x51",
@@ -1318,7 +1318,7 @@ class braf_hiaf_gl_regular : braf_army_gl_regular_2000 {
     scopeCurator = 2;
     uniformClass = "BRAF_Horizon_regular_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_gl_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_gl_regular.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -1493,7 +1493,7 @@ class braf_hiaf_mp_regular : braf_army_mp_shotgun_regular_2000 {
     displayName = "$STR_BRAF_MP_2";
     uniformClass = "braf_horizon_regular_RolledUp_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_mp_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_mp_regular.jpg";
     magazines[] = {
         "braf_Boito_8Rnd_buck",
         "braf_Boito_8Rnd_buck",
@@ -1653,7 +1653,7 @@ class braf_hiaf_ar_regular : braf_army_ar_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "braf_horizon_regular_RolledUp_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_ar_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_ar_regular.jpg";
     magazines[] = {
         "braf_75Rnd_mag58_mag_Tracer_red",
         "braf_75Rnd_mag58_mag_Tracer_red",
@@ -1796,7 +1796,7 @@ class braf_hiaf_lat_regular : braf_army_lat_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_horizon_regular_RolledUp_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_lat_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_lat_regular.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -1952,7 +1952,7 @@ class braf_hiaf_unarmed_regular : braf_army_unarmed_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "braf_horizon_regular_uniform_bottons";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     magazines[] = {};
     respawnWeapons[] = {};
     weapons[] = {};
@@ -2048,7 +2048,7 @@ class braf_hiaf_aa_regular : braf_army_aa_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "BRAF_Horizon_regular_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_aa_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_aa_regular.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -2192,7 +2192,7 @@ class braf_hiaf_at_regular : braf_army_at_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "braf_horizon_regular_RolledUp_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_at_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_at_regular.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -2338,7 +2338,7 @@ class braf_hiaf_at_a_regular : braf_army_lat_regular_2000 {
     scopeCurator = 2;
     uniformClass = "braf_horizon_regular_RolledUp_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -2485,7 +2485,7 @@ class braf_hiaf_mortar_regular : braf_army_mortar_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "BRAF_Horizon_regular_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     magazines[] = {
         "braf_20Rnd_556x45",
         "braf_20Rnd_556x45",
@@ -2630,7 +2630,7 @@ class braf_hiaf_mortar_a_regular : braf_army_mortar_a_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "braf_horizon_regular_RolledUp_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     magazines[] = {
         "braf_20Rnd_556x45",
         "braf_20Rnd_556x45",
@@ -2775,7 +2775,7 @@ class braf_hiaf_hmg_regular : braf_army_m2_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "braf_horizon_regular_RolledUp_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     magazines[] = {
         "braf_20Rnd_556x45",
         "braf_20Rnd_556x45",
@@ -2920,7 +2920,7 @@ class braf_hiaf_hmg_a_regular : braf_army_m2_a_regular_2000 {
     uniformAccessories[] = {};
     uniformClass = "BRAF_Horizon_regular_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     magazines[] = {
         "braf_20Rnd_556x45",
         "braf_20Rnd_556x45",
@@ -3062,7 +3062,7 @@ class braf_hiaf_crewman_regular : braf_army_crewman_regular_2000 {
     scopeCurator = 2;
     uniformClass = "BRAF_Horizon_regular_uniform";
     genericNames = "TanoanMen";
-    editorPreview = "editorPreview\hiaf_army\braf_hiaf_rifleman_regular.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_rifleman_regular.jpg";
     magazines[] = {
         "16Rnd_9x21_Mag",
         "SmokeShell",

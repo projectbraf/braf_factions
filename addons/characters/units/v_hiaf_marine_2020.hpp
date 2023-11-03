@@ -5,7 +5,7 @@ class braf_hiaf_of_marine : braf_hiaf_of_regular {
     _generalMacro = "braf_hiaf_of_marine";
     editorsubcategory = "BRAF_MARINE";
     uniformClass = "braf_horizon_marine_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_of_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_of_marine.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -106,7 +106,7 @@ class braf_hiaf_sl_marine : braf_hiaf_sl_regular {
     _generalMacro = "braf_hiaf_sl_marine";
     editorsubcategory = "BRAF_MARINE";
     uniformClass = "braf_horizon_marine_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_of_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_of_marine.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -207,7 +207,7 @@ class braf_hiaf_tl_marine : braf_hiaf_tl_regular {
     _generalMacro = "braf_hiaf_tl_marine";
     editorsubcategory = "BRAF_MARINE";
     uniformClass = "braf_horizon_marine_RolledUp_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_of_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_of_marine.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -330,7 +330,7 @@ class braf_hiaf_medic_marine : braf_hiaf_medic_regular {
     _generalMacro = "braf_hiaf_medic_marine";
     editorsubcategory = "BRAF_MARINE";
     uniformClass = "braf_horizon_marine_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_of_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_of_marine.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -423,7 +423,7 @@ class braf_hiaf_eng_marine : braf_hiaf_eng_regular {
     _generalMacro = "braf_hiaf_eng_marine";
     editorsubcategory = "BRAF_MARINE";
     uniformClass = "braf_horizon_marine_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_of_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_of_marine.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -518,7 +518,7 @@ class braf_hiaf_crewman_marine : braf_hiaf_crewman_regular {
     _generalMacro = "braf_hiaf_crewman_marine";
     editorsubcategory = "BRAF_MARINE";
     uniformClass = "braf_horizon_marine_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_crewman_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_crewman_marine.jpg";
     magazines[] = {
         "16Rnd_9x21_Mag",
         "SmokeShell",
@@ -600,7 +600,7 @@ class braf_hiaf_rifleman_marine : braf_hiaf_rifleman_regular {
     _generalMacro = "braf_hiaf_rifleman_marine";
     editorsubcategory = "BRAF_MARINE";
     uniformClass = "braf_horizon_marine_RolledUp_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_of_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_of_marine.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -693,7 +693,7 @@ class braf_hiaf_ammo_marine : braf_hiaf_ammo_regular {
     _generalMacro = "braf_hiaf_ammo_marine";
     editorsubcategory = "BRAF_MARINE";
     uniformClass = "braf_horizon_marine_RolledUp_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_of_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_of_marine.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -786,7 +786,7 @@ class braf_hiaf_dmr_marine : braf_hiaf_dmr_regular {
     _generalMacro = "braf_hiaf_dmr_marine";
     editorsubcategory = "BRAF_MARINE";
     uniformClass = "braf_horizon_marine_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_dmr_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_dmr_marine.jpg";
     magazines[] = {
         "braf_20Rnd_762x51",
         "braf_20Rnd_762x51",
@@ -879,7 +879,7 @@ class braf_hiaf_gl_marine : braf_hiaf_gl_regular {
     _generalMacro = "braf_hiaf_gl_marine";
     editorsubcategory = "BRAF_MARINE";
     uniformClass = "braf_horizon_marine_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_gl_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_gl_marine.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -995,7 +995,7 @@ class braf_hiaf_pointman_marine : braf_hiaf_mp_regular {
     editorsubcategory = "BRAF_MARINE";
     displayName = "$STR_BRAF_POINTMAN";
     uniformClass = "braf_horizon_marine_RolledUp_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_of_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_of_marine.jpg";
     magazines[] = {
         "braf_Boito_8Rnd_buck",
         "braf_Boito_8Rnd_buck",
@@ -1095,7 +1095,7 @@ class braf_hiaf_ar_marine : braf_hiaf_ar_regular {
     editorsubcategory = "BRAF_MARINE";
     displayName = "$STR_B_Soldier_AR_F0";
     uniformClass = "braf_horizon_marine_RolledUp_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_ar_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_ar_marine.jpg";
     magazines[] = {
         "braf_40Rnd_762x51",
         "braf_40Rnd_762x51",
@@ -1182,7 +1182,7 @@ class braf_hiaf_lat_marine : braf_hiaf_lat_regular {
     _generalMacro = "braf_hiaf_lat_marine";
     editorsubcategory = "BRAF_MARINE";
     uniformClass = "braf_horizon_marine_RolledUp_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_lat_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_lat_marine.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
@@ -1278,7 +1278,7 @@ class braf_hiaf_unarmed_marine : braf_hiaf_rifleman_regular {
     editorsubcategory = "BRAF_MARINE";
     displayName = "$STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName";
     uniformClass = "braf_horizon_marine_uniform_bottons";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_crewman_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_crewman_marine.jpg";
     magazines[] = {};
     respawnWeapons[] = {};
     weapons[] = {};
@@ -1309,7 +1309,7 @@ class braf_hiaf_aa_marine : braf_hiaf_aa_regular {
     _generalMacro = "braf_hiaf_aa_marine";
     editorsubcategory = "BRAF_MARINE";
     uniformClass = "braf_horizon_marine_uniform";
-    editorPreview = "editorPreview\hiaf_marine\braf_hiaf_aa_marine.jpg";
+    editorPreview = "braf\braf_factions\addons\characters\units\editorPreview\braf_hiaf_aa_marine.jpg";
     magazines[] = {
         "braf_30Rnd_556x45",
         "braf_30Rnd_556x45",
