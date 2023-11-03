@@ -44,3 +44,8 @@ workshop = [
   "450814997", # CBA_A3
   "2078457684", # BRAF Mod (Dev)
 ]
+
+[binarize]
+exclude = [
+  "*.jpg"
+]
