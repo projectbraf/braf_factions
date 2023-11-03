@@ -1509,14 +1509,14 @@ class braf_hiaf_mp_regular : braf_army_mp_shotgun_regular_2000 {
         "braf_Boito_8Rnd_buck"
     };
     respawnWeapons[] = {
-        "braf_boito_20_madeira",
+        "braf_boito_20_oldstock",
         "BRAF_PT92",
         "Binocular",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_boito_20_madeira",
+        "braf_boito_20_oldstock",
         "BRAF_PT92",
         "Binocular",
         "Throw",
