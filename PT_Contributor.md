@@ -3,7 +3,7 @@ O BRAF Factions é uma porção do BRAF destinado a servir de template para mods
 
 Para começar, é preciso que você:
 - Tenha uma conta cadastrada no GitHub, caso não tenha, [clique aqui](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
-- Tenha o Git instalado no seu PC, [download aqui](https://git-scm.com/downloads), recomendo selecionar as opções de permitir adicionar as ações de Git Bash e Git GUI quando solicitado no instalador.
+- Tenha o Git instalado, [download aqui](https://git-scm.com/downloads), recomendo selecionar as opções de permitir adicionar as ações de Git Bash e Git GUI quando solicitado no instalador.
 
 ## O que é versionamento
 Ok, instalei tudo o que eu acho que preciso, mas o que exatamente é Git? bem, para começar, imagine que você está de volta ao seu ensino fundamental, e a professora tetéia passou uma tarefa que deve ser entregue em uma pasta contendo vários arquivos interdependentes a ser resolvida por você, seu amigo 1 e seu outro amigo 2. Antes de começarem, vocês estarão longe da conclusão da tarefa, que assim ilustraremos:  
