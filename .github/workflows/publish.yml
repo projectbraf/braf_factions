@@ -43,9 +43,9 @@ jobs:
                   avatar-url: https://s.glbimg.com/jo/g1/f/original/2010/07/07/milhem-cortaztropadeelite-2.jpg
                   embed-title: ${{ github.repository }} ATUALIZADO E PUBLICADO!
                   embed-url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-                  embed-description: Commit ${{ github.sha }} - ${{ github.event.head_commit.message }} autorizado e mod (dev) atualizado no Steam Workshop!
+                  embed-description: Commit ${{ github.sha }} - ${{ github.event.head_commit.message }} autorizado e mod atualizado no Steam Workshop!
                   embed-author-name: ${{ github.actor }}
-                  embed-author-url: https://github.com/${{ github.actor }}
+                  embed-author-url: https://avatars.githubusercontent.com/${{ github.actor }}
                   embed-author-icon-url: https://avatars.githubusercontent.com/${{ github.actor }}
                   embed-footer-icon-url: https://avatars.githubusercontent.com/${{ github.repository_owner }}
                   embed-footer-text: ${{ github.repository_owner }}
