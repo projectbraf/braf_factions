@@ -1,4 +1,5 @@
 class braf_lmv_gendarmerie : braf_lmv_base {
+    editorPreview = "braf\braf_factions\addons\armored\data\lmv\ui\LMV_gendarmeire_picture_ca.jpg";
     _generalMacro = "braf_lmv_gendarmerie";
     displayName = "VBMT-LSR Iveco LMV";
     scope = 2;
@@ -47,7 +48,7 @@ class braf_lmv_gendarmerie : braf_lmv_base {
     class Attributes {};
 };
 class braf_lmv_aaf : braf_lmv_base {
-    editorPreview = "braf\braf_factions\addons\armored\data\lmv\ui\LMV_EB_picture_ca.paa";
+    editorPreview = "braf\braf_factions\addons\armored\data\lmv\ui\LMV_AAF_picture_ca.jpg";
     _generalMacro = "braf_lmv_aaf";
     displayName = "VBMT-LSR Iveco LMV";
     scope = 2;
@@ -103,7 +104,7 @@ class braf_lmv_aaf : braf_lmv_base {
     class Attributes {};
 };
 class braf_lmv_aaf_rcws : braf_lmv_armed_base {
-    editorPreview = "braf\braf_factions\addons\armored\data\lmv\ui\LMV_RCWS_EB_picture_ca.paa";
+    editorPreview = "braf\braf_factions\addons\armored\data\lmv\ui\LMV_RCWS_AAF_picture_ca.jpg";
     _generalMacro = "braf_lmv_AAF_RCWS";
     displayName = "VBMT-LSR Iveco LMV REMAX";
     scope = 2;

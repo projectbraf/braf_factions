@@ -5,7 +5,7 @@ class braf_ee9_cascavel_col: braf_ee9_cascavel_base
 	side=2;
 	faction="BRAF_FACTIONS";
 	displayname="Colombian Army Engesa EE-9 Cascavel Mk3.";
-	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_COL_picture_ca.paa";
+	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_COL_picture_ca.jpg";
 	hiddenSelectionsTextures[]=
 	{
 		"",
@@ -36,7 +36,7 @@ class braf_ee9_cascavel_nia: braf_ee9_cascavel_base
 	side=2;
 	faction="BRAF_FACTIONS";
 	displayname="New Iraq Army Engesa EE-9 Cascavel Mk3.";
-	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_NIA_picture_ca.paa";
+	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_NIA_picture_ca.jpg";
 	animationList[]=
 	{
 		"showBackpacks",0,
@@ -73,7 +73,7 @@ class braf_ee9_cascavel_iran: braf_ee9_cascavel_base
 	side=2;
 	faction="BRAF_FACTIONS";
 	displayname="Iran Army Engesa EE-9 Cascavel Mk3.";
-	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_IRAN_picture_ca.paa";
+	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_IRAN_picture_ca.jpg";
 	animationList[]=
 	{
 		"showBackpacks",0,
@@ -106,7 +106,7 @@ class braf_ee9_cascavel_iran: braf_ee9_cascavel_base
 class braf_ee9_cascavel_oia: braf_ee9_cascavel_nia
 {
 	displayname="Old Iraq Army Engesa EE-9 Cascavel Mk3.";
-	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_OIA_picture_ca.paa";
+	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_OIA_picture_ca.jpg";
 	hiddenSelectionsTextures[]=
 	{
 		"",
@@ -137,7 +137,7 @@ class braf_ee9_cascavel_hiaf: braf_ee9_cascavel_base
 	side=1;
 	faction = "BRAF_HIAF";
 	displayname="Engesa EE-9 Cascavel Mk3.";
-	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_HIAF_picture_ca.paa";
+	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_HIAF_picture_ca.jpg";
 	hiddenSelectionsTextures[]=
 	{
 		"",
@@ -164,7 +164,7 @@ class braf_ee9_cascavel_hiaf: braf_ee9_cascavel_base
 class braf_ee9_cascavel_putain: braf_ee9_cascavel_hiaf
 {
 	displayname="Engesa EE-9 Cascavel Mk3.";
-	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_PUTAIN_picture_ca.paa";
+	editorPreview="braf\braf_factions\addons\armored\data\cascavel\ui\EE-9_PUTAIN_picture_ca.jpg";
 	hiddenSelectionsTextures[]=
 	{
 		"",
