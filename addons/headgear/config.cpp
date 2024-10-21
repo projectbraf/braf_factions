@@ -23,6 +23,7 @@ class CfgPatches {
 
             //Beret
             "braf_hiaf_army_beret",
+            "braf_cratenia_army_beret",
             "braf_hiaf_marine_beret",
 
             //Patrol Cap
@@ -64,4 +65,5 @@ class CfgWeapons {
     #include "w_hiaf_patrol_cap.hpp"
     #include "w_hiaf_boonie.hpp"
     #include "w_cratenia_orlite.hpp"
+    #include "w_cratenia_beret.hpp"
 };
