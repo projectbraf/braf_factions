@@ -24,6 +24,7 @@ class CfgPatches {
             //Beret
             "braf_hiaf_army_beret",
             "braf_cratenia_army_beret",
+            "braf_cratenia_jungle_beret",
             "braf_hiaf_marine_beret",
 
             //Patrol Cap
@@ -32,7 +33,11 @@ class CfgPatches {
 
             //Boonie
             "braf_hiaf_boonie",
-            "braf_HIAF_Mariner_boonie"
+            "braf_HIAF_Mariner_boonie",
+
+            //Orlite
+            "braf_orlite_helm_olive",
+            "braf_orlite_helm_tan"
         };
     };
 };
