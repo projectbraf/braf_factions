@@ -4,7 +4,7 @@ name = "Brazilian Armed Forces Mod - Factions"
 prefix = "braf_factions"
 
 [version]
-path = "addons/main/script_version.hpp" # Default
+
 
 build = 1 # Optional
 major = 2 # Overrides path when set
