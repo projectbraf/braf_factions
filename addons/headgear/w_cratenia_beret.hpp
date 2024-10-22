@@ -11,7 +11,7 @@ class braf_cratenia_army_beret : braf_hiaf_beret_base {
     scopeArsenal = 2;
     scopeCurator = 2; 
     displayName = "[CRA] Beret, Blue (Army)";
-	//picture = "\braf\braf_factions\addons\headgear\data\Beret\ui\ui_hiaf_army.paa";
+	picture = "\braf\braf_factions\addons\headgear\data\Beret\ui\braf_cratenia_army_beret_ca.paa";
     hiddenSelections[] = {
         "camo"
     };
@@ -39,7 +39,7 @@ class braf_cratenia_jungle_beret : braf_cratenia_army_beret {
     scopeArsenal = 2;
     scopeCurator = 2;
     displayName = "[CRA] Beret, Black (Jungle)";
-    //picture = "\braf\braf_factions\addons\headgear\data\Beret\ui\ui_hiaf_army.paa";
+    picture = "\braf\braf_factions\addons\headgear\data\Beret\ui\braf_cratenia_jungle_beret_ca.paa";
     hiddenSelectionsTextures[] = {
         "\braf\braf_factions\addons\headgear\data\Beret\cratenia\cratenia_sf_co.paa"
     };
