@@ -4,7 +4,6 @@ class braf_cratenia_beret_itemInfo : braf_hiaf_beret_itemInfo {
 	uniformModel ="\A3\Characters_F\Common\headgear_beret01.p3d";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = { "\braf\braf_factions\addons\headgear\data\Beret\cratenia\cratenia_regular_co.paa"};
-    hiddenSelectionsMaterials[] = { "\braf\braf_factions\addons\headgear\data\Beret\cratenia\cratenia_regular.rvmat"};
 };
 class braf_cratenia_army_beret : braf_hiaf_beret_base {
     scope = 2;
@@ -18,9 +17,6 @@ class braf_cratenia_army_beret : braf_hiaf_beret_base {
     hiddenSelectionsTextures[] = {
         "\braf\braf_factions\addons\headgear\data\Beret\cratenia\cratenia_regular_co.paa"
     };
-    hiddenSelectionsMaterials[] = {
-        "\braf\braf_factions\addons\headgear\data\Beret\cratenia\cratenia_regular.rvmat"
-    };
     class ItemInfo : braf_cratenia_beret_itemInfo {
         mass = 5;
         hiddenSelections[] = {
@@ -28,9 +24,6 @@ class braf_cratenia_army_beret : braf_hiaf_beret_base {
         };
         hiddenSelectionsTextures[] = {
             "\braf\braf_factions\addons\headgear\data\Beret\cratenia\cratenia_regular_co.paa"
-        };
-        hiddenSelectionsMaterials[] = {
-            "\braf\braf_factions\addons\headgear\data\Beret\cratenia\cratenia_regular.rvmat"
         };
     };
 };
@@ -43,9 +36,6 @@ class braf_cratenia_jungle_beret : braf_cratenia_army_beret {
     hiddenSelectionsTextures[] = {
         "\braf\braf_factions\addons\headgear\data\Beret\cratenia\cratenia_sf_co.paa"
     };
-    hiddenSelectionsMaterials[] = {
-        "\braf\braf_factions\addons\headgear\data\Beret\cratenia\cratenia_sf.rvmat"
-    };
     class ItemInfo : braf_cratenia_beret_itemInfo {
         mass = 5;
         hiddenSelections[] = {
@@ -53,9 +43,6 @@ class braf_cratenia_jungle_beret : braf_cratenia_army_beret {
         };
         hiddenSelectionsTextures[] = {
         "\braf\braf_factions\addons\headgear\data\Beret\cratenia\cratenia_sf_co.paa"
-		};
-		hiddenSelectionsMaterials[] = {
-		"\braf\braf_factions\addons\headgear\data\Beret\cratenia\cratenia_sf.rvmat"
 		};
     };
 };
