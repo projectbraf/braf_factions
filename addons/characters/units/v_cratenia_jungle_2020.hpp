@@ -825,12 +825,12 @@ class braf_cra_ar_jungle : braf_cra_ar_regular {
         "30Rnd_556x45_Stanag"
     };
     respawnWeapons[] = {
-        "braf_lmga4_green",
+        "braf_factions_colt_lmga4_green",
         "Throw",
         "Put"
     };
     weapons[] = {
-        "braf_lmga4_green",
+        "braf_factions_colt_lmga4_green",
         "Throw",
         "Put"
     };
