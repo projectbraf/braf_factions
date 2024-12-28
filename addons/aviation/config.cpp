@@ -5,7 +5,8 @@ class CfgPatches
 		units[]=
 		{
 			// Units AvEx
-			
+			"braf_factions_hiaf_pilot_regular",
+			"braf_factions_cratenia_pilot"
 		};
 		weapons[]=
 		{
@@ -25,11 +26,11 @@ class CfgPatches
 	};
 };
 
+class EventHandlers;
 class CfgVehicles
 {
-	#include "Flightsuits\v_flightsuit_hiaf.hpp"
-	#include "v_cratenia.hpp"
-	//#include "Flightsuits\v_flightsuit_cratenia.hpp"
+	class braf_characters_aviation_army_aviation_pilot;
+	#include "Flightsuits\v_flightsuit.hpp"
 };
 class CfgWeapons
 {
@@ -41,8 +42,8 @@ class CfgWeapons
 	class Vest_Camo_Base;
 	class V_RebreatherB;
 	class VestItem;
-	#include "Flightsuits\w_flightsuit_hiaf.hpp"
-	//#include "Flightsuits\w_flightsuit_cratenia.hpp"
+	class braf_characters_army_aviation_flightsuit;
+	#include "Flightsuits\w_flightsuit.hpp"
 	#include "Flighthelmets\Alpha200\Alpha200.hpp"
 	#include "Flighthelmets\HGU55\HGU55P.hpp"
 	#include "Flighthelmets\HGU56\HGU56P.hpp"

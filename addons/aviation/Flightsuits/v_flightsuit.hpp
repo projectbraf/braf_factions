@@ -1,0 +1,210 @@
+class braf_factions_hiaf_pilot : braf_characters_aviation_army_aviation_pilot
+{
+    side=1;
+    faction = "BRAF_HIAF";
+    editorSubcategory = "BRAF_REGULAR";
+	_generalMacro="braf_factions_hiaf_pilot";
+	displayName="Pilot";
+	uniformClass="braf_hiaf_pilot_coverall";
+    genericNames = "TanoanMen";
+    identityTypes[] = {
+        "NoGlasses",
+        "LanguageFRE_F",
+        "Head_NATO"
+    };
+	linkedItems[]=
+	{
+		"BRAF_HGU56P_black",
+		"BRAF_flightvest_02",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"ItemRadio",
+		"NVGoggles_OPFOR"
+	};
+	respawnLinkedItems[]=
+	{
+		"BRAF_HGU56P_black",
+		"BRAF_flightvest_02",
+		"ItemMap",
+		"ItemCompass",
+		"ItemWatch",
+		"ItemRadio",
+		"NVGoggles"
+	};
+	weapons[]=
+	{
+		"hgun_ACPC2_F",
+		"Binocular",
+		"Throw",
+		"Put"
+	};
+	respawnWeapons[]=
+	{
+		"hgun_ACPC2_F",
+		"Binocular",
+		"Throw",
+		"Put"
+	};
+	magazines[]=
+	{
+		"16Rnd_9x21_Mag",
+		"16Rnd_9x21_Mag",
+		"16Rnd_9x21_Mag",
+		"SmokeShellRed",
+		"SmokeShellOrange",
+		"SmokeShellYellow",
+		"Chemlight_red",
+		"Chemlight_red"
+	};
+	respawnMagazines[]=
+	{
+		"16Rnd_9x21_Mag",
+		"16Rnd_9x21_Mag",
+		"16Rnd_9x21_Mag",
+		"SmokeShellRed",
+		"SmokeShellOrange",
+		"SmokeShellYellow",
+		"Chemlight_red",
+		"Chemlight_red"
+	};
+    hiddenSelections[] = {
+          "camo1",
+          "air_certification",
+          "air_wing",
+          "aviation_force",
+          "aviation_type",
+          "flag",
+          "identification",
+          "squadron1",
+          "squadron2",
+          "tab",
+          "vf1",
+          "rank",
+          "rank_old",
+    };
+    hiddenSelectionsTextures[] = {
+          "\braf\braf_factions\addons\aviation\Flightsuits\data\Camo1_gray_co.paa",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+    };
+	class EventHandlers: EventHandlers 
+	{
+		init="if (local (_this select 0)) then {[_this select 0, 'null'] call braf_fnc_setflightsuitInsignias;};";
+	};
+};
+
+class braf_factions_cratenia_pilot : braf_characters_aviation_army_aviation_pilot {
+      side=0;
+      faction = "BRAF_CRATENIA";
+      editorSubcategory = "BRAF_REGULAR";
+      _generalMacro="braf_factions_cratenia_pilot";
+      displayName="Pilot";
+      uniformClass="braf_cratenia_pilot_regular_Coverall";
+      genericNames = "NATOMen";
+      identityTypes[] = {
+            "NoGlasses",
+            "LanguageGRE_F",
+            "Head_NATO"
+      };
+      linkedItems[]=
+      {
+            "BRAF_HGU56P_black",
+            "BRAF_flightvest_02",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "NVGoggles_OPFOR"
+      };
+      respawnLinkedItems[]=
+      {
+            "BRAF_HGU56P_black",
+            "BRAF_flightvest_02",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "NVGoggles_OPFOR"
+      };
+      weapons[]=
+      {
+            "braf_PT92",
+            "Binocular",
+            "Throw",
+            "Put"
+      };
+      respawnWeapons[]=
+      {
+            "braf_PT92",
+            "Binocular",
+            "Throw",
+            "Put"
+      };
+      magazines[]=
+      {
+            "16Rnd_9x21_Mag",
+            "16Rnd_9x21_Mag",
+            "16Rnd_9x21_Mag",
+            "SmokeShellRed",
+            "SmokeShellOrange",
+            "SmokeShellYellow",
+            "Chemlight_red",
+            "Chemlight_red"
+      };
+      respawnMagazines[]=
+      {
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag",
+           "16Rnd_9x21_Mag",
+           "SmokeShellRed",
+           "SmokeShellOrange",
+           "SmokeShellYellow",
+           "Chemlight_red",
+           "Chemlight_red"
+       };
+	hiddenSelections[] = {
+        "camo1",
+        "air_certification",
+        "air_wing",
+        "aviation_force",
+        "aviation_type",
+        "flag",
+        "identification",
+        "squadron1",
+        "squadron2",
+        "tab",
+        "vf1",
+        "rank",
+        "rank_old",
+    };
+	hiddenSelectionsTextures[] = {
+         "\braf\braf_factions\addons\aviation\Flightsuits\data\Camo1_khaki_co.paa",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         ""
+    };
+	class EventHandlers: EventHandlers 
+	{
+		init="if (local (_this select 0)) then {[_this select 0, 'null'] call braf_fnc_setflightsuitInsignias;};";
+	};
+};
