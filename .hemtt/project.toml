@@ -4,8 +4,6 @@ name = "Brazilian Armed Forces Mod - Factions"
 prefix = "braf_factions"
 
 [version]
-path = "addons/main/script_version.hpp" # Default
-
 build = 1 # Optional
 major = 2 # Overrides path when set
 minor = 0 
@@ -39,7 +37,7 @@ url = "https://www.brafmod.com.br/"
 [hemtt.config]
 preset = "Hemtt"
 
-[hemtt.launch]
+[hemtt.launch.default]
 workshop = [
   "450814997", # CBA_A3
   "2078457684", # BRAF Mod (Dev)
