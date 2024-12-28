@@ -1,152 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="BRAF">
-	<Package name="Units">
-		<Container name="braf_inf">
-			<Key ID="STR_braf_backpack_radiopack_cratenia_army">
-				<English>[CRA] Radio Backpack, lizard</English>
-				<Portuguese>[CRA] Mochila de Rádio, camuflagem padrão</Portuguese>
-			</Key>
-			<Key ID="STR_braf_backpack_radiopack_cratenia_jungle">
-				<English>[CRA] Radio Backpack, lizard (jungle)</English>
-				<Portuguese>[CRA] Mochila de Rádio, camuflagem de selva</Portuguese>
-			</Key>
-			<Key ID="STR_rank_brigadier">
-				<English>Brigadier</English>
-				<Portuguese>Brigadeiro</Portuguese>
-			</Key>
-			<Key ID="STR_rank_sergeant">
-				<English>Sergeant</English>
-				<Portuguese>Sargento</Portuguese>
-			</Key>
-			<Key ID="STR_rank_sergeantmajor">
-				<English>Sergeant Major</English>
-				<Portuguese>Sargento Mor</Portuguese>
-			</Key>
-			<Key ID="STR_rank_mastersergeant">
-				<English>Master Sergeant</English>
-				<Portuguese>Mestre Sargento</Portuguese>
-			</Key>
-			<Key ID="STR_rank_mastersergeantmajor">
-				<English>Master Sergeant Major</English>
-				<Portuguese>Mestre Sargento Mor</Portuguese>
-			</Key>
-			<Key ID="STR_cratenia_flag">
-				<English>Flag (Cratenia)</English>
-				<Portuguese>Bandeira (Cratenia)</Portuguese>
-			</Key>
-			<!--> Factions <-->
-			<Key ID="STR_BRAF_HIAF">
-				<English>Horizon Islands Armed Forces</English>
-				<Portuguese>Forças Armadas das Ilhas Horizon</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_CRATENIA">
-				<English>Cratenia</English>
-				<Portuguese>Cratenia</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_ELPB">
-				<English>ELPB</English>
-				<Portuguese>ELPB</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_FAC">
-				<English>BRAF Factions</English>
-				<Portuguese>Facções do BRAF</Portuguese>
-			</Key>
-			<!--> Subcategories <-->
-			<Key ID="STR_BRAF_REGULAR_2020">
-				<English>Men (2020, Regular)</English>
-				<Portuguese>Homem (2020, Regular)</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_JUNGLE_2020">
-				<English>Men (2020, Jungle)</English>
-				<Portuguese>Homem (Selva)</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_CAATINGA_2020">
-				<English>Men (2020, Caatinga)</English>
-				<Portuguese>Homem (2020, Caatinga)</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_AIRBORNE_2020">
-				<English>Men (2020, Airborne)</English>
-				<Portuguese>Homem (2020, Paraquedista)</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_COMMANDO_2020">
-				<English>Men (2020, Commando)</English>
-				<Portuguese>Homem (2020, Comandos)</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_RECON_2020">
-				<English>Men (2020, Recon)</English>
-				<Portuguese>Homem (2020, PelRec)</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_MARINE_2020">
-				<English>Men (2020, Marine)</English>
-				<Portuguese>Homem (2020, FuzNav)</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_STORY_2020">
-				<English>Men (2020, Story)</English>
-				<Portuguese>Homem (2020, História)</Portuguese>
-			</Key>
-
-			<!--> Units <-->
-			<Key ID="STR_BRAF_MP_1">
-				<English>Military Police (Rifle)</English>
-				<Portuguese>Polícia do Exército (Fuzil)</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_MP_2">
-				<English>Military Police (Shotgun)</English>
-				<Portuguese>Polícia do Exército (Escopeta)</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_MP_3">
-				<English>Military Police (Pistol)</English>
-				<Portuguese>Polícia do Exército (Pistola)</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_LAT">
-				<English>Rifleman (Light AT)</English>
-				<Portuguese>Fuzileiro (AT Leve)</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_MG_A">
-				<English>Machine Gunner Assistant</English>
-				<Portuguese>Assistente de Metralheiro</Portuguese>
-			</Key>
-			<Key ID="STR_braf_driver">
-				<English>Driver</English>
-				<Portuguese>Motorista</Portuguese>
-			</Key>
-			<Key ID="STR_braf_Mortar">
-				<English>Mortar Operator</English>
-				<Portuguese>Atirador de Morteiro Leve</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_Mortar_A">
-				<English>Mortar Assistant</English>
-				<Portuguese>Assistente de Morteiro Leve</Portuguese>
-			</Key>
-			<Key ID="STR_braf_M2">
-				<English>M2 Gunner</English>
-				<Portuguese>Atirador de Metralhadora Pesada</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_M2_A">
-				<English>M2 Assistant</English>
-				<Portuguese>Assistente de Metralhadora Pesada</Portuguese>
-			</Key>
-			<Key ID="STR_braf_pointman">
-				<English>Pointman</English>
-				<Portuguese>Esclarecedor</Portuguese>
-			</Key>
-			<Key ID="STR_braf_militia">
-				<English>Militia</English>
-				<Portuguese>Milicia</Portuguese>
-			</Key>
-			<Key ID="STR_BRAF_CSR_A">
-				<English>Ammo Bearer (AT)</English>
-				<Portuguese>Municiador (AT)</Portuguese>
-			</Key>
-			<!--> Story <-->
-			<Key ID="STR_braf_HSto_Paco">
-				<English>President Paco Jirkernes</English>
-				<Portuguese>Presidente Paco Jirkernes</Portuguese>
-			</Key>
-			<Key ID="STR_braf_HSto_CB">
-				<English>Colonel Boubée</English>
-				<Portuguese>Coronel Boubée</Portuguese>
-			</Key>
-		</Container>
-	</Package>
+    <Package name="Units">
+        <Container name="braf_inf">
+            <Key ID="STR_BRAF_AIRBORNE_2020">
+                <English>Men (2020, Airborne)</English>
+                <Portuguese>Homem (2020, Paraquedista)</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_CAATINGA_2020">
+                <English>Men (2020, Caatinga)</English>
+                <Portuguese>Homem (2020, Caatinga)</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_COMMANDO_2020">
+                <English>Men (2020, Commando)</English>
+                <Portuguese>Homem (2020, Comandos)</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_CRATENIA">
+                <English>Cratenia</English>
+                <Portuguese>Cratenia</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_CSR_A">
+                <English>Ammo Bearer (AT)</English>
+                <Portuguese>Municiador (AT)</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_ELPB">
+                <English>ELPB</English>
+                <Portuguese>ELPB</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_FAC">
+                <English>BRAF Factions</English>
+                <Portuguese>Facções do BRAF</Portuguese>
+            </Key>
+            <!--> Factions <-->
+            <Key ID="STR_BRAF_HIAF">
+                <English>Horizon Islands Armed Forces</English>
+                <Portuguese>Forças Armadas das Ilhas Horizon</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_JUNGLE_2020">
+                <English>Men (2020, Jungle)</English>
+                <Portuguese>Homem (Selva)</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_LAT">
+                <English>Rifleman (Light AT)</English>
+                <Portuguese>Fuzileiro (AT Leve)</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_M2_A">
+                <English>M2 Assistant</English>
+                <Portuguese>Assistente de Metralhadora Pesada</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_MARINE_2020">
+                <English>Men (2020, Marine)</English>
+                <Portuguese>Homem (2020, FuzNav)</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_MG_A">
+                <English>Machine Gunner Assistant</English>
+                <Portuguese>Assistente de Metralheiro</Portuguese>
+            </Key>
+            <!--> Units <-->
+            <Key ID="STR_BRAF_MP_1">
+                <English>Military Police (Rifle)</English>
+                <Portuguese>Polícia do Exército (Fuzil)</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_MP_2">
+                <English>Military Police (Shotgun)</English>
+                <Portuguese>Polícia do Exército (Escopeta)</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_MP_3">
+                <English>Military Police (Pistol)</English>
+                <Portuguese>Polícia do Exército (Pistola)</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_Mortar_A">
+                <English>Mortar Assistant</English>
+                <Portuguese>Assistente de Morteiro Leve</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_RECON_2020">
+                <English>Men (2020, Recon)</English>
+                <Portuguese>Homem (2020, PelRec)</Portuguese>
+            </Key>
+            <!--> Subcategories <-->
+            <Key ID="STR_BRAF_REGULAR_2020">
+                <English>Men (2020, Regular)</English>
+                <Portuguese>Homem (2020, Regular)</Portuguese>
+            </Key>
+            <Key ID="STR_BRAF_STORY_2020">
+                <English>Men (2020, Story)</English>
+                <Portuguese>Homem (2020, História)</Portuguese>
+            </Key>
+            <Key ID="STR_braf_HSto_CB">
+                <English>Colonel Boubée</English>
+                <Portuguese>Coronel Boubée</Portuguese>
+            </Key>
+            <!--> Story <-->
+            <Key ID="STR_braf_HSto_Paco">
+                <English>President Paco Jirkernes</English>
+                <Portuguese>Presidente Paco Jirkernes</Portuguese>
+            </Key>
+            <Key ID="STR_braf_M2">
+                <English>M2 Gunner</English>
+                <Portuguese>Atirador de Metralhadora Pesada</Portuguese>
+            </Key>
+            <Key ID="STR_braf_Mortar">
+                <English>Mortar Operator</English>
+                <Portuguese>Atirador de Morteiro Leve</Portuguese>
+            </Key>
+            <Key ID="STR_braf_backpack_radiopack_cratenia_army">
+                <English>[CRA] Radio Backpack, lizard</English>
+                <Portuguese>[CRA] Mochila de Rádio, camuflagem padrão</Portuguese>
+            </Key>
+            <Key ID="STR_braf_backpack_radiopack_cratenia_jungle">
+                <English>[CRA] Radio Backpack, lizard (jungle)</English>
+                <Portuguese>[CRA] Mochila de Rádio, camuflagem de selva</Portuguese>
+            </Key>
+            <Key ID="STR_braf_driver">
+                <English>Driver</English>
+                <Portuguese>Motorista</Portuguese>
+            </Key>
+            <Key ID="STR_braf_militia">
+                <English>Militia</English>
+                <Portuguese>Milicia</Portuguese>
+            </Key>
+            <Key ID="STR_braf_pointman">
+                <English>Pointman</English>
+                <Portuguese>Esclarecedor</Portuguese>
+            </Key>
+            <Key ID="STR_cratenia_flag">
+                <English>Flag (Cratenia)</English>
+                <Portuguese>Bandeira (Cratenia)</Portuguese>
+            </Key>
+            <Key ID="STR_rank_brigadier">
+                <English>Brigadier</English>
+                <Portuguese>Brigadeiro</Portuguese>
+            </Key>
+            <Key ID="STR_rank_mastersergeant">
+                <English>Master Sergeant</English>
+                <Portuguese>Mestre Sargento</Portuguese>
+            </Key>
+            <Key ID="STR_rank_mastersergeantmajor">
+                <English>Master Sergeant Major</English>
+                <Portuguese>Mestre Sargento Mor</Portuguese>
+            </Key>
+            <Key ID="STR_rank_sergeant">
+                <English>Sergeant</English>
+                <Portuguese>Sargento</Portuguese>
+            </Key>
+            <Key ID="STR_rank_sergeantmajor">
+                <English>Sergeant Major</English>
+                <Portuguese>Sargento Mor</Portuguese>
+            </Key>
+        </Container>
+    </Package>
 </Project>

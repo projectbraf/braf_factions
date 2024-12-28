@@ -146,6 +146,12 @@ class cfgFactionClasses
         priority = 2;
         side = 2;
     };
+    class BRAF_Thugs
+    {
+        displayName = "Thugs";
+        priority = 2;
+        side = 2;
+    };
 };
 class CfgEditorSubcategories
 {
@@ -169,18 +175,31 @@ class CfgEditorSubcategories
     {
         displayName = "$STR_BRAF_COMMANDO_2020";
     };
+    class BRAF_Thugs_Light
+    {
+        displayName = "Men (Robber)";
+    };
+    class BRAF_Thugs_Heavy
+    {
+        displayName = "Men (Assaulter)";
+    };
+    class BRAF_Thugs_New_Cangaco
+    {
+        displayName = "Men (New Cangaço)";
+    };
 };
 class DefaultEventHandlers;
 class CfgVehicles
 {
-#include "units\v_factions_base.hpp"
-#include "v_uniform.hpp"
-#include "units/v_hiaf_army_2020.hpp"
-// #include "units/v_hiaf_commando_2020.hpp"
-#include "units/v_hiaf_marine_2020.hpp"
-#include "units/v_hiaf_story_2020.hpp"
-#include "units/v_cratenia_2020.hpp"
-#include "units/v_cratenia_jungle_2020.hpp"
+    #include "units\v_factions_base.hpp"
+    #include "v_uniform.hpp"
+    #include "units/v_hiaf_army_2020.hpp"
+    // #include "units/v_hiaf_commando_2020.hpp"
+    #include "units/v_hiaf_marine_2020.hpp"
+    #include "units/v_hiaf_story_2020.hpp"
+    #include "units/v_cratenia_2020.hpp"
+    #include "units/v_cratenia_jungle_2020.hpp"
+    #include "units/thug_opfor_units.hpp"
 };
 class CfgWeapons
 {
@@ -190,5 +209,5 @@ class CfgWeapons
     {
     };
     class UniformItem;
-#include "w_uniform.hpp"
+    #include "w_uniform.hpp"
 };
