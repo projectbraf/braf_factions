@@ -41,6 +41,12 @@ preset = "Hemtt"
 workshop = [
   "450814997", # CBA_A3
   "2078457684", # BRAF Mod (Dev)
+  #"541888371", # CUP Vehicles
+  #"497661914", # CUP Units
+  #"497660133", # CUP Weapons
+  #"463939057", # ACE
+  #"1779063631", # ZEN - Zeus Enhanced
+
 ]
 
 [binarize]
