@@ -28,7 +28,7 @@ class braf_factions_thug_pistol: O_G_Soldier_F
     "Head_Tanoan"
   };
         class EventHandlers : EventHandlers {
-        init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_fnc_thugswear;[_this select 0] call braf_factions_fnc_thugsequippistolCUP;};";
+        init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_fnc_thugswear;};";
         };
 
 };

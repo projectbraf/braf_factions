@@ -1,6 +1,6 @@
 params["_unit"];
 
-magazineBlacklist = ["BRAF_Boito_5Rnd_riot","BRAF_Boito_7Rnd_riot"]
+magazineBlacklist = ["BRAF_Boito_5Rnd_riot","BRAF_Boito_7Rnd_riot"];
 
 _weapon = [
 	
@@ -21,7 +21,7 @@ _definedWeapon = (selectRandom _weapon);
 _unit addWeaponGlobal _definedWeapon;
 
 _compatibleMagazines = compatibleMagazines _definedWeapon;
-_compatibleMagazines = _compatibleMagazines - magazineBlacklist
+_compatibleMagazines = _compatibleMagazines - magazineBlacklist;
 
 _magazine = (selectRandom _compatibleMagazines);
 _unit addMagazines [_magazine, 6];

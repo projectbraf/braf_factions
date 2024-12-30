@@ -39,7 +39,7 @@ _definedWeapon = (selectRandom _sniper);
 _unit addWeaponGlobal _definedWeapon;
 
 _compatibleMagazines = compatibleMagazines _definedWeapon;
-_compatibleMagazines = _compatibleMagazines - magazineBlacklist
+_compatibleMagazines = _compatibleMagazines - magazineBlacklist;
 
 _magazine = (selectRandom _compatibleMagazines);
 _unit addMagazines [_magazine, 6];

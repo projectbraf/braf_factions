@@ -15,10 +15,15 @@ class CfgPatches
     };
 };
 
+
+#if __has_include("\CUP\Weapons\CUP_Weapons_DynamicLoadout\mk82\CUP_mk82_pod.p3d")
 class DefaultEventHandlers;
 class CfgVehicles
 {
     skipWhenMissingDependencies = 1;
+    
     #include "thug_opfor_units_CUP.hpp"
 };
+#endif
+
 
