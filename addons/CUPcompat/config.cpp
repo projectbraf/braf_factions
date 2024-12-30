@@ -15,28 +15,28 @@ class CfgFunctions {
     class braf_factions_CUP {
         class functions {
             class thugswearCUP {
-                file = "braf\braf_factions\addons\main\functions\fn_thugswearCUP.sqf";
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugswearCUP.sqf";
             };
             class thugsequiprifleCUP {
-                file = "braf\braf_factions\addons\main\functions\fn_thugsequiprifleCUP.sqf";
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsequiprifleCUP.sqf";
             };
             class thugsequippistolCUP {
-                file = "braf\braf_factions\addons\main\functions\fn_thugsequippistolCUP.sqf";
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsequippistolCUP.sqf";
             };
             class thugsequipsniperCUP {
-                file = "braf\braf_factions\addons\main\functions\fn_thugsequipsniperCUP.sqf";
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsequipsniperCUP.sqf";
             };
             class thugsequipvestCUP {
-                file = "braf\braf_factions\addons\main\functions\fn_thugsequipvestCUP.sqf";
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsequipvestCUP.sqf";
             };
             class thugsequipshotgunCUP {
-                file = "braf\braf_factions\addons\main\functions\fn_thugsequipshotgunCUP.sqf";
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsequipshotgunCUP.sqf";
             };
             class thugsequipsmgCUP {
-                file = "braf\braf_factions\addons\main\functions\fn_thugsequipsmgCUP.sqf";
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsequipsmgCUP.sqf";
             };
             class thugswearbikerCUP {
-                file = "braf\braf_factions\addons\main\functions\fn_thugswearbikerCUP.sqf";
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugswearbikerCUP.sqf";
             };
         };
     };

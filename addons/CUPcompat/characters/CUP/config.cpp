@@ -10,7 +10,12 @@ class CfgPatches
             "CUP_BaseConfigs"
             };
         requiredVersion = 0.1;
-        units[] = {};
+        units[] = {
+            #if __has_include("\CUP\Weapons\CUP_Weapons_DynamicLoadout\mk82\CUP_mk82_pod.p3d")
+            "braf_factions_thug_biker"
+            #endif
+
+            };
         weapons[] = {};
     };
 };

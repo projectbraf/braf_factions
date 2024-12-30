@@ -95,11 +95,19 @@ class CfgPatches
             "braf_cra_eng_jungle",
             "braf_cra_hmg_jungle",
             "braf_cra_hmg_a_jungle",
+            // Thugs
             "braf_thug_shirt_black",
             "braf_thug_shirt_blue",
             "braf_thug_shirt_green",
             "braf_thug_shirt_tan",
-            "braf_thug_shirt_nike"
+            "braf_thug_shirt_nike",
+            "braf_factions_thug_at",
+            "braf_factions_thug_aa",
+            "braf_factions_thug_smg",
+            "braf_factions_thug_shotgun",
+            "braf_factions_thug_rifleman",
+            "braf_factions_thug_marksman",
+            "braf_factions_thug_pistol"
         };
         weapons[] = {
             // BDU
