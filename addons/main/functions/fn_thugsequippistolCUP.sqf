@@ -1,6 +1,6 @@
 params["_unit"];
 
-Pistol = [
+_pistol = [
 	"hgun_ACPC2_F",
 	"hgun_Rook40_F",
 	"hgun_P07_blk_F",
@@ -23,6 +23,17 @@ Pistol = [
 	"CUP_hgun_TT"
 
 ];
+_currentMagazine = getArray ( configFile >> "CfgWeapons" >> primaryWeapon _unit >> "magazines" );
 
-_unit addSecondaryWeaponItem (selectRandom Pistol);
-_unit [Pistol] call BIS_fnc_compatibleMagazines;
+	//Remove all current weapon magazines
+	{
+		_unit removeMagazines _x;
+	}forEach _currentMagazine;
+_definedWeapon = (selectRandom _pistol);
+_unit addWeaponGlobal _definedWeapon;
+
+_compatibleMagazines = compatibleMagazines _definedWeapon;
+
+_magazine = (selectRandom _compatibleMagazines);
+_unit addMagazines [_magazine, 6];
+

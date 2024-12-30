@@ -5,7 +5,7 @@ class CfgPatches
         author = "BRAF Team";
         addonRootClass = "BRAF_Soft";
         requiredAddons[] = {
-            "braf_soft",
+            "braf_soft"
         };
         requiredVersion = 0.1;
         units[] = {
@@ -25,11 +25,14 @@ class CfgPatches
             "braf_am21_Covered",
             "braf_am21_opened",
             "braf_am21_cargo",
+            // THUGS
+            "braf_offroad_thugs",
+            "braf_jeep_thugs",
+            "braf_voadeira_thugs"
         };
         weapons[] = {};
     };
 };
-
 class CfgVehicles
 {
     class braf_worker_covered;
@@ -50,4 +53,5 @@ class CfgVehicles
 #include "AM11_base.hpp"
 
 #include "v_cratenia.hpp"
+#include "Thugs_veh.hpp"
 };

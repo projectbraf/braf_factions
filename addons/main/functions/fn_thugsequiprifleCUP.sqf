@@ -1,10 +1,27 @@
+
 params["_unit"];
 
-Weapon = [
-	"Braf_MT12",
-	"braf_boito_14_oldstock",
-	"braf_boito_14_nostock",
-	"braf_boito_20_oldstock",
+magazineBlacklist = [
+	"braf_30Rnd_556x45_Blank",
+	"CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag_ar15",
+	"CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag_ar15",
+	"CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag_ar15",
+	"CUP_100Rnd_556x45_BetaCMag_ar15",
+	"150Rnd_556x45_Drum_Green_Mag_F",
+	"150Rnd_556x45_Drum_Mag_F",
+	"150Rnd_556x45_Drum_Sand_Mag_F",
+	"150Rnd_556x45_Drum_Green_Mag_Tracer_F",
+	"150Rnd_556x45_Drum_Mag_Tracer_F",
+	"150Rnd_556x45_Drum_Sand_Mag_Tracer_F",
+	"braf_20Rnd_762x51_Blank",
+	"braf_30Rnd_556x45_HK_festim",
+	"braf_sig_556x45_festim"
+
+	 ];
+
+
+
+_weapon = [
 	"Braf_m16a1_carbine_9mm",
 	"Braf_m16a1_carbine",
 	"Braf_m16a1e1",
@@ -25,7 +42,6 @@ Weapon = [
 	"braf_factions_lapa_Desert",
 	"braf_factions_lapa_green",
 	"Braf_Lapa",
-	"Braf_Mekanika_URU_v1",
 	"braf_factions_md1_hiaf",
 	"braf_factions_fal_hiaf",
 	"CUP_arifle_ACR_blk_556",
@@ -52,23 +68,23 @@ Weapon = [
 	"CUP_arifle_G3A3_modern_ris_black",
 	"CUP_arifle_Galil_SAR_black",
 	"CUP_arifle_HK416_CQB_Black",
-	"CUP_sgun_M1014",
-	"CUP_sgun_M1014_vfg",
-	"CUP_smg_M3A1",
-	"CUP_smg_M3A1_blk",
 	"CUP_arifle_M4A1_black",
 	"CUP_arifle_M4A3_black",
-	"CUP_smg_Mac10",
-	"CUP_smg_MP5A5_Rail",
-	"CUP_smg_MP5A5_Rail_VFG",
-	"CUP_smg_MP7",
-	"CUP_smg_vityaz",
 	"CUP_arifle_Sa58s",
-	"CUP_smg_SA61",
 	"CUP_arifle_SR3M_Vikhr",
-	"CUP_smg_UZI",
 	"CUP_arifle_xm29_ke_blk"
 ];
 
-_unit addPrimaryWeaponItem (selectRandom Weapon);
-_unit [Weapon] call BIS_fnc_compatibleMagazines;
+_currentMagazine = getArray ( configFile >> "CfgWeapons" >> primaryWeapon _unit >> "magazines" );
+
+	//Remove all current weapon magazines
+	{
+		_unit removeMagazines _x;
+	}forEach _currentMagazine;
+_definedWeapon = (selectRandom _weapon);
+_unit addWeaponGlobal _definedWeapon;
+
+_compatibleMagazines = compatibleMagazines _definedWeapon;
+_compatibleMagazines = _compatibleMagazines - magazineBlacklist
+_magazine = (selectRandom _compatibleMagazines);
+_unit addMagazines [_magazine, 6];
