@@ -413,7 +413,6 @@ class braf_A29B_HIAF1: BRAF_A29B
 	scopeCurator=2;
 	side="1";
 	forceInGarage=1;
-	faction="BRAF_FACTIONS";
 	displayName="A-29B Super Tucano 'HIAF1'";
 	//editorPreview="\braf\braf_insignia\editorpreview\air2\BRAF_A29B.jpg";
 	class Armory
@@ -479,7 +478,6 @@ class braf_A29B_HIAF2: BRAF_A29B
 	scopeCurator=2;
 	side="1";
 	forceInGarage=1;
-	faction="BRAF_FACTIONS";
 	displayName="A-29B Super Tucano 'HIAF2'";
 	//editorPreview="\braf\braf_insignia\editorpreview\air2\BRAF_A29B.jpg";
 	class Armory
