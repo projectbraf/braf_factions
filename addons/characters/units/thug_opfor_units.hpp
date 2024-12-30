@@ -20,9 +20,15 @@ class braf_factions_thug_pistol: O_G_Soldier_F
     "LanguageFRE_F",
     "Head_Tanoan"
   };
+  #if _has_include("\CUP\Weapons\CUP_Weapons_DynamicLoadout\mk82\CUP_mk82_pod.p3d")
   class EventHandlers : EventHandlers {
-	init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_fnc_thugswear;};";
-  };
+        init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_fnc_thugswearCUP;[_this select 0] call braf_factions_fnc_thugsequippistolCUP;};";
+        };
+  #else
+        class EventHandlers : EventHandlers {
+        init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_fnc_thugswear;};";
+        };
+  #endif
 };
 
 class O_G_soldier_M_F;

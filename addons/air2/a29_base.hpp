@@ -395,6 +395,7 @@ class braf_A29B_Equador: BRAF_A29B
 // HIAF
 class braf_A29_canopy_HIAF1: braf_A29_canopy
 {
+	faction = "BRAF_HIAF";
 	hiddenSelections[]=
 	{
 		"camo1"
@@ -406,6 +407,7 @@ class braf_A29_canopy_HIAF1: braf_A29_canopy
 };
 class braf_A29B_HIAF1: BRAF_A29B
 {
+	faction = "BRAF_HIAF";
 	_generalmacro="BRAF_A29B_HIAF1";
 	scope=2;
 	scopeCurator=2;
@@ -459,6 +461,7 @@ class braf_A29B_HIAF1: BRAF_A29B
 };
 class braf_A29_canopy_HIAF2: braf_A29_canopy
 {
+	faction = "BRAF_HIAF";
 	hiddenSelections[]=
 	{
 		"camo1"
@@ -470,6 +473,7 @@ class braf_A29_canopy_HIAF2: braf_A29_canopy
 };
 class braf_A29B_HIAF2: BRAF_A29B
 {
+	faction = "BRAF_HIAF";
 	_generalmacro="BRAF_A29B_HIAF2";
 	scope=2;
 	scopeCurator=2;

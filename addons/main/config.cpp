@@ -16,6 +16,21 @@ class CfgFunctions {
             class thugswear {
                 file = "braf\braf_factions\addons\main\functions\fn_thugswear.sqf";
             };
+            class thugswearCUP {
+                file = "braf\braf_factions\addons\main\functions\fn_thugswearCUP.sqf";
+            };
+            class thugsequiprifleCUP {
+                file = "braf\braf_factions\addons\main\functions\fn_thugsequiprifleCUP.sqf";
+            };
+            class thugsequippistolCUP {
+                file = "braf\braf_factions\addons\main\functions\fn_thugsequippistolCUP.sqf";
+            };
+            class thugsequipsniperCUP {
+                file = "braf\braf_factions\addons\main\functions\fn_thugsequipsniperCUP.sqf";
+            };
+            class thugsequipvestCUP {
+                file = "braf\braf_factions\addons\main\functions\fn_thugsequipvestCUP.sqf";
+            };
         };
     };
 };
