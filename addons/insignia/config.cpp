@@ -21,3 +21,16 @@ class CfgMarkers
         texture = "\braf\braf_factions\addons\insignia\Flag\markercratenia.paa";
     };
 };
+
+class CfgVehicles {
+    class braf_brazil_flag;
+    class braf_cratenia_flag : braf_brazil_flag
+    {
+        _generalMacro = "braf_cratenia_flag";
+        displayName = "$STR_Brazil_cratenia";
+        class EventHandlers
+        {
+            init = "(_this select 0) setFlagTexture 'braf\braf_factions\addons\insignia\Flag\flag_cratenia.paa'";
+        };
+    };
+};
