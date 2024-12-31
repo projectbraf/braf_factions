@@ -1113,3 +1113,45 @@ class braf_cratenia_jungle_rolledup : braf_cratenia_regular_rolledup {
         ""
     };
 };
+class braf_army_safe_airborne;
+class braf_thug_shirt_black : braf_army_safe_airborne {
+    side = 0;
+    faction = "BRAF_Thugs";
+    editorsubcategory = "BRAF_Thugs_Light";
+    _generalMacro = "braf_thug_shirt";
+    Author = "BRAF Team";
+    uniformClass = "braf_thug_irregular_army_tshirt_black_uniform";
+    identityTypes[] = {
+        "NoGlasses",
+        "LanguageENG_F",
+        "Head_Tanoan"
+    };
+    scope = 1;
+    scopeCurator = 1;
+    scopeArsenal = 1;
+    genericNames = "braf_brazilian_names";
+    displayName = "[Thug] T-Shirt";
+    nakedUniform = "U_BasicBody";
+    hiddenSelections[] = { "Camo1"};
+    hiddenSelectionsTextures[] = { "\braf\braf_factions\addons\characters\uniform\Data\Camiseta\camo_black_co.paa" };
+};
+class braf_thug_shirt_blue : braf_army_safe_airborne {
+    hiddenSelections[] = { "Camo1"};
+    uniformClass = "braf_thug_irregular_army_tshirt_blue_uniform";
+    hiddenSelectionsTextures[] = { "\braf\braf_factions\addons\characters\uniform\Data\Camiseta\camo_blue_co.paa" };
+};
+class braf_thug_shirt_green : braf_army_safe_airborne {
+    hiddenSelections[] = { "Camo1"};
+    uniformClass = "braf_thug_irregular_army_tshirt_green_uniform";
+    hiddenSelectionsTextures[] = { "\braf\braf_factions\addons\characters\uniform\Data\Camiseta\camo_green_co.paa" };
+};
+class braf_thug_shirt_tan : braf_army_safe_airborne {
+    hiddenSelections[] = { "Camo1"};
+    uniformClass = "braf_thug_irregular_army_tshirt_tan_uniform";
+    hiddenSelectionsTextures[] = { "\braf\braf_factions\addons\characters\uniform\Data\Camiseta\camo_tan_co.paa" };
+};
+class braf_thug_shirt_nike : braf_army_safe_airborne {
+    hiddenSelections[] = { "Camo1"};
+    uniformClass = "braf_thug_irregular_army_tshirt_nike_uniform";
+    hiddenSelectionsTextures[] = { "\braf\braf_factions\addons\characters\uniform\Data\Camiseta\camo_nike_co.paa" };
+};

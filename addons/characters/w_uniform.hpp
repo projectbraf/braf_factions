@@ -204,3 +204,81 @@ class braf_cratenia_Jungle_RolledUp_uniform : Uniform_Base {
         mass = 20;
     };
 };
+
+//--------------------------Shirt Thugs----------------------------
+class braf_army_airborne_tshirt_uniform;
+class braf_thug_irregular_army_tshirt_black_uniform : braf_army_airborne_tshirt_uniform {
+    scope = 2;
+    scopeCurator = 2;
+    Author = "BRAF Team";
+
+    displayName = "[Thug] Black T-Shirt";
+    hiddenSelections[] = { "Camo1"};
+    hiddenSelectionsTextures[] = { "braf\braf_factions\addons\characters\uniform\Data\Camiseta\camo_black_co.paa" };
+    class ItemInfo : UniformItem {
+        uniformModel = "-";
+        uniformClass = "braf_thug_shirt_black";
+        containerClass = "Supply50";
+        mass = 20;
+    };
+};
+class braf_thug_irregular_army_tshirt_blue_uniform : braf_army_airborne_tshirt_uniform {
+    scope = 2;
+    scopeCurator = 2;
+    Author = "BRAF Team";
+
+    displayName = "[Thug] Blue T-Shirt";
+    hiddenSelections[] = { "Camo1"};
+    hiddenSelectionsTextures[] = { "braf\braf_factions\addons\characters\uniform\Data\Camiseta\camo_blue_co.paa" };
+    class ItemInfo : UniformItem {
+        uniformModel = "-";
+        uniformClass = "braf_thug_shirt_blue";
+        containerClass = "Supply50";
+        mass = 20;
+    };
+};
+class braf_thug_irregular_army_tshirt_green_uniform : braf_army_airborne_tshirt_uniform {
+    scope = 2;
+    scopeCurator = 2;
+    Author = "BRAF Team";
+
+    displayName = "[Thug] Green T-Shirt";
+    hiddenSelections[] = { "Camo1"};
+    hiddenSelectionsTextures[] = { "braf\braf_factions\addons\characters\uniform\Data\Camiseta\camo_green_co.paa" };
+    class ItemInfo : UniformItem {
+        uniformModel = "-";
+        uniformClass = "braf_thug_shirt_green";
+        containerClass = "Supply50";
+        mass = 20;
+    };
+};
+class braf_thug_irregular_army_tshirt_tan_uniform : braf_army_airborne_tshirt_uniform {
+    scope = 2;
+    scopeCurator = 2;
+    Author = "BRAF Team";
+
+    displayName = "[Thug] Tan T-Shirt";
+    hiddenSelections[] = { "Camo1"};
+    hiddenSelectionsTextures[] = { "braf\braf_factions\addons\characters\uniform\Data\Camiseta\camo_tan_co.paa" };
+    class ItemInfo : UniformItem {
+        uniformModel = "-";
+        uniformClass = "braf_thug_shirt_tan";
+        containerClass = "Supply50";
+        mass = 20;
+    };
+};
+class braf_thug_irregular_army_tshirt_nike_uniform : braf_army_airborne_tshirt_uniform {
+    scope = 2;
+    scopeCurator = 2;
+    Author = "BRAF Team";
+
+    displayName = "[Thug] Nike T-Shirt";
+    hiddenSelections[] = { "Camo1"};
+    hiddenSelectionsTextures[] = { "braf\braf_factions\addons\characters\uniform\Data\Camiseta\camo_nike_co.paa" };
+    class ItemInfo : UniformItem {
+        uniformModel = "-";
+        uniformClass = "braf_thug_shirt_nike";
+        containerClass = "Supply50";
+        mass = 20;
+    };
+};

@@ -95,6 +95,19 @@ class CfgPatches
             "braf_cra_eng_jungle",
             "braf_cra_hmg_jungle",
             "braf_cra_hmg_a_jungle",
+            // Thugs
+            "braf_thug_shirt_black",
+            "braf_thug_shirt_blue",
+            "braf_thug_shirt_green",
+            "braf_thug_shirt_tan",
+            "braf_thug_shirt_nike",
+            "braf_factions_thug_at",
+            "braf_factions_thug_aa",
+            "braf_factions_thug_smg",
+            "braf_factions_thug_shotgun",
+            "braf_factions_thug_rifleman",
+            "braf_factions_thug_marksman",
+            "braf_factions_thug_pistol"
         };
         weapons[] = {
             // BDU
@@ -109,6 +122,13 @@ class CfgPatches
             "braf_horizon_marine_RolledUp_uniform",
             "braf_cratenia_regular_RolledUp_uniform",
             "braf_cratenia_Jungle_RolledUp_uniform",
+
+            //T-Shirt
+            "braf_thug_irregular_army_tshirt_black_uniform",
+            "braf_thug_irregular_army_tshirt_blue_uniform",
+            "braf_thug_irregular_army_tshirt_green_uniform",
+            "braf_thug_irregular_army_tshirt_tan_uniform",
+            "braf_thug_irregular_army_tshirt_nike_uniform"
         };
     };
 };
@@ -193,13 +213,14 @@ class CfgVehicles
 {
     #include "units\v_factions_base.hpp"
     #include "v_uniform.hpp"
-    #include "units/v_hiaf_army_2020.hpp"
-    // #include "units/v_hiaf_commando_2020.hpp"
-    #include "units/v_hiaf_marine_2020.hpp"
-    #include "units/v_hiaf_story_2020.hpp"
-    #include "units/v_cratenia_2020.hpp"
-    #include "units/v_cratenia_jungle_2020.hpp"
-    #include "units/thug_opfor_units.hpp"
+    #include "units\v_hiaf_army_2020.hpp"
+    // #include "units\v_hiaf_commando_2020.hpp"
+    #include "units\v_hiaf_marine_2020.hpp"
+    #include "units\v_hiaf_story_2020.hpp"
+    #include "units\v_cratenia_2020.hpp"
+    #include "units\v_cratenia_jungle_2020.hpp"
+    #include "units\thug_opfor_units.hpp"
+
 };
 class CfgWeapons
 {

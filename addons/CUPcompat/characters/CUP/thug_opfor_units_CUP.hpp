@@ -27,11 +27,14 @@ class braf_factions_thug_pistol: O_G_Soldier_F
     "LanguageFRE_F",
     "Head_Tanoan"
   };
-        class EventHandlers : EventHandlers {
-        init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_fnc_thugswear;};";
-        };
-
+  class EventHandlers : EventHandlers {
+  init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_CUP_fnc_thugswearCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequippistolCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequipvestCUP;};";
+  };
+  skipWhenMissingDependencies = 1;
 };
+
+
+
 class braf_factions_thug_marksman: O_G_soldier_M_F
 {
   scope = 2;
@@ -53,8 +56,9 @@ class braf_factions_thug_marksman: O_G_soldier_M_F
     "Head_Tanoan"
   };
   class EventHandlers : EventHandlers {
-	  init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_fnc_thugswear;};";
+  init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_CUP_fnc_thugswearCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequipsniperCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequipvestCUP;};";
   };
+  skipWhenMissingDependencies = 1;
 };
 
 class braf_factions_thug_rifleman: O_G_Soldier_F
@@ -78,8 +82,9 @@ class braf_factions_thug_rifleman: O_G_Soldier_F
     "Head_Tanoan"
   };
   class EventHandlers : EventHandlers {
-	  init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_fnc_thugswear;};";
+  init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_CUP_fnc_thugswearCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequiprifleCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequipvestCUP;};";
   };
+  skipWhenMissingDependencies = 1;
 };
 
 class braf_factions_thug_shotgun: O_G_Soldier_F
@@ -103,8 +108,9 @@ class braf_factions_thug_shotgun: O_G_Soldier_F
     "Head_Tanoan"
   };
   class EventHandlers : EventHandlers {
-	  init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_fnc_thugswear;};";
+  init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_CUP_fnc_thugswearCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequipshotgunCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequipvestCUP;};";
   };
+  skipWhenMissingDependencies = 1;
 };
 
 class braf_factions_thug_smg: O_G_Soldier_F
@@ -128,22 +134,23 @@ class braf_factions_thug_smg: O_G_Soldier_F
     "Head_Tanoan"
   };
   class EventHandlers : EventHandlers {
-	  init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_fnc_thugswear;};";
+  init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_CUP_fnc_thugswearCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequipsmgCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequipvestCUP;};";
   };
+  skipWhenMissingDependencies = 1;
 };
 
-class braf_factions_thug_aa: O_G_Soldier_F
+class braf_factions_thug_biker: O_G_Soldier_F
 {
   scope = 2;
   scopeArsenal = 2;
   scopeCurator = 2;
-  _generalMacro = "braf_factions_thug_aa";
-  displayName = "Thug (AA)";
+  _generalMacro = "braf_factions_thug_biker";
+  displayName = "Thug (Biker)";
   faction = "BRAF_Thugs";
   uniformClass = "U_I_C_Soldier_Bandit_4_F";
   backpack = "";
-  weapons[] = {"Braf_MT12", "braf_Igla", "Throw", "Put"};
-  magazines[] = {"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "braf_Igla_missile"};
+  weapons[] = {"Throw", "Put"};
+  magazines[] = {};
   items[] = {"FirstAidKit"};
   linkedItems[] = {};
   genericNames = "braf_brazilian_names";
@@ -153,8 +160,9 @@ class braf_factions_thug_aa: O_G_Soldier_F
     "Head_Tanoan"
   };
   class EventHandlers : EventHandlers {
-	  init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_fnc_thugswear;};";
+  init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_CUP_fnc_thugswearbikerCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequippistolCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequipvestCUP;};";
   };
+  skipWhenMissingDependencies = 1;
 };
 
 class braf_factions_thug_at: O_G_Soldier_F
@@ -167,7 +175,7 @@ class braf_factions_thug_at: O_G_Soldier_F
   faction = "BRAF_Thugs";
   uniformClass = "U_I_C_Soldier_Bandit_4_F";
   backpack = "";
-  weapons[] = {"Braf_MT12", "braf_launch_alac", "Throw", "Put"};
+  weapons[] = {"Braf_MT12", "CUP_launch_RPG18", "Throw", "Put"};
   magazines[] = {"30Rnd_9x21_Mag", "30Rnd_9x21_Mag", "30Rnd_9x21_Mag"};
   items[] = {"FirstAidKit"};
   linkedItems[] = {};
@@ -178,6 +186,13 @@ class braf_factions_thug_at: O_G_Soldier_F
     "Head_Tanoan"
   };
   class EventHandlers : EventHandlers {
-	  init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_fnc_thugswear;};";
+  init = "if (local (_this select 0)) then {[(_this select 0), [], nil] call BIS_fnc_unitHeadgear;[_this select 0] call braf_factions_CUP_fnc_thugswearCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequiprifleCUP;[_this select 0] call braf_factions_CUP_fnc_thugsequipvestCUP;};";
   };
+  skipWhenMissingDependencies = 1;
+};
+class braf_factions_thug_aa: O_G_Soldier_F
+{
+  scope = 1;
+  scopeArsenal = 1;
+  scopeCurator = 1;
 };
