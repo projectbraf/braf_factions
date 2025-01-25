@@ -140,20 +140,20 @@ facewears = [
 	"CUP_G_WristWatch",
 	"G_EyeProtectors_F"
 ];
-_randomSuit = selectRandom suits
-if (((_randomSuit) != "") || (!isNull(_randomSuit))) then
+_randomSuit = selectRandom suits;
+if (_randomSuit != "") then
 {
 	_unit forceAddUniform _randomSuit;
 }; // IF Statement criado por que sim
 
-_randomHeadgear = selectRandom headgears
-if (((_randomHeadgear) != "") || (!isNull(_randomHeadgear))) then
+_randomHeadgear = selectRandom headgears;
+if (_randomHeadgear != "") then
 {
 	_unit addHeadgear _randomHeadgear;
 }; // IF Statement criado para parar com erros no log
 
-_randomFacewears = selectRandom facewears
-if (((_randomFacewears) != "") || (!isNull(_randomFacewears))) then
+_randomFacewears = selectRandom facewears;
+if (_randomFacewears != "") then
 {
 	_unit addGoggles _randomFacewears;
 }; // IF Statement criado para parar com erros no log
