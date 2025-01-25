@@ -106,4 +106,8 @@ Vests = [
 	"braf_ephod_vest"
 ];
 
-_unit addVest (selectRandom Vests);
+_randomVests = selectRandom Vests
+if (((_randomVests) != "") || (!isNull(_randomVests))) then
+{
+	_unit addVest _randomVests;
+}; // IF Statement criado para parar com erros no log

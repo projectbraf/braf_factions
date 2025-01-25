@@ -29,6 +29,14 @@ class CfgVehicles
     
     #include "thug_opfor_units_CUP.hpp"
 };
+class CfgWeapons 
+{
+    class Item_Base_F;
+    class U_I_C_Soldier_Bandit_4_F: Item_Base_F
+    {
+        modelSides[] = {3,2,1,0};
+    };
+};
 #endif
 
 
