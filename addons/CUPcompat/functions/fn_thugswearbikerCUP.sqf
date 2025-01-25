@@ -30,6 +30,10 @@ headgears = [
 	"",
 	"",
 	"",
+	"",
+	"",
+	"",
+	"",
 	"H_RacingHelmet_1_black_F",
 	"H_RacingHelmet_1_white_F",
 	"H_RacingHelmet_1_red_F",
@@ -101,6 +105,20 @@ facewears = [
 	"CUP_G_WristWatch",
 	"G_EyeProtectors_F"
 ];
-_unit forceAddUniform (selectRandom suits);
-_unit addHeadgear (selectRandom headgears);
-_unit addGoggles (selectRandom facewears);
+_randomSuit = selectRandom suits;
+if (_randomSuit != "") then
+{
+	_unit forceAddUniform _randomSuit;
+}; // IF Statement criado por que sim
+
+_randomHeadgear = selectRandom headgears;
+if (_randomHeadgear != "") then
+{
+	_unit addHeadgear _randomHeadgear;
+}; // IF Statement criado para parar com erros no log
+
+_randomFacewears = selectRandom facewears;
+if (_randomFacewears != "") then
+{
+	_unit addGoggles _randomFacewears;
+}; // IF Statement criado para parar com erros no log

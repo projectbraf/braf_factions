@@ -38,8 +38,9 @@ _currentMagazine = getArray ( configFile >> "CfgWeapons" >> primaryWeapon _unit 
 _definedWeapon = (selectRandom _sniper);
 _unit addWeaponGlobal _definedWeapon;
 
-_compatibleMagazines = _compatibleMagazines - magazineBlacklist;
+
 _compatibleMagazines = compatibleMagazines _definedWeapon;
+_compatibleMagazines = _compatibleMagazines - magazineBlacklist;
 
 
 _magazine = (selectRandom _compatibleMagazines);

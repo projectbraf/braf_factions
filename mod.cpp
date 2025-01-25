@@ -1,4 +1,4 @@
-name = "BRAF Faction Dev";
+name = "BRAF Faction";
 picture = "picture.paa";
 actionName = "website";
 action = "https://discord.gg/BNgj6YwZ";
