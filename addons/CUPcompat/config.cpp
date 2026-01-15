@@ -14,29 +14,29 @@ class CfgPatches {
 class CfgFunctions {
     class braf_factions_CUP {
         class functions {
-            class thugswearCUP {
-                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugswearCUP.sqf";
+            class thugsWearCUP {
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsWearCUP.sqf";
             };
-            class thugsequiprifleCUP {
-                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsequiprifleCUP.sqf";
+            class thugsEquipRifleCUP {
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsEquipRifleCUP.sqf";
             };
-            class thugsequippistolCUP {
-                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsequippistolCUP.sqf";
+            class thugsEquipPistolCUP {
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsEquipPistolCUP.sqf";
             };
-            class thugsequipsniperCUP {
-                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsequipsniperCUP.sqf";
+            class thugsEquipSniperCUP {
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsEquipSniperCUP.sqf";
             };
-            class thugsequipvestCUP {
-                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsequipvestCUP.sqf";
+            class thugsEquipVestCUP {
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsEquipVestCUP.sqf";
             };
-            class thugsequipshotgunCUP {
-                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsequipshotgunCUP.sqf";
+            class thugsEquipShotgunCUP {
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsEquipShotgunCUP.sqf";
             };
-            class thugsequipsmgCUP {
-                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsequipsmgCUP.sqf";
+            class thugsEquipSmgCUP {
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsEquipSmgCUP.sqf";
             };
-            class thugswearbikerCUP {
-                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugswearbikerCUP.sqf";
+            class thugsWearBikerCUP {
+                file = "braf\braf_factions\addons\CUPcompat\functions\fn_thugsWearBikerCUP.sqf";
             };
         };
     };
